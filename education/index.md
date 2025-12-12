@@ -7,7 +7,7 @@ redirect_from:
   - recruitment
 ---
 
-# {% include icon.html icon="fa-solid fa-chalkboard-user" %}Education
+# {% include icon.html icon="fa-solid fa-chalkboard-user" %} <span data-i18n="education_title">Education</span>
 
 {% include section.html %}
 

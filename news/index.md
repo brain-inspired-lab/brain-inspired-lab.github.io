@@ -6,7 +6,7 @@ nav:
   tooltip: Latest news and updates
 ---
 
-# {% include icon.html icon="fa-solid fa-newspaper" %}News & Updates
+# {% include icon.html icon="fa-solid fa-newspaper" %} <span data-i18n="news_title">News & Updates</span>
 
 {% include news-list.html style="calendar" expanded=true %}
 
