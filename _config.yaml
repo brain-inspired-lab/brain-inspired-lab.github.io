@@ -12,7 +12,7 @@ proofer: false
 header-dark: false
 
 
-url:  https://spikevision.pku.edu.cn
+url:  https://hcypkumain.github.io
 baseurl: ''
 # Sitemap settings
 sitemap:
