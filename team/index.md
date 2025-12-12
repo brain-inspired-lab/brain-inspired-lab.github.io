@@ -59,7 +59,7 @@ redirect_from:
         
         <!-- 名称和职位移到图像下方 -->
         <div class="text-center" style="margin-top: 15px; font-weight: var(--bold); font-size: 1.2rem"><span data-i18n="Zhaofei Yu name">Zhaofei Yu</span></div>
-        <div class="text-center" style="margin-top: 5px; margin-bottom: 20px"><span data-i18n="Assistant Professor & Lab Leader">Assistant Professor & Lab Leader</span></div>
+        <div class="text-center" style="margin-top: 5px; margin-bottom: 20px"><span data-i18n="Assistant Professor">Assistant Professor</span></div>
       </div>
       
       <div class="leader-info">

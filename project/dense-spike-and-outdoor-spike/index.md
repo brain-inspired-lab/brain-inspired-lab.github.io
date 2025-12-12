@@ -1,7 +1,7 @@
 ---
 layout: project
 title: DENSE-spike and Outdoor-spike
-image: images/dataset_image/spift.png
+image: images/dataset_image/Outdoor-spike.png
 tags:
   - depth estimation
   - monocular
@@ -37,7 +37,13 @@ collaborator_icons: []
 - Outdoor-spike：真实环境数据，包含自然噪声和实际光照变化
 - 互补性：两个数据集相互补充，支持模型从合成到真实的泛化能力验证
 
-数据集链接：待更新
+数据集链接：
 
-{% include figure.html image="/images/dataset_image/spift_result_1.gif" width="100%" %}
-{% include figure.html image="/images/dataset_image/spift_result_2.gif" caption="数据集示例" width="100%" %}
+DENSE-spike https://pan.baidu.com/s/1Lg2spMW4OYlsYy0iT4u_7g (password:1008).
+
+Outdoor-spike  https://pan.baidu.com/s/1hji5GnFH5Ke_nDt-1Q76rg (password:1997).
+
+
+
+{% include figure.html image="/images/dataset_image/dense-spike-result.png" caption="DENSE-spike数据集示例" width="100%" %}
+{% include figure.html image="/images/dataset_image/outdoor-spike-result.png" caption="Outdoor-spike数据集示例" width="100%" %}

@@ -1,5 +1,69 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: 10.48550/arxiv.2512.05472
+  title: "Unleashing Temporal Capacity of Spiking Neural Networks through Spatiotemporal Separation"
+  authors: []
+  publisher: "arXiv preprint arXiv:2512.05472, 2025"
+  date: "2025-01-01"
+  link: "https://arxiv.org/abs/2512.05472"
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.48550/arxiv.2505.24161
+  title: "Proxy Target: Bridging the Gap Between Discrete Spiking Neural Networks and Continuous Control"
+  authors: []
+  publisher: "arXiv preprint arXiv:2505.24161, 2025"
+  date: "2025-01-01"
+  link: "https://arxiv.org/abs/2505.24161"
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.48550/arxiv.2508.00387
+  title: "STF: Shallow-Level Temporal Feedback to Enhance Spiking Transformers"
+  authors: []
+  publisher: "arXiv preprint arXiv:2508.00387, 2025"
+  date: "2025-01-01"
+  link: "https://arxiv.org/abs/2508.00387"
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1016/j.neunet.2025.107863
+  title: "Decoding natural visual scenes via learnable representations of neural spiking sequences"
+  authors: []
+  publisher: "Neural Networks, 2025"
+  date: "2025-01-01"
+  link: "https://doi.org/10.1016/j.neunet.2025.107863"
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.48550/arxiv.2503.00301
+  title: "Differential coding for training-free ANN-to-SNN conversion"
+  authors: []
+  publisher: "arXiv preprint arXiv:2503.00301, 2025"
+  date: "2025-01-01"
+  link: "https://arxiv.org/abs/2503.00301"
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.24963/ijcai.2025/181
+  title: "SOTA: Spike-Navigated Optimal Transport Saliency Region Detection in Composite-bias Videos"
+  authors: []
+  publisher: "Proceedings of the International Joint Conference on Artificial Intelligence, 2025"
+  date: "2025-01-01"
+  link: "https://doi.org/10.24963/ijcai.2025/181"
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.48550/arxiv.2505.15840
+  title: "TDFormer: A Top-Down Attention-Controlled Spiking Transformer"
+  authors: []
+  publisher: "arXiv preprint arXiv:2505.15840, 2025"
+  date: "2025-01-01"
+  link: "https://arxiv.org/abs/2505.15840"
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1109/TNNLS.2025.3478241
+  title: "Converting High-Performance and Low-Latency SNNs Through Explicit Modeling of Residual Error in ANNs"
+  authors: []
+  publisher: "IEEE Transactions on Neural Networks and Learning Systems, 2025"
+  date: "2025-01-01"
+  link: "https://doi.org/10.1109/TNNLS.2025.3478241"
+  plugin: sources.py
+  file: sources.yaml
 - id: gs-id:shi.2024.spikingresformer-bridging-resnet-and-vision-transf
   title: 'Spikingresformer: Bridging resnet and vision transformer in spiking neural
     networks'

@@ -19,6 +19,30 @@
 - id: 10.1109/LRA.2025.3531146
   group:
     - featured
+- id: 10.48550/arxiv.2512.05472
+  title: "Unleashing Temporal Capacity of Spiking Neural Networks through Spatiotemporal Separation"
+  year: 2025
+- id: 10.48550/arxiv.2505.24161
+  title: "Proxy Target: Bridging the Gap Between Discrete Spiking Neural Networks and Continuous Control"
+  year: 2025
+- id: 10.48550/arxiv.2508.00387
+  title: "STF: Shallow-Level Temporal Feedback to Enhance Spiking Transformers"
+  year: 2025
+- id: 10.1016/j.neunet.2025.107863
+  title: "Decoding natural visual scenes via learnable representations of neural spiking sequences"
+  year: 2025
+- id: 10.48550/arxiv.2503.00301
+  title: "Differential coding for training-free ANN-to-SNN conversion"
+  year: 2025
+- id: 10.24963/ijcai.2025/181
+  title: "SOTA: Spike-Navigated Optimal Transport Saliency Region Detection in Composite-bias Videos"
+  year: 2025
+- id: 10.48550/arxiv.2505.15840
+  title: "TDFormer: A Top-Down Attention-Controlled Spiking Transformer"
+  year: 2025
+- id: 10.1109/TNNLS.2025.3478241
+  title: "Converting High-Performance and Low-Latency SNNs Through Explicit Modeling of Residual Error in ANNs"
+  year: 2025
 
 # - id: doi:10.1109/ITSC57777.2023.10422131
 #   group:

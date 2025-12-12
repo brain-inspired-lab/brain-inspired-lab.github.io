@@ -1,28 +1,12 @@
-- title: An integrative data-driven model simulating C. elegans brain, body and environment interactions
-  image: images/projects/c-elegan.webp
-  description: >
-    We are developing a data-driven model to simulate the interactions between the C. elegans brain, body, and environment. The model is based on the principles of neuroscience and computational neuroscience, and is used to study the behavior of the C. elegans.
-
-    The important innovation of BAAIWorm Tianbao lies in that it not only focuses on the modeling of the nervous system, but also takes the body and the environment into consideration, forming a closed - loop system. By simulating the behavior of nematodes, it explores how the neural structure affects intelligent behavior. This work not only provides a new platform for the study of biological intelligence, but also lays the foundation for the further development of the embodied intelligence theory and its application in the field of artificial intelligence.
-
-    Padraig Gleeson from University College London (member of the OpenWorm team and one of the reviewers of this paper) evaluated BAAIWorm as follows: "This is a remarkable achievement. It integrates the physiological and anatomical information of Caenorhabditis elegans into a computational model. It shows a lot of progress at different levels, and all the achievements are integrated with each other, forming a clear picture. I think this is an important advance in our modeling of Caenorhabditis elegans and understanding the 'brain - body - environment' interaction."
-    
-  collaborators: BAAI
-  collaborator_icons:
-    - name: BAAI
-      image: images/collaborators/BAAI.png
-  tags:
-    - computational neuroscience
-    - machine learning
-    - ai4science
-
-- title: SPIFT(SPIkingly Flying Things)
+- title: SPIFT(Spikingly Flying Things)
   image: images/dataset_image/spift.png
-  description: >
-    用途：主要用作训练集，包含随机生成的高速运动场景。<br>
-    场景类别：100类，每类包含500帧脉冲流。<br>
-    光流标签：每隔10帧(Δt=10)和20帧(Δt=20)生成光流，共50,000帧标签。<br>
-    数据格式：脉冲流为二进制矩阵(H×W×N)，光流标签为二维运动矢量场(H×W×2)。
+  description: |
+    <ul>
+      <li>用途：主要用作训练集，包含随机生成的高速运动场景。</li>
+      <li>场景类别：100类，每类包含500帧脉冲流。</li>
+      <li>光流标签：每隔10帧(Δt=10)和20帧(Δt=20)生成光流，共50,000帧标签。</li>
+      <li>数据格式：脉冲流为二进制矩阵(H×W×N)，光流标签为二维运动矢量场(H×W×2)。</li>
+    </ul>
   tags:
     - optical flow
     - simulate
@@ -31,10 +15,12 @@
 
 - title: PHM(Photo-realistic High-speed Motion)
   image: images/dataset_image/phm.png
-  description: >
-    用途：作为测试集，包含逼真的高速场景。<br>
-    场景类别：10类（如 Ball、Fan、Fly），共约 25,100 帧数据；光流标签覆盖所有像素（100% 密度）。<br>
-    数据格式：与 SPIFT 相同，但场景更复杂。
+  description: |
+    <ul>
+      <li>用途：作为测试集，包含逼真的高速场景。</li>
+      <li>场景类别：10类（如 Ball、Fan、Fly），共约 25,100 帧数据；光流标签覆盖所有像素（100% 密度）。</li>
+      <li>数据格式：与 SPIFT 相同，但场景更复杂。</li>
+    </ul>
   tags:
     - optical flow
     - simulate
@@ -42,9 +28,15 @@
 
 
 - title: SSES (Spike-based Synthetic validation dataset for Extreme Scenarios in autonomous driving)
-  image: images/dataset_image/test_scenes.png
-  description: >
-    1
+  image: images/dataset_image/sses.png
+  description: |
+    <ul>
+      <li>用途：专注于自动驾驶极端场景的脉冲相机合成数据集，支持无监督光流估计模型的训练与评估。</li>
+      <li>场景类别:10个模拟交通事故的极端场景，涵盖各种街道环境、天气条件（雨天、雾天）和运动目标（车辆、行人/骑行者）。</li>
+      <li>光流标签:基于CARLA模拟器构建，每个数据序列持续0.5-1.5秒。</li>
+      <li>数据格式:脉冲流以40kHz生成，支持微秒级光流分析；包含脉冲流、RGB帧、光流真值、实例分割和深度信息的多模态数据。</li>
+    </ul>
+
   tags:
     - optical flow
     - simulate
@@ -65,118 +57,123 @@
     - dataset
 
 - title: DENSE-spike and Outdoor-spike
-  image: images/dataset_image/DENSE-spike.png
-  description: >
-    用途：用于深度估计任务的真实场景数据集。<br>
-    场景类别：包含室内密集场景和室外场景。<br>
-    数据格式：深度图和对应的脉冲流。
+  image: images/dataset_image/Outdoor-spike.png
+  description: |
+    <ul>
+      <li>用途：为脉冲相机提供单目深度估计数据集，涵盖合成环境和真实世界场景。</li>
+      <li>场景类别：
+        <ul>
+          <li>DENSE-spike：基于CARLA模拟器生成的多样化场景，包括不同天气和光照条件</li>
+          <li>Outdoor-spike：真实道路场景，模拟自动驾驶视角</li>
+        </ul>
+      </li>
+      <li>数据格式：
+        <ul>
+          <li>DENSE-spike：346×260×128(128个时间戳)的脉冲流数据</li>
+          <li>Outdoor-spike：400×250@40kHz的真实脉冲流数据</li>
+        </ul>
+      </li>
+      <li>数据规模：
+        <ul>
+          <li>DENSE-spike：8个序列(5训练/2验证/1测试)</li>
+          <li>Outdoor-spike：33个真实道路场景序列</li>
+        </ul>
+      </li>
+    </ul>
   tags:
     - depth estimation
     - real
     - dataset
 
 - title: PKU-Spike-Stereo and Spike-KITTI
-  image: images/dataset_image/spikes_1000plus.gif
-  description: >
-    用途：用于立体视觉和自动驾驶场景的脉冲数据集。<br>
-    场景类别：包含立体场景和KITTI自动驾驶场景。<br>
-    数据格式：立体脉冲流和对应的标注信息。
+  image: images/dataset_image/pku-spike-stereo-result.png
+  description: |
+    <ul>
+      <li>用途：用于双目立体视觉和自动驾驶场景的脉冲数据集。</li>
+      <li>场景类别：
+        <ul>
+          <li>PKU-Spike-Stereo：利用一个ZED相机和两个脉冲相机去收集同步真实数据</li>
+          <li>Spike-KITTI：KITTI数据集的脉冲模拟版本</li>
+        </ul>
+      </li>
+      <li>数据格式：
+        <ul>
+          <li>PKU-Spike-Stereo：ZED相机为1280*720分辨率，30fps；每个脉冲相机为400*250分辨率，20kHz采样率。</li>
+          <li>Spike-KITTI：分辨率同KITTI数据集</li>
+        </ul>
+      </li>
+      <li>数据规模：
+        <ul>
+          <li>PKU-Spike-Stereo：10个类别（5个室内5个室外）</li>
+          <li>Spike-KITTI：160个训练序列，40个测试序列</li>
+        </ul>
+      </li>
+    </ul>
   tags:
     - stereo vision
     - autonomous driving
     - dataset
 
 - title: PKU-Vidar-DVS
-  image: images/dataset_image/pku-vidar-dvs.png
-  description: >
-    用途：用于多模态感知和高速运动分析的数据集。<br>
-    场景类别：包含高速旋转、手部动作、笔运动、瓶子、户外坦克、户外驾驶等6类场景。<br>
-    数据格式：HDF5格式的DVS事件，.dat文件格式的Vidar脉冲，以及文本格式的边界框标签。
+  image: images/dataset_image/pku-vidar-dvs-result.png
+  description: |
+    <ul>
+      <li>用途：为脉冲相机提供多模态异步目标检测数据集，用于高速物体检测、低光环境感知和多模态融合算法验证。。</li>
+      <li>场景类别：包含高速运动、低光照条件、复杂背景等6种多样化场景，覆盖室内和室外环境。。</li>
+      <li>数据格式：
+        <ul>
+          <li>Vidar(类中央凹视觉): 脉冲流(Spikes)，400×250分辨率，20,000Hz采样率</li>
+          <li>DVS(类周边视觉): 异步事件流(Events)，每秒1200万事件，微秒级时间分辨率</li>
+        </ul>
+      </li>
+      <li>数据规模：490段序列(每段约5秒)，50Hz标注频率，总标注框数达215.5k，覆盖9类物体。</li>
+    </ul>
   tags:
     - multi-modal
     - high-speed
     - dataset
 
-- title: Spike-stero
-  image: images/dataset_image/frame_0009.png
-  description: >
-    用途：用于立体视觉任务的高速脉冲数据集。<br>
-    场景类别：包含室内和室外立体场景。<br>
-    数据格式：.dat二进制脉冲文件。
+- title: recVidarReal2019
+  image: images/dataset_image/railway.gif
+  description: |
+    <ul>
+      <li>用途：专注于高速目标检测与跟踪的数据集，支持SNN算法开发与超高速视觉系统测试。</li>
+      <li>场景类别：ClassA（动态物体和旋转场景）和ClassB（大场景和高速运动）。</li>
+      <li>数据特性：图像分辨率400×250，采样频率20,000 Hz，二进制spike事件流。</li>
+      <li>应用方向：高速运动目标跟踪、大场景三维重建、旋转物体姿态估计、交通监控系统等。</li>
+    </ul>
   tags:
-    - stereo vision
     - high-speed
+    - real
     - dataset
 
 
+- title: motVidarReal2020
+  image: images/dataset_image/motvidar2020.gif
+  description: |
+    <ul>
+      <li>用途：基于事件相机的多目标跟踪数据集，主要关注数字目标的跟踪。</li>
+      <li>数据特性：采样率高达20kHz（20000fps），时间分辨率比传统相机提升300-600倍。</li>
+      <li>技术优势：不受曝光时间限制，避免运动模糊，特别适合高速运动场景。</li>
+      <li>应用方向：高速运动目标跟踪、事件流重建算法、跨模态研究、自动驾驶等实际应用场景。</li>
+    </ul>
+  tags:
+    - multi-object tracking
+    - high-speed
+    - real
+    - dataset
 
-# - title: Sentiment Analysis of Commodity Markets Using Transformer-based Language Models
-#   image: images/projects/lng-carrier.jpg
-#   description: >
-#     Working in close collaboration with our partners in the Faculty of Finance at Dauphine University we are developing a LLM-based apprach to assess commodity supply and demand market sentiment from news articles. The methodology developed represents a significant improvement upon current approaches with applicability across a diverse range of commodities. Our model seeks to identify subtle market signals and sentiment indicators that conventional methods often miss, providing traders and supply chain analysts with additional insights for decision-making.
-#   collaborators: Prof Eugenia Passari (Dauphine University)
-#   collaborator_icons:
-#     - name: Dauphine University
-#       image: images/collaborators/dauphine.png
-#   tags:
-#     - machine learning
-#     - trade
-#     - maritime
 
-# - title: Vision-Language-Action Models for AV Scenario Interpretation
-#   image: images/projects/vla-elm.jpg
-#   description: >
-#     TSL is working with Elm Europe, the UK-based subsidiary of Elm Company, a leading Saudi technology group, to develop a visual-language-action model framework for the next generation of autonomous vehicle safety systems. Using multi-modal foundation models, the model can interpret unique situations that AVs may have to encounter, and respond to potential safety hazards in real-time. The project builds on our earlier work on AV simulation and risk metrics, which will be complemented by the VLA framework for real-time decision-making.
-#   collaborators: Elm
-#   collaborator_icons:
-#     - name: Elm
-#       image: images/collaborators/elm.svg
-#   tags:
-#     - autonomy
-#     - safety
-#     - machine learning
-
-# - title: Scalable Autonomous Vehicle Fleet Management
-#   image: images/komatsu_project.jpg
-#   description: We are collaborating with Komatsu Ltd. to develop advanced algorithms for the optimal dispatching of autonomous trucks in open-pit mines. This project integrates reinforcement learning with combinatorial optimisation to enhance safety, efficiency, and sustainability in mining operations. Building on our team’s expertise in simulation-driven optimisation and autonomous vehicle safety, the research aims to establish decentralised control policies that can be deployed at scale across large autonomous truck fleets.
-#   collaborators: Komatsu Ltd.
-#   collaborator_icons:
-#     - name: Komatsu
-#       image: images/collaborators/komatsu.jpg
-#   tags:
-#     - optimization
-#     - mining
-#     - simulation
-
-# - title: DeepSafe - Narrowing the reality gap for AV Scenario Testing
-#   image: images/projects/deepsafe.jpg
-#   description: >
-#     TSL participates in the DeepSafe consortium, a CCAV-funded initiative ethat addresses critical barriers to autonomous vehicle deployment. Our primary contribution focuses on developing a unified risk assessment framework that quantifies the multidimensional nature of AV risk factors, building on our research in the Autonomy, Construction and Maritime sectors.
-#   collaborators: dRISK.ai, Claytex, rFpro
-#   collaborator_icons:
-#     - name: rFpro
-#       image: images/collaborators/rfpro.png
-#     - name: dRISK
-#       image: images/collaborators/drisk.png
-#     - name: Claytex
-#       image: images/collaborators/claytex.png
-#   tags:
-#     - autonomy
-#     - safety
-#     - policy
-#     - machine learning
-
-# - title: Scenario Gym - Lightweight Autonomous Driving Simulation
-#   image: images/projects/scenariogym.png
-#   description: >
-#     TSL collaborated with dRisk.ai and Hitachi to develop Scenario Gym, a lightweight autonomous driving simulation model that can execute unconfined, complex scenarios with diverse road users. Scenario Gym is built using Python and utilises an in-memory scenario representation compatible with OpenSCENARIO and OpenDRIVE standards. It is built with extensibility in mind and can support both predefined trajectories and intelligent self-controlling entities with high-level goals.
-#   collaborators: dRISK, Hitachi Europe
-#   collaborator_icons:
-#     - name: dRISK
-#       image: images/collaborators/drisk.png
-#     - name: Hitachi
-#       image: images/collaborators/hitachi.png
-#   tags:
-#     - autonomy
-#     - simulation
-#     - machine learning
+- title: momVidarReal2021
+  image: images/dataset_image/Bananas_1.gif
+  description: |
+    <ul>
+      <li>用途：包含51段真实场景脉冲序列的高速视觉数据集，用于促进算法研究和开发。</li>
+      <li>场景类别：运动球类场景（13个序列）、复杂运动场景（8个序列）、特殊场景（8个序列）、生活场景（22个序列）。</li>
+      <li>数据特性：图像分辨率400×250，采样频率20,000 Hz，二进制spike事件流。</li>
+      <li>应用方向：图像重建、高速目标检测与追踪、运动分析（分割、光流估计、轨迹分析）、相机自运动研究等。</li>
+    </ul>
+  tags:
+    - high-speed
+    - real
+    - dataset

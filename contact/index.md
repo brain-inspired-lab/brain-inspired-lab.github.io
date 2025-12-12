@@ -41,7 +41,7 @@ nav:
 {%
   include figure.html
   image="images/photos/Science Building 2.jpg"
-  caption="Science Building 2, Yan Yuan Campus"
+  caption='<span data-i18n="contact_caption_1">Science Building 2, Yan Yuan Campus</span>'
 %}
 
 {% endcapture %}
@@ -51,7 +51,7 @@ nav:
 {%
   include figure.html
   image="images/photos/Peking University West Door.jpg"
-  caption="Yan Yuan Campus, Peking University"
+  caption='<span data-i18n="contact_caption_2">Yan Yuan Campus, Peking University</span>'
 %}
 
 {% endcapture %}

@@ -27,7 +27,7 @@ layout: default
 
   {% if img %}
   <p>
-    <img src="/{{ img }}" alt="{{ page.title }}" style="max-width: 100%; height: auto;" />
+    <img src="/{{ img }}" alt="{{ page.title }}" style="width: 100%; height: auto;" />
   </p>
   {% endif %}
 
@@ -59,6 +59,10 @@ layout: default
       <img src="/{{ icon.image }}" alt="{{ icon.name }}" title="{{ icon.name }}" class="collaborator-icon">
     {% endfor %}
   </div>
+  {% endif %}
+
+  {% if p.paper_link %}
+  <p><strong>Paper:</strong> <a href="{{ p.paper_link }}" target="_blank">{{ p.paper_title | default: p.paper_link }}</a></p>
   {% endif %}
 
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: SPIFT(SPIkingly Flying Things)
+title: SPIFT(Spikingly Flying Things)
 image: images/dataset_image/spift.png
 tags:
   - optical flow
@@ -36,7 +36,7 @@ spift/train/[0-99]/(flow, img, test.dat)
 - 稠密光流标签：100%密度覆盖所有像素
 - 结构化的目录设计：便于模型训练和评估
 
-数据集链接：待更新
+数据集链接：https://pan.baidu.com/s/1A5U9lsNyViGEQIyulSE8vg (password:5331).
 {% include figure.html image="/images/dataset_image/spift_result_1.gif" width="100%" %}
 {% include figure.html image="/images/dataset_image/spift_result_2.gif" width="100%" %}
 {% include figure.html image="/images/dataset_image/spift_result_3.gif" caption="随机抽取示例（每隔10帧生成光流）" width="100%" %}

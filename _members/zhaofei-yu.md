@@ -7,7 +7,7 @@ education:
   - '<span data-i18n="Zhaofei Yu education 1">"Tsinghua University: Doctor of Engineering (2012-2017)"</span>'
   - '<span data-i18n="Zhaofei Yu education 2">"Chongqing University: Bachelor of Optoelectronic Engineering (2008-2012)"</span>'
 affiliations: 
-  - '<span data-i18n="Zhaofei Yu affiliation 1">Leader of the Brain-inspired Vision Lab</span>'
+  - '<span data-i18n="Zhaofei Yu affiliation 1">Researcher of the Brain-inspired Vision Lab</span>'
   - '<span data-i18n="Zhaofei Yu affiliation 2">Assistant Professor of the School of Artificial Intelligence at Peking University</span>'
 # aliases:
 #   - Zhaofei Y
