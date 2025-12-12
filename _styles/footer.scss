@@ -1,0 +1,39 @@
+--- --- footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  line-height: var(--spacing);
+  box-shadow: var(--shadow);
+
+  // 新增：添加半透明白色遮罩层
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.7); // 0.5为透明度，可根据需要调整
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  // 保证内容在遮罩层之上
+  >* {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+footer a {
+  color: var(--text) !important;
+}
+
+footer a:hover {
+  color: var(--primary) !important;
+}
+
+footer .icon {
+  font-size: var(--xl);
+}

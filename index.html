@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WZ9VE1W5NJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WZ9VE1W5NJ');
+</script>
+
+
+  
+  <!-- Search engine verification -->
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title id="page-title" data-i18n-title=""></title>
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg">
+<link rel="alternate icon" href="/images/favicon/favicon.ico">
+<link rel="icon" href="/images/favicon/favicon-32.png" sizes="32x32">
+<link rel="icon" href="/images/favicon/favicon-57.png" sizes="57x57">
+<link rel="icon" href="/images/favicon/favicon-76.png" sizes="76x76">
+<link rel="icon" href="/images/favicon/favicon-96.png" sizes="96x96">
+<link rel="icon" href="/images/favicon/favicon-128.png" sizes="128x128">
+<link rel="icon" href="/images/favicon/favicon-192.png" sizes="192x192">
+<link rel="icon" href="/images/favicon/favicon-228.png" sizes="228x228">
+<link rel="shortcut icon" href="/images/favicon/favicon-196.png" sizes="196x196">
+<link rel="apple-touch-icon" href="/images/favicon/favicon-120.png" sizes="120x120">
+<link rel="apple-touch-icon" href="/images/favicon/favicon-152.png" sizes="152x152">
+<link rel="apple-touch-icon" href="/images/favicon/favicon-180.png" sizes="180x180">
+<meta name="description" content="The Brain-inspired Lab at Peking undertakes research in brain-inspired computing and neuromorphic computing.">
+<meta name="keywords" content="brain-inspired, neuromorphic computing, artificial intelligence, neural networks, Peking University">
+<meta name="author" content="Brain-inspired Lab">
+
+<meta property="og:title" content="">
+<meta property="og:site_title" content="Brain-inspired Lab, Peking University">
+<meta property="og:description" content="Peking University. The Brain-inspired Lab at Peking undertakes research in brain-inspired computing and neuromorphic computing.">
+<meta property="og:url" content="https://hcypkumain.github.io">
+<meta property="og:image" content="/images/share.jpg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="">
+<meta property="twitter:description" content="Peking University. The Brain-inspired Lab at Peking undertakes research in brain-inspired computing and neuromorphic computing.">
+<meta property="twitter:url" content="https://hcypkumain.github.io">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/images/share.jpg">
+
+<meta name="theme-color" content="#16181b">
+
+
+<meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "ResearchOrganization",
+      "name": "Brain-inspired Lab",
+      "alternateName": "",
+      "url": "https://hcypkumain.github.io",
+      "logo": "https://hcypkumain.github.io/images/logo.png",
+      "sameAs": [
+        "https://www.linkedin.com/in/p-angeloudis/",
+        "https://github.com/tsl-imperial"
+      ],
+      "parentOrganization": {
+        "@type": "EducationalOrganization",
+        "name": "Imperial College London",
+        "url": "https://www.imperial.ac.uk"
+      },
+    
+    "name": "",
+    "description": "Peking University. The Brain-inspired Lab at Peking undertakes research in brain-inspired computing and neuromorphic computing.",
+    "headline": "",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "" }
+    },
+    "url": "https://hcypkumain.github.io"
+  }
+  </script>
+
+<link rel="alternate" type="application/rss+xml" href="https://hcypkumain.github.io/feed.xml">
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <link href="/assets/css/main.css" rel="stylesheet">
+
+
+  <!-- third party scripts -->
+<!-- <script src="https://unpkg.com/@popperjs/core@2" defer></script> -->
+<script src="https://unpkg.com/mark.js@8" defer></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/_scripts/carousel.js"></script>
+
+  <script src="/_scripts/dark-mode.js"></script>
+
+  <script src="/_scripts/particles.js"></script>
+
+  <script src="/_scripts/project-filtering.js"></script>
+
+  <script src="/_scripts/search.js"></script>
+
+  <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/table-wrap.js"></script>
+
+
+</head>
+
+<body class="home-page">
+
+
+  <script>
+    let langData = {};
+    let currentLang = localStorage.getItem('lang') || 'en';
+
+    // 1. 加载语言包
+    fetch('/assets/lang.json')
+      .then(response => response.json())
+      .then(data => {
+        langData = data;
+        setLang(currentLang);
+      });
+
+    // 2. 切换语言函数
+    function setLang(lang) {
+      currentLang = lang;
+      localStorage.setItem('lang', lang);
+
+      // 替换所有 data-i18n-title
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (langData[lang] && langData[lang][key]) {
+          el.innerHTML = langData[lang][key];
+        }
+      });
+
+      // 替换 <title>
+      const titleEl = document.getElementById('page-title');
+      if (titleEl) {
+        const titleKey = titleEl.getAttribute('data-i18n-title');
+        if (langData[lang] && langData[lang][titleKey]) {
+          document.title = langData[lang][titleKey];
+        }
+      }
+
+      // 设置国旗选中状态
+      const flagZh = document.getElementById('flag-zh');
+      const flagEn = document.getElementById('flag-en');
+
+      if (lang === 'zh') {
+        flagZh.style.transform = 'scale(1.4)';
+        flagZh.style.boxShadow = '0 2px 8px rgba(0,0,0,0.3)';
+        flagEn.style.transform = 'scale(1)';
+        flagEn.style.boxShadow = '0 1px 3px rgba(0,0,0,0.2)';
+      } else {
+        flagEn.style.transform = 'scale(1.4)';
+        flagEn.style.boxShadow = '0 2px 8px rgba(0,0,0,0.3)';
+        flagZh.style.transform = 'scale(1)';
+        flagZh.style.boxShadow = '0 1px 3px rgba(0,0,0,0.2)';
+      }
+    }
+
+
+    // 3. 绑定国旗点击事件
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('flag-zh').onclick = () => {
+        // 添加点击动画效果
+        const flag = document.getElementById('flag-zh');
+        flag.style.transform = 'scale(0.8)';
+        setTimeout(() => {
+          flag.style.transform = 'scale(1)';
+          setLang('zh');
+        }, 100);
+      };
+
+      document.getElementById('flag-en').onclick = () => {
+        // 添加点击动画效果
+        const flag = document.getElementById('flag-en');
+        flag.style.transform = 'scale(0.8)';
+        setTimeout(() => {
+          flag.style.transform = 'scale(1)';
+          setLang('en');
+        }, 100);
+      };
+
+      // 初始化选中状态
+      setLang(localStorage.getItem('lang') || 'en');
+    });
+  </script>
+
+  
+
+
+
+
+
+
+
+<div id="particles-js"></div>
+
+<header class="background" style="--image: url('')" data-dark="false" data-big>
+  <a href="/" class="home">
+    
+    <div class="logo-container">
+      <span class="imperial-logo">
+        <img src="/images/Peking%20University%20logo.svg" alt="Peking University" loading="lazy">
+      </span>
+      <span class="logo-divider"></span>
+      <span class="logo">
+        
+        <img src="/images/logo.png" alt="logo" loading="lazy">
+        
+      </span>
+    </div>
+    
+    
+    <span class="title-text" data-tooltip="Home">
+      
+      <span class="title-text" data-tooltip="Home">
+        
+        <span class="title" data-i18n="brain_inspired_lab_title">Brain-inspired Lab</span>
+        
+        
+        <span class="subtitle" data-i18n="brain_inspired_lab_subtitle">Peking University</span>
+        
+      </span>
+      
+    </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+
+    
+    
+    
+    <a href="/news/">
+      <span data-i18n="news_title">News</span>
+    </a>
+    
+    
+    
+    <a href="/projects/">
+      <span data-i18n="projects_title">Projects</span>
+    </a>
+    
+    
+    
+    <a href="/team/">
+      <span data-i18n="team_title">Team</span>
+    </a>
+    
+    
+    
+    <a href="/papers/">
+      <span data-i18n="papers_title">Papers</span>
+    </a>
+    
+    
+    
+    <a href="/education/">
+      <span data-i18n="education_title">Teaching</span>
+    </a>
+    
+    
+    
+    <a href="/apply/">
+      <span data-i18n="apply_title">Apply</span>
+    </a>
+    
+    
+    
+    <a href="/contact/">
+      <span data-i18n="contact_title">Contact</span>
+    </a>
+    
+    
+
+    <div id="lang-switcher" style="position: fixed; top: 20px; right: 20px; z-index: 9999;">
+      <img id="flag-zh" class="lang-flag" style="cursor:pointer; margin-right: 20px; width: 40px; height: 30px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); transition: all 0.2s ease;" src="https://flagcdn.com/w80/cn.png" title="中文" alt="🇨🇳" loading="lazy">
+      <img id="flag-en" class="lang-flag" style="cursor:pointer; width: 40px; height: 30px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); transition: all 0.2s ease;" src="https://flagcdn.com/w80/gb.png" title="English" alt="🇬🇧" loading="lazy">
+    </div>
+  </nav>
+</header>
+  <main>
+    
+
+
+
+
+
+<section class="background" data-size="page">
+  <p><span data-i18n="home_1">The <strong>Brain-Inspired Laboratory</strong> at <strong>Peking University</strong> focuses on brain-inspired computing,spiking neural networks ,computational neuroscience and ai4science.</span>
+<span data-i18n="home_2">Our group is led by <a href="/members/tiejun-huang"><strong>Prof Tiejun Huang</strong></a>, and is affiliated with the <strong>College of Artificial Intelligence</strong>.</span></p>
+</section>
+
+
+
+
+<section class="background" data-size="page">
+  <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h4 id="our-work"><span data-i18n="home_3">Our work</span></h4>
+<div class="carousel-container">
+  <div class="carousel-wrapper">
+    <div class="carousel">
+      
+        
+          <div class="carousel-item">
+            
+            <a href="/project/spift-spikingly-flying-things/" class="carousel-link">
+              <div class="carousel-image-container">
+                <img src="/images/dataset_image/spift.png" alt="SPIFT(Spikingly Flying Things)" class="carousel-image" loading="lazy">
+              </div>
+              <div class="carousel-caption">
+                <h3>SPIFT(Spikingly Flying Things)</h3>
+              </div>
+            </a>
+          </div>
+        
+      
+        
+          <div class="carousel-item">
+            
+            <a href="/project/phm-photo-realistic-high-speed-motion/" class="carousel-link">
+              <div class="carousel-image-container">
+                <img src="/images/dataset_image/phm.png" alt="PHM(Photo-realistic High-speed Motion)" class="carousel-image" loading="lazy">
+              </div>
+              <div class="carousel-caption">
+                <h3>PHM(Photo-realistic High-speed Motion)</h3>
+              </div>
+            </a>
+          </div>
+        
+      
+        
+          <div class="carousel-item">
+            
+            <a href="/project/sses-spike-based-synthetic-validation-dataset-for-extreme-scenarios-in-autonomous-driving/" class="carousel-link">
+              <div class="carousel-image-container">
+                <img src="/images/dataset_image/sses.png" alt="SSES (Spike-based Synthetic validation dataset for Extreme Scenarios in autonomous driving)" class="carousel-image" loading="lazy">
+              </div>
+              <div class="carousel-caption">
+                <h3>SSES (Spike-based Synthetic validation dataset for Extreme Scenarios in autonomous driving)</h3>
+              </div>
+            </a>
+          </div>
+        
+      
+        
+          <div class="carousel-item">
+            
+            <a href="/project/rssf-real-scenes-with-spike-and-flow/" class="carousel-link">
+              <div class="carousel-image-container">
+                <img src="/images/dataset_image/rssf_1024_optimized.gif" alt="RSSF(Real Scenes with Spike and Flow)" class="carousel-image" loading="lazy">
+              </div>
+              <div class="carousel-caption">
+                <h3>RSSF(Real Scenes with Spike and Flow)</h3>
+              </div>
+            </a>
+          </div>
+        
+      
+        
+          <div class="carousel-item">
+            
+            <a href="/project/dense-spike-and-outdoor-spike/" class="carousel-link">
+              <div class="carousel-image-container">
+                <img src="/images/dataset_image/Outdoor-spike.png" alt="DENSE-spike and Outdoor-spike" class="carousel-image" loading="lazy">
+              </div>
+              <div class="carousel-caption">
+                <h3>DENSE-spike and Outdoor-spike</h3>
+              </div>
+            </a>
+          </div>
+        
+      
+        
+          <div class="carousel-item">
+            
+            <a href="/project/pku-spike-stereo-and-spike-kitti/" class="carousel-link">
+              <div class="carousel-image-container">
+                <img src="/images/dataset_image/pku-spike-stereo-result.png" alt="PKU-Spike-Stereo and Spike-KITTI" class="carousel-image" loading="lazy">
+              </div>
+              <div class="carousel-caption">
+                <h3>PKU-Spike-Stereo and Spike-KITTI</h3>
+              </div>
+            </a>
+          </div>
+        
+      
+        
+          <div class="carousel-item">
+            
+            <a href="/project/pku-vidar-dvs/" class="carousel-link">
+              <div class="carousel-image-container">
+                <img src="/images/dataset_image/pku-vidar-dvs-result.png" alt="PKU-Vidar-DVS" class="carousel-image" loading="lazy">
+              </div>
+              <div class="carousel-caption">
+                <h3>PKU-Vidar-DVS</h3>
+              </div>
+            </a>
+          </div>
+        
+      
+        
+          <div class="carousel-item">
+            
+            <a href="/project/recvidarreal2019/" class="carousel-link">
+              <div class="carousel-image-container">
+                <img src="/images/dataset_image/railway.gif" alt="recVidarReal2019" class="carousel-image" loading="lazy">
+              </div>
+              <div class="carousel-caption">
+                <h3>recVidarReal2019</h3>
+              </div>
+            </a>
+          </div>
+        
+      
+        
+          <div class="carousel-item">
+            
+            <a href="/project/motvidarreal2020/" class="carousel-link">
+              <div class="carousel-image-container">
+                <img src="/images/dataset_image/motvidar2020.gif" alt="motVidarReal2020" class="carousel-image" loading="lazy">
+              </div>
+              <div class="carousel-caption">
+                <h3>motVidarReal2020</h3>
+              </div>
+            </a>
+          </div>
+        
+      
+        
+          <div class="carousel-item">
+            
+            <a href="/project/momvidarreal2021/" class="carousel-link">
+              <div class="carousel-image-container">
+                <img src="/images/dataset_image/Bananas_1.gif" alt="momVidarReal2021" class="carousel-image" loading="lazy">
+              </div>
+              <div class="carousel-caption">
+                <h3>momVidarReal2021</h3>
+              </div>
+            </a>
+          </div>
+        
+      
+    </div>
+  </div>
+  
+  <div class="carousel-controls">
+    <button class="carousel-control prev" aria-label="Previous slide">
+      <i class="icon fa-solid fa-angle-left"></i>
+    </button>
+    <div class="carousel-indicators">
+      
+        
+          <span class="carousel-indicator" data-index="0"></span>
+        
+      
+        
+          <span class="carousel-indicator" data-index="1"></span>
+        
+      
+        
+          <span class="carousel-indicator" data-index="2"></span>
+        
+      
+        
+          <span class="carousel-indicator" data-index="3"></span>
+        
+      
+        
+          <span class="carousel-indicator" data-index="4"></span>
+        
+      
+        
+          <span class="carousel-indicator" data-index="5"></span>
+        
+      
+        
+          <span class="carousel-indicator" data-index="6"></span>
+        
+      
+        
+          <span class="carousel-indicator" data-index="7"></span>
+        
+      
+        
+          <span class="carousel-indicator" data-index="8"></span>
+        
+      
+        
+          <span class="carousel-indicator" data-index="9"></span>
+        
+      
+    </div>
+
+    <button class="carousel-control next" aria-label="Next slide">
+      <i class="icon fa-solid fa-angle-right"></i>
+    </button>
+  </div>
+</div>
+</section>
+
+
+
+
+<section class="background" data-size="page">
+  <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h4 id="our-news"><span data-i18n="home_4">Our news</span></h4>
+
+<div class="news-simple-list">
+  
+  
+    
+    
+    
+    
+      
+        
+        <div class="simple-news-item">
+  <p>
+    <span class="simple-news-date">21-May-2025: </span>
+    Huang Tiejun: Incubating AI companies is a by-product. The Beijing Academy of Artificial Intelligence aims to become internationally top-notch.
+
+    
+       
+      <a href="#" onclick="toggleNewsContent('home-1'); return false;" class="news-more-link" id="news-more-home-1">(more)</a>
+    
+  </p>
+  
+  
+    <div id="news-content-home-1" class="news-content" style="display: none;">
+      <p>When Huang Tiejun was interviewed by the AI Research Institute of the Beijing News, he said that science is different from technology. The former requires the inspiration of genius to achieve original innovation, while the latter requires more support from material conditions and repeated trial and error. And the task of BAAI (Beijing Academy of Artificial Intelligence) is to complete the “0-to-1” innovation, “doing what universities can’t do and what enterprises are reluctant to do.” He positioned BAAI as the “first stop” for AI talents to develop in Beijing, aiming to become a world - class AI institution. “If we don’t lead in thinking and just do what others have done, who will recognize Beijing as an international science and technology innovation center? To transfer the science and technology center to China, Beijing, with a high density of talents, has an unshirkable responsibility.”</p>
+
+    </div>
+  
+</div>
+      
+    
+  
+</div>
+
+<script>
+function toggleNewsContent(id) {
+  var content = document.getElementById('news-content-' + id);
+  var link = document.getElementById('news-more-' + id);
+  
+  if (content.style.display === 'none') {
+    content.style.display = 'block';
+    link.innerHTML = '(less)';
+  } else {
+    content.style.display = 'none';
+    link.innerHTML = '(more)';
+  }
+}
+</script>
+
+<div class="button-wrapper">
+  <a class="button" href="/news" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right" style="bare">
+    <i class="icon fa-solid fa-arrow-right"></i>
+    
+    <span><span data-i18n="home_button_1">"View all news"</span></span>
+    
+  </a>
+</div>
+</section>
+
+
+
+
+<section class="background" data-size="page">
+  <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h4 id="our-priorities"><span data-i18n="home_5">Our priorities</span></h4>
+
+<div class="carousel-container">
+  <div class="carousel-wrapper">
+    <div class="carousel">
+      
+        
+          <div class="carousel-item">
+            <div class="carousel-image-container">
+              <img src="/images/Brain-Inspired%20Computing.jpeg" alt="Computational Neuroscience" class="carousel-image" loading="lazy">
+            </div>
+            <div class="carousel-caption">
+              <h3>Computational Neuroscience</h3>
+            </div>
+          </div>
+        
+      
+        
+          <div class="carousel-item">
+            <div class="carousel-image-container">
+              <img src="/images/SNN.jpeg" alt="Spiking Neural Networks" class="carousel-image" loading="lazy">
+            </div>
+            <div class="carousel-caption">
+              <h3>Spiking Neural Networks</h3>
+            </div>
+          </div>
+        
+      
+        
+          <div class="carousel-item">
+            <div class="carousel-image-container">
+              <img src="/images/Spike%20Camera.png" alt="CV Downstream Tasks Based on Spike Camera" class="carousel-image" loading="lazy">
+            </div>
+            <div class="carousel-caption">
+              <h3>CV Downstream Tasks Based on Spike Camera</h3>
+            </div>
+          </div>
+        
+      
+        
+          <div class="carousel-item">
+            <div class="carousel-image-container">
+              <img src="/images/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD.png" alt="Embodied AI" class="carousel-image" loading="lazy">
+            </div>
+            <div class="carousel-caption">
+              <h3>Embodied AI</h3>
+            </div>
+          </div>
+        
+      
+    </div>
+  </div>
+
+  <div class="carousel-controls">
+    <button class="carousel-control prev" aria-label="Previous slide">
+      <i class="icon fa-solid fa-angle-left"></i>
+    </button>
+    <div class="carousel-indicators">
+      
+        
+          <span class="carousel-indicator" data-index="0"></span>
+        
+      
+        
+          <span class="carousel-indicator" data-index="1"></span>
+        
+      
+        
+          <span class="carousel-indicator" data-index="2"></span>
+        
+      
+        
+          <span class="carousel-indicator" data-index="3"></span>
+        
+      
+    </div>
+    <button class="carousel-control next" aria-label="Next slide">
+      <i class="icon fa-solid fa-angle-right"></i>
+    </button>
+  </div>
+</div>
+</section>
+
+
+
+
+<section class="background" data-size="page">
+  <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h4 id="our-publications"><span data-i18n="home_6">Our publications</span></h4>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <div class="citation-details">
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:738O_yMBCRsC" target="_blank" rel="noopener" class="citation-title">
+          Assessment of visual function in blind mice and monkeys with subretinally implanted nanowire arrays as artificial photoreceptors
+        </a>
+        
+        
+           (2024)
+        
+
+        
+           · 
+          <span class="citation-authors" data-tooltip="R Yang, P Zhao, L Wang, C Feng, C Peng, Z Wang, Y Zhang, M Shen, ... " tabindex="0">
+            R Yang, P Zhao, …, M Shen, …
+
+          </span>
+        
+        
+        
+           · 
+          <span class="citation-publisher">
+            Nature biomedical engineering 8 (8), 1018-1039, 2024
+          </span>
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <div class="citation-details">
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:geHnlv5EZngC" target="_blank" rel="noopener" class="citation-title">
+          Towards energy efficient spiking neural networks: An unstructured pruning framework
+        </a>
+        
+        
+           (2024)
+        
+
+        
+           · 
+          <span class="citation-authors" data-tooltip="X Shi, J Ding, Z Hao, Z Yu " tabindex="0">
+            X Shi, J Ding, Z Hao, Z Yu
+
+          </span>
+        
+        
+        
+           · 
+          <span class="citation-publisher">
+            The Twelfth International Conference on Learning Representations, 2024
+          </span>
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <div class="citation-details">
+        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:eJXPG6dFmWUC" target="_blank" rel="noopener" class="citation-title">
+          Spikingresformer: Bridging resnet and vision transformer in spiking neural networks
+        </a>
+        
+        
+           (2024)
+        
+
+        
+           · 
+          <span class="citation-authors" tabindex="0">
+            X Shi, Z Hao, Z Yu
+
+          </span>
+        
+        
+        
+           · 
+          <span class="citation-publisher">
+            Proceedings of the IEEE/CVF conference on computer vision and pattern …, 2024
+          </span>
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="button-wrapper">
+  <a class="button" href="/papers" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right" style="bare">
+    <i class="icon fa-solid fa-arrow-right"></i>
+    
+    <span><span data-i18n="home_button_2">"All publications"</span></span>
+    
+  </a>
+</div>
+</section>
+
+
+
+
+<section class="background" data-size="page">
+  <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<div class="feature">
+  <a href="/team" class="feature-image" aria-label="Our team">
+    <img src="/images/team/team.jpg" loading="lazy" alt="Our team" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  <div class="feature-text">
+    
+      <p class="feature-title"><span data-i18n="home_team_title">Our team</span></p>
+    
+    
+<p><span data-i18n="home_7">Our laboratory is an academic community rooted in <strong>freedom and inclusivity</strong>, driven by <strong>unity and innovation</strong>. From the spark of inspiration to scientific breakthroughs, we always stand side by side.</span></p>
+
+<p><span data-i18n="home_8">Backed by first-class research capabilities, we delve into cutting-edge fields, equipped with top-tier experimental facilities and academic resources to provide a solid foundation for exploring the unknown. Leveraging extensive social connections and international cooperation networks, we break down geographical and disciplinary boundaries, enabling students to deeply participate in transnational research projects, engage with world-leading scholars, and grasp the pulse of academic frontiers from a global perspective.</span></p>
+
+<!-- Regardless of your background or academic aspirations, we welcome you with an equal and open attitude. Here, your **potential will be unlocked**, and your **talents will be cherished**—let us jointly write our own chapter of innovation in the vast ocean of scientific research. -->
+
+<p><span data-i18n="home_9">If you are interested, please feel free to contact us and join this academic journey!</span></p>
+
+<div class="button-wrapper">
+  <a class="button" href="/team" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right" style="bare">
+    <i class="icon fa-solid fa-arrow-right"></i>
+    
+    <span><span data-i18n="home_button_3">"Meet our team"</span></span>
+    
+  </a>
+</div>
+
+<div class="button-wrapper">
+  <a class="button" href="/apply" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right" style="bare">
+    <i class="icon fa-solid fa-arrow-right"></i>
+    
+    <span><span data-i18n="home_button_4">"Join us"</span></span>
+    
+  </a>
+</div>
+
+
+  </div>
+</div>
+</section>
+
+
+
+
+<section class="background" data-size="page">
+  <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h4 id="our-funders"><span data-i18n="home_10">Our funders</span></h4>
+
+<div class="cols" style="--cols: 3">
+  
+    
+    <div>
+<p><img src="images/funders/NERC.jpg" loading="lazy"></p>
+</div>
+  
+    
+    <div>
+<p><img src="images/funders/pku_cs.png" loading="lazy"></p>
+</div>
+  
+    
+    <div>
+<p><img src="images/funders/pku_ai.png" loading="lazy"></p>
+</div>
+  
+</div>
+</section>
+
+  </main>
+  
+
+
+<footer class="background" style="--image: url('/images/Peking_University_footer.jpeg')" data-dark="true" data-size="wide">
+  <div>
+    
+    
+    
+    
+
+
+<div class="button-wrapper">
+  <a class="button" href="mailto:hcypkuwork@pku.edu.cn" data-tooltip="Email" data-style="bare" aria-label="Email" style="bare">
+    <i class="icon fa-solid fa-envelope"></i>
+    
+  </a>
+</div>
+
+    
+    
+    
+    
+
+
+<div class="button-wrapper">
+  <a class="button" href="https://github.com/hcypkuwork" data-tooltip="GitHub" data-style="bare" aria-label="GitHub" style="bare">
+    <i class="icon fa-brands fa-github"></i>
+    
+  </a>
+</div>
+
+    
+  </div>
+  <div>
+    © 2025
+    Brain-inspired Lab
+    <br>
+    <br>
+    <a href="https://www.pku.edu.cn">
+      <img src="/images/Peking_University_line.png" alt="Peking University" style="max-width: 150px; height: auto;" loading="lazy">
+    </a>
+  </div>
+
+</footer>
+  </body>
+
+</html>

@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["paragraph.scss"],"names":[],"mappings":"AAAA,EACE,iBACA,gBACA,2BACA","sourcesContent":["p {\n  margin: 20px 10px;\n  text-align: left;\n  line-height: var(--spacing);\n  font-size: 1.15em;\n}\n"],"file":"paragraph.css"}

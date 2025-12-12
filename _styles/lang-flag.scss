@@ -1,0 +1,19 @@
+--- --- #lang-switcher .lang-flag {
+    font-size: 3rem;
+    /* 普通状态更大 */
+    cursor: pointer;
+    margin-right: 25px;
+    transition: font-size 0.2s, filter 0.2s;
+    filter: grayscale(40%);
+}
+
+#lang-switcher .lang-flag.selected {
+    font-size: 5rem;
+    /* 选中状态更大 */
+    filter: none;
+    text-shadow: 0 0 8px #fff, 0 0 2px #000;
+}
+
+#lang-switcher .lang-flag:last-child {
+    margin-right: 0;
+}
