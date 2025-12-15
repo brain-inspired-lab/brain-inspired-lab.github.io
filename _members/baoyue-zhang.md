@@ -9,7 +9,9 @@ education:
 brief-position: <span data-i18n="Baoyue Zhang interests">Neuromorphic Vision and Embodied AI</span>
 brief-desc: <span data-i18n="Baoyue Zhang brief-desc">PhD Student</span>
 links:
+  website: https://zby715.github.io/
   email: byzhang@stu.pku.edu.cn
+
 ---
 
 <span data-i18n="Baoyue Zhang_1">Baoyue Zhang received the B.S. degree in Computer Science from Dalian University of Technology, Dalian, China, in 2024. She is currently a Ph.D. student with the Institute for Artificial Intelligence and the School of Computer Science, Peking University, Beijing, China. Her research interests include neuromorphic vision and embodied AI.</span>
