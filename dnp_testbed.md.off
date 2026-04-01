@@ -287,12 +287,6 @@
     
     
     
-    <a href="/projects/">
-      <span data-i18n="projects_title">Projects</span>
-    </a>
-    
-    
-    
     <a href="/team/">
       <span data-i18n="team_title">Team</span>
     </a>
@@ -307,6 +301,12 @@
     
     <a href="/education/">
       <span data-i18n="education_title">Teaching</span>
+    </a>
+    
+    
+    
+    <a href="/projects/">
+      <span data-i18n="projects_title">Projects</span>
     </a>
     
     
