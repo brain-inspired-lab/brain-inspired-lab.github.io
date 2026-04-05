@@ -376,40 +376,151 @@
 
   
   <div class="project-body">
-    <p>用途：为脉冲相机提供立体深度估计数据集，涵盖真实场景和模拟环境。</p>
+    <div data-lang-target="en">
+  <p>Purpose: stereo depth-estimation datasets for spike cameras, covering both real scenes and simulated environments.</p>
 
-<p>场景类别：PKU-Spike-Stereo包含室内和室外场景；Spike-KITTI基于KITTI数据集转换，保留道路场景特征。</p>
+  <p>Scene categories: PKU-Spike-Stereo contains indoor and outdoor scenes; Spike-KITTI is converted from the KITTI dataset and preserves road-scene characteristics.</p>
 
-<p>数据格式：</p>
-<ul>
-  <li>PKU-Spike-Stereo：双脉冲相机系统(400×250分辨率，20kHz采样率)，与ZED深度相机(1280×720@30fps)同步</li>
-  <li>Spike-KITTI：将经典KITTI数据集视频转换为脉冲流格式</li>
-  <li>数据规模：</li>
-  <li>PKU-Spike-Stereo：10,750对脉冲流数据，877组高质量同步深度标签</li>
-  <li>Spike-KITTI：200对立体图像(160训练/40测试)</li>
-</ul>
+  <p>Data format:</p>
+  <ul>
+    <li>PKU-Spike-Stereo: a dual-spike-camera system (400×250 resolution, 20 kHz sampling rate) synchronized with a ZED depth camera (1280×720@30 fps)</li>
+    <li>Spike-KITTI: converts classic KITTI videos into spike-stream format</li>
+  </ul>
 
-<h3 id="数据集结构">数据集结构</h3>
-<p>PKU-Spike-Stereo数据集提供精确的时空对齐，通过专业图像配准实现脉冲流与深度图的精确同步，特别适合高速运动物体的深度估计。</p>
+  <p>Dataset scale:</p>
+  <ul>
+    <li>PKU-Spike-Stereo: 10,750 pairs of spike-stream samples and 877 sets of high-quality synchronized depth labels</li>
+    <li>Spike-KITTI: 200 stereo pairs (160 for training / 40 for testing)</li>
+  </ul>
 
-<h3 id="可支持的任务">可支持的任务：</h3>
-<ul>
-  <li>立体深度估计：利用双脉冲相机系统进行深度计算</li>
-  <li>跨模态融合：结合脉冲流与传统相机数据提高深度估计精度</li>
-  <li>高速运动深度估计：克服传统相机在高速场景下的运动模糊问题</li>
-</ul>
+  <h3 id="dataset-structure">Dataset Structure</h3>
+  <p>The PKU-Spike-Stereo dataset provides precise spatiotemporal alignment. Through dedicated image registration, the spike streams and depth maps are tightly synchronized, making the dataset particularly suitable for depth estimation of high-speed moving objects.</p>
 
-<h3 id="关键特性">关键特性</h3>
-<ul>
-  <li>精确的时空对齐：脉冲流与深度图的高精度同步</li>
-  <li>丰富的场景类型：室内/室外多种场景覆盖</li>
-  <li>大样本量：提供充足的训练和测试数据</li>
-  <li>高速运动优化：特别适合快速移动物体的深度估计</li>
-</ul>
+  <h3 id="supported-tasks">Supported Tasks</h3>
+  <ul>
+    <li>Stereo depth estimation: compute depth with a dual-spike-camera system</li>
+    <li>Cross-modal fusion: combine spike streams with conventional camera data to improve depth-estimation accuracy</li>
+    <li>High-speed motion depth estimation: overcome motion blur from conventional cameras in fast scenes</li>
+  </ul>
 
-<p>数据集链接：尚未公开，文章链接为 https://www.jdl.link/doc/2011/20221228_Learning_Stereo_Depth_Estimation_with_Bio-Inspired_Spike_Cameras.pdf</p>
+  <h3 id="key-features">Key Features</h3>
+  <ul>
+    <li>Precise spatiotemporal alignment: high-accuracy synchronization between spike streams and depth maps</li>
+    <li>Rich scene diversity: covers multiple indoor and outdoor scenes</li>
+    <li>Large sample size: provides sufficient data for training and evaluation</li>
+    <li>Optimized for high-speed motion: particularly suitable for depth estimation of fast-moving objects</li>
+  </ul>
 
-<figure class="figure">
+  <p>Dataset link: not yet public. Related paper: https://www.jdl.link/doc/2011/20221228_Learning_Stereo_Depth_Estimation_with_Bio-Inspired_Spike_Cameras.pdf</p>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="Structure of the PKU-Spike-Stereo dataset">
+    <img src="/images/dataset_image/pku-spike-stereo.png" style="width: 100%; max-height: unset;" alt="Structure of the PKU-Spike-Stereo dataset" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+  <figcaption class="figure-caption">
+    Structure of the PKU-Spike-Stereo dataset
+
+  </figcaption>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="Evaluation results on the Spike-KITTI dataset">
+    <img src="/images/dataset_image/kitti-result.png" style="width: 100%; max-height: unset;" alt="Evaluation results on the Spike-KITTI dataset" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+  <figcaption class="figure-caption">
+    Evaluation results on the Spike-KITTI dataset
+
+  </figcaption>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/in1.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/in2.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="Sample indoor cases">
+    <img src="/images/dataset_image/in3.gif" style="width: 100%; max-height: unset;" alt="Sample indoor cases" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+  <figcaption class="figure-caption">
+    Sample indoor cases
+
+  </figcaption>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/out1.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/out2.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="Sample outdoor cases">
+    <img src="/images/dataset_image/out3.gif" style="width: 100%; max-height: unset;" alt="Sample outdoor cases" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+  <figcaption class="figure-caption">
+    Sample outdoor cases
+
+  </figcaption>
+  
+</figure>
+</div>
+
+<div data-lang-target="zh" hidden="">
+  <p>用途：为脉冲相机提供立体深度估计数据集，涵盖真实场景和模拟环境。</p>
+
+  <p>场景类别：PKU-Spike-Stereo包含室内和室外场景；Spike-KITTI基于KITTI数据集转换，保留道路场景特征。</p>
+
+  <p>数据格式：</p>
+  <ul>
+    <li>PKU-Spike-Stereo：双脉冲相机系统(400×250分辨率，20kHz采样率)，与ZED深度相机(1280×720@30fps)同步</li>
+    <li>Spike-KITTI：将经典KITTI数据集视频转换为脉冲流格式</li>
+  </ul>
+
+  <p>数据规模：</p>
+  <ul>
+    <li>PKU-Spike-Stereo：10,750对脉冲流数据，877组高质量同步深度标签</li>
+    <li>Spike-KITTI：200对立体图像(160训练/40测试)</li>
+  </ul>
+
+  <h3 id="section">数据集结构</h3>
+  <p>PKU-Spike-Stereo数据集提供精确的时空对齐，通过专业图像配准实现脉冲流与深度图的精确同步，特别适合高速运动物体的深度估计。</p>
+
+  <h3 id="section-1">可支持的任务：</h3>
+  <ul>
+    <li>立体深度估计：利用双脉冲相机系统进行深度计算</li>
+    <li>跨模态融合：结合脉冲流与传统相机数据提高深度估计精度</li>
+    <li>高速运动深度估计：克服传统相机在高速场景下的运动模糊问题</li>
+  </ul>
+
+  <h3 id="section-2">关键特性</h3>
+  <ul>
+    <li>精确的时空对齐：脉冲流与深度图的高精度同步</li>
+    <li>丰富的场景类型：室内/室外多种场景覆盖</li>
+    <li>大样本量：提供充足的训练和测试数据</li>
+    <li>高速运动优化：特别适合快速移动物体的深度估计</li>
+  </ul>
+
+  <p>数据集链接：尚未公开，文章链接为 https://www.jdl.link/doc/2011/20221228_Learning_Stereo_Depth_Estimation_with_Bio-Inspired_Spike_Cameras.pdf</p>
+
+  <figure class="figure">
   <a class="figure-image" aria-label="PKU-Spike-Stereo数据集结构">
     <img src="/images/dataset_image/pku-spike-stereo.png" style="width: 100%; max-height: unset;" alt="PKU-Spike-Stereo数据集结构" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -420,7 +531,7 @@
   </figcaption>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="Spike-KITTI数据集测试结果">
     <img src="/images/dataset_image/kitti-result.png" style="width: 100%; max-height: unset;" alt="Spike-KITTI数据集测试结果" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -431,19 +542,19 @@
   </figcaption>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/dataset_image/in1.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/dataset_image/in2.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="室内抽样案例">
     <img src="/images/dataset_image/in3.gif" style="width: 100%; max-height: unset;" alt="室内抽样案例" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -454,19 +565,19 @@
   </figcaption>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/dataset_image/out1.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/dataset_image/out2.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="室外抽样案例">
     <img src="/images/dataset_image/out3.gif" style="width: 100%; max-height: unset;" alt="室外抽样案例" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -477,6 +588,7 @@
   </figcaption>
   
 </figure>
+</div>
 
   </div>
   
