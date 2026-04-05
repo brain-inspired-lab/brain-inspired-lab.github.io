@@ -414,14 +414,24 @@
         
       </div>
       
-      <p class="project-description"></p>
+      <div class="project-description">
+        <div data-lang-target="en">
+<ul>
+  <li>Purpose: primarily used as a training set, containing randomly generated high-speed motion scenes.</li>
+  <li>Scene categories: 100 categories, each containing 500 frames of spike streams.</li>
+  <li>Optical-flow labels: generated every 10 frames (Δt=10) and 20 frames (Δt=20), yielding 50,000 labeled frames in total.</li>
+  <li>Data format: spike streams are binary tensors (H×W×N), and optical-flow labels are 2D motion vector fields (H×W×2).</li>
+</ul>
+</div>
+        <div data-lang-target="zh" hidden="">
 <ul>
   <li>用途：主要用作训练集，包含随机生成的高速运动场景。</li>
   <li>场景类别：100类，每类包含500帧脉冲流。</li>
   <li>光流标签：每隔10帧(Δt=10)和20帧(Δt=20)生成光流，共50,000帧标签。</li>
   <li>数据格式：脉冲流为二进制矩阵(H×W×N)，光流标签为二维运动矢量场(H×W×2)。</li>
 </ul>
-
+</div>
+      </div>
 
       
 
@@ -455,13 +465,22 @@
         
       </div>
       
-      <p class="project-description"></p>
+      <div class="project-description">
+        <div data-lang-target="en">
+<ul>
+  <li>Purpose: used as a test set containing photo-realistic high-speed scenes.</li>
+  <li>Scene categories: 10 categories (e.g., Ball, Fan, and Fly), with about 25,100 frames in total; optical-flow labels cover all pixels (100% density).</li>
+  <li>Data format: the same as SPIFT, but with more complex scenes.</li>
+</ul>
+</div>
+        <div data-lang-target="zh" hidden="">
 <ul>
   <li>用途：作为测试集，包含逼真的高速场景。</li>
   <li>场景类别：10类（如 Ball、Fan、Fly），共约 25,100 帧数据；光流标签覆盖所有像素（100% 密度）。</li>
   <li>数据格式：与 SPIFT 相同，但场景更复杂。</li>
 </ul>
-
+</div>
+      </div>
 
       
 
@@ -495,14 +514,24 @@
         
       </div>
       
-      <p class="project-description"></p>
+      <div class="project-description">
+        <div data-lang-target="en">
+<ul>
+  <li>Purpose: a synthetic spike-camera dataset focused on extreme autonomous-driving scenarios, supporting the training and evaluation of unsupervised optical-flow estimation models.</li>
+  <li>Scene categories: 10 extreme scenarios simulating traffic accidents, covering diverse street environments, weather conditions (rain and fog), and moving targets (vehicles and pedestrians/cyclists).</li>
+  <li>Optical-flow labels: built on the CARLA simulator, with each data sequence lasting 0.5-1.5 seconds.</li>
+  <li>Data format: spike streams are generated at 40 kHz for microsecond-level optical-flow analysis; the dataset includes multimodal data such as spikes, RGB frames, optical-flow ground truth, instance segmentation, and depth.</li>
+</ul>
+</div>
+        <div data-lang-target="zh" hidden="">
 <ul>
   <li>用途：专注于自动驾驶极端场景的脉冲相机合成数据集，支持无监督光流估计模型的训练与评估。</li>
   <li>场景类别:10个模拟交通事故的极端场景，涵盖各种街道环境、天气条件（雨天、雾天）和运动目标（车辆、行人/骑行者）。</li>
   <li>光流标签:基于CARLA模拟器构建，每个数据序列持续0.5-1.5秒。</li>
   <li>数据格式:脉冲流以40kHz生成，支持微秒级光流分析；包含脉冲流、RGB帧、光流真值、实例分割和深度信息的多模态数据。</li>
 </ul>
-
+</div>
+      </div>
 
       
 
@@ -536,14 +565,22 @@
         
       </div>
       
-      <p class="project-description">解决如下困难与挑战：
-</p>
+      <div class="project-description">
+        <div data-lang-target="en">Key challenges addressed by RSSF:
+<ul>
+  <li>The gap between synthetic data and real scenes: conventional synthetic data (such as the graphics-model data used by SCFlow) often suffer from unrealistic textures, simplified illumination, and limited motion patterns, which weakens generalization in real scenes. RSSF substantially narrows this gap by simulating spike streams from a real high-resolution dataset (Slow Flow).</li>
+  <li>Temporal continuity modeling of spike streams: spike cameras output continuous binary spike streams, where each individual spike reflects an integrated result rather than an instantaneous state. Traditional methods therefore struggle to extract spatiotemporal correlations. RSSF supports continuous-motion modeling with multi-step optical-flow ground truth (dt=20, 40, 60), addressing the underuse of temporal information.</li>
+  <li>The annotation difficulty of real spike-camera data: real spike data are difficult to label directly with optical flow. RSSF bypasses this bottleneck by generating spike streams and optical-flow ground truth through simulation with strict correspondence.</li>
+</ul>
+</div>
+        <div data-lang-target="zh" hidden="">解决如下困难与挑战：
 <ul>
   <li>合成数据与真实场景的差距：传统合成数据（如SCFlow使用的图形模型数据）存在纹理不真实、光照简化、运动模式单一等问题，导致模型在真实场景中泛化能力差。RSSF通过基于真实高分辨率数据集（Slow Flow）模拟脉冲流，显著缩小了这一差距。</li>
   <li>脉冲流的时间连续性建模：脉冲相机输出的是连续二进制脉冲流，单个脉冲仅反映积分结果而非瞬时状态，传统方法难以提取时空关联特征。RSSF通过多时间步长光流真值（dt=20,40,60）支持连续运动建模，解决了时间信息利用不足的问题。</li>
   <li>真实数据标注难题：脉冲相机的真实数据难以直接标注光流。RSSF通过模拟生成脉冲流与光流真值的严格对应关系，绕过了真实数据标注的瓶颈。</li>
 </ul>
-
+</div>
+      </div>
 
       
 
@@ -577,7 +614,31 @@
         
       </div>
       
-      <p class="project-description"></p>
+      <div class="project-description">
+        <div data-lang-target="en">
+<ul>
+  <li>Purpose: monocular depth-estimation datasets for spike cameras, covering both synthetic environments and real-world scenes.</li>
+  <li>Scene categories:
+    <ul>
+      <li>DENSE-spike: diverse scenes generated with the CARLA simulator, including different weather and lighting conditions</li>
+      <li>Outdoor-spike: real road scenes captured from a driving perspective</li>
+    </ul>
+  </li>
+  <li>Data format:
+    <ul>
+      <li>DENSE-spike: spike-stream data at 346×260×128 (128 timestamps)</li>
+      <li>Outdoor-spike: real spike-stream data at 400×250@40kHz</li>
+    </ul>
+  </li>
+  <li>Dataset scale:
+    <ul>
+      <li>DENSE-spike: 8 sequences (5 training / 2 validation / 1 test)</li>
+      <li>Outdoor-spike: 33 real road-scene sequences</li>
+    </ul>
+  </li>
+</ul>
+</div>
+        <div data-lang-target="zh" hidden="">
 <ul>
   <li>用途：为脉冲相机提供单目深度估计数据集，涵盖合成环境和真实世界场景。</li>
   <li>场景类别：
@@ -599,7 +660,8 @@
     </ul>
   </li>
 </ul>
-
+</div>
+      </div>
 
       
 
@@ -633,7 +695,31 @@
         
       </div>
       
-      <p class="project-description"></p>
+      <div class="project-description">
+        <div data-lang-target="en">
+<ul>
+  <li>Purpose: spike-based datasets for stereo vision and autonomous-driving scenarios.</li>
+  <li>Scene categories:
+    <ul>
+      <li>PKU-Spike-Stereo: synchronized real data collected with one ZED camera and two spike cameras</li>
+      <li>Spike-KITTI: a spike-simulated version of the KITTI dataset</li>
+    </ul>
+  </li>
+  <li>Data format:
+    <ul>
+      <li>PKU-Spike-Stereo: the ZED camera records at 1280×720 and 30 fps; each spike camera records at 400×250 and 20 kHz.</li>
+      <li>Spike-KITTI: uses the same resolution as the KITTI dataset</li>
+    </ul>
+  </li>
+  <li>Dataset scale:
+    <ul>
+      <li>PKU-Spike-Stereo: 10 categories (5 indoor and 5 outdoor)</li>
+      <li>Spike-KITTI: 160 training sequences and 40 test sequences</li>
+    </ul>
+  </li>
+</ul>
+</div>
+        <div data-lang-target="zh" hidden="">
 <ul>
   <li>用途：用于双目立体视觉和自动驾驶场景的脉冲数据集。</li>
   <li>场景类别：
@@ -655,7 +741,8 @@
     </ul>
   </li>
 </ul>
-
+</div>
+      </div>
 
       
 
@@ -689,7 +776,21 @@
         
       </div>
       
-      <p class="project-description"></p>
+      <div class="project-description">
+        <div data-lang-target="en">
+<ul>
+  <li>Purpose: a multimodal asynchronous object-detection dataset for spike cameras, designed for high-speed object detection, low-light perception, and validation of multimodal fusion algorithms.</li>
+  <li>Scene categories: 6 diverse scenes covering high-speed motion, low-light conditions, and complex backgrounds across both indoor and outdoor environments.</li>
+  <li>Data format:
+    <ul>
+      <li>Vidar (fovea-like vision): spike streams at 400×250 resolution and 20,000 Hz sampling rate</li>
+      <li>DVS (peripheral-like vision): asynchronous event streams with 12 million events per second and microsecond-level temporal resolution</li>
+    </ul>
+  </li>
+  <li>Dataset scale: 490 sequences (about 5 seconds each), annotated at 50 Hz, with 215.5k bounding boxes covering 9 object categories.</li>
+</ul>
+</div>
+        <div data-lang-target="zh" hidden="">
 <ul>
   <li>用途：为脉冲相机提供多模态异步目标检测数据集，用于高速物体检测、低光环境感知和多模态融合算法验证。。</li>
   <li>场景类别：包含高速运动、低光照条件、复杂背景等6种多样化场景，覆盖室内和室外环境。。</li>
@@ -701,7 +802,8 @@
   </li>
   <li>数据规模：490段序列(每段约5秒)，50Hz标注频率，总标注框数达215.5k，覆盖9类物体。</li>
 </ul>
-
+</div>
+      </div>
 
       
 
@@ -735,14 +837,24 @@
         
       </div>
       
-      <p class="project-description"></p>
+      <div class="project-description">
+        <div data-lang-target="en">
+<ul>
+  <li>Purpose: a dataset focused on high-speed object detection and tracking, supporting SNN algorithm development and ultra-high-speed vision-system testing.</li>
+  <li>Scene categories: Class A (dynamic objects and rotating scenes) and Class B (large-scale scenes and high-speed motion).</li>
+  <li>Data characteristics: image resolution of 400×250, sampling frequency of 20,000 Hz, and binary spike event streams.</li>
+  <li>Applications: high-speed object tracking, large-scene 3D reconstruction, rotating-object pose estimation, traffic monitoring systems, and related tasks.</li>
+</ul>
+</div>
+        <div data-lang-target="zh" hidden="">
 <ul>
   <li>用途：专注于高速目标检测与跟踪的数据集，支持SNN算法开发与超高速视觉系统测试。</li>
   <li>场景类别：ClassA（动态物体和旋转场景）和ClassB（大场景和高速运动）。</li>
   <li>数据特性：图像分辨率400×250，采样频率20,000 Hz，二进制spike事件流。</li>
   <li>应用方向：高速运动目标跟踪、大场景三维重建、旋转物体姿态估计、交通监控系统等。</li>
 </ul>
-
+</div>
+      </div>
 
       
 
@@ -778,14 +890,24 @@
         
       </div>
       
-      <p class="project-description"></p>
+      <div class="project-description">
+        <div data-lang-target="en">
+<ul>
+  <li>Purpose: a multi-object tracking dataset based on event cameras, primarily focused on tracking digit targets.</li>
+  <li>Data characteristics: sampling rate up to 20 kHz (20,000 fps), offering 300-600 times the temporal resolution of conventional cameras.</li>
+  <li>Technical advantages: free from exposure-time limitations and resistant to motion blur, making it particularly suitable for high-speed motion scenarios.</li>
+  <li>Applications: high-speed multi-object tracking, event-stream reconstruction algorithms, cross-modal research, autonomous driving, and related real-world applications.</li>
+</ul>
+</div>
+        <div data-lang-target="zh" hidden="">
 <ul>
   <li>用途：基于事件相机的多目标跟踪数据集，主要关注数字目标的跟踪。</li>
   <li>数据特性：采样率高达20kHz（20000fps），时间分辨率比传统相机提升300-600倍。</li>
   <li>技术优势：不受曝光时间限制，避免运动模糊，特别适合高速运动场景。</li>
   <li>应用方向：高速运动目标跟踪、事件流重建算法、跨模态研究、自动驾驶等实际应用场景。</li>
 </ul>
-
+</div>
+      </div>
 
       
 
@@ -819,14 +941,24 @@
         
       </div>
       
-      <p class="project-description"></p>
+      <div class="project-description">
+        <div data-lang-target="en">
+<ul>
+  <li>Purpose: a high-speed vision dataset containing 51 real-scene spike sequences, intended to promote algorithm research and development.</li>
+  <li>Scene categories: ball-motion scenes (13 sequences), complex-motion scenes (8 sequences), special scenes (8 sequences), and daily-life scenes (22 sequences).</li>
+  <li>Data characteristics: image resolution of 400×250, sampling frequency of 20,000 Hz, and binary spike event streams.</li>
+  <li>Applications: image reconstruction, high-speed object detection and tracking, motion analysis (segmentation, optical-flow estimation, trajectory analysis), and camera ego-motion research.</li>
+</ul>
+</div>
+        <div data-lang-target="zh" hidden="">
 <ul>
   <li>用途：包含51段真实场景脉冲序列的高速视觉数据集，用于促进算法研究和开发。</li>
   <li>场景类别：运动球类场景（13个序列）、复杂运动场景（8个序列）、特殊场景（8个序列）、生活场景（22个序列）。</li>
   <li>数据特性：图像分辨率400×250，采样频率20,000 Hz，二进制spike事件流。</li>
   <li>应用方向：图像重建、高速目标检测与追踪、运动分析（分割、光流估计、轨迹分析）、相机自运动研究等。</li>
 </ul>
-
+</div>
+      </div>
 
       
 
