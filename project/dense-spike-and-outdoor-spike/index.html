@@ -378,46 +378,111 @@
 
   
   <div class="project-body">
-    <p>用途：为脉冲相机提供单目深度估计数据集，涵盖合成环境和真实世界场景。
+    <div data-lang-target="en">
+  <p>Purpose: monocular depth-estimation datasets for spike cameras, covering both synthetic environments and real-world scenes.
+Scene categories:</p>
+  <ul>
+    <li>DENSE-spike: diverse scenes generated with the CARLA simulator, including different weather and lighting conditions</li>
+    <li>Outdoor-spike: real road scenes captured from a driving perspective
+Data format:</li>
+    <li>DENSE-spike: spike-stream data at 346×260×128 (128 timestamps)</li>
+    <li>Outdoor-spike: real spike-stream data at 400×250@40kHz
+Dataset scale:</li>
+    <li>DENSE-spike: 8 sequences (5 training / 2 validation / 1 test)</li>
+    <li>Outdoor-spike: 33 real road-scene sequences</li>
+  </ul>
+
+  <h3 id="data-generation-and-acquisition">Data Generation and Acquisition</h3>
+  <ul>
+    <li>DENSE-spike: generated from base scenes in the CARLA simulator; video frame rate is increased to 3840 fps and then converted into spike streams through a dedicated algorithm</li>
+    <li>Outdoor-spike: collected with a professional Vidar spike camera, including natural noise and real illumination changes</li>
+  </ul>
+
+  <h3 id="supported-tasks">Supported Tasks</h3>
+  <ul>
+    <li>Monocular depth estimation: recover depth information from a single-channel spike stream</li>
+    <li>Cross-domain transfer: transfer from synthetic data to real-world scenes</li>
+    <li>Autonomous-driving perception: depth estimation from realistic driving viewpoints</li>
+  </ul>
+
+  <h3 id="key-features">Key Features</h3>
+  <ul>
+    <li>DENSE-spike: provides accurate depth labels across diverse weather and lighting conditions</li>
+    <li>Outdoor-spike: real-world data with natural noise and actual lighting variation</li>
+    <li>Complementarity: the two datasets complement each other and support validation of generalization from synthetic to real data</li>
+  </ul>
+
+  <p>Dataset links:</p>
+
+  <p>DENSE-spike https://pan.baidu.com/s/1Lg2spMW4OYlsYy0iT4u_7g (password:1008).</p>
+
+  <p>Outdoor-spike https://pan.baidu.com/s/1hji5GnFH5Ke_nDt-1Q76rg (password:1997).</p>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="Examples from the DENSE-spike dataset">
+    <img src="/images/dataset_image/dense-spike-result.png" style="width: 100%; max-height: unset;" alt="Examples from the DENSE-spike dataset" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+  <figcaption class="figure-caption">
+    Examples from the DENSE-spike dataset
+
+  </figcaption>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="Examples from the Outdoor-spike dataset">
+    <img src="/images/dataset_image/outdoor-spike-result.png" style="width: 100%; max-height: unset;" alt="Examples from the Outdoor-spike dataset" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+  <figcaption class="figure-caption">
+    Examples from the Outdoor-spike dataset
+
+  </figcaption>
+  
+</figure>
+</div>
+
+<div data-lang-target="zh" hidden="">
+  <p>用途：为脉冲相机提供单目深度估计数据集，涵盖合成环境和真实世界场景。
 场景类别：</p>
-<ul>
-  <li>DENSE-spike：基于CARLA模拟器生成的多样化场景，包括不同天气和光照条件</li>
-  <li>Outdoor-spike：真实道路场景，模拟自动驾驶视角
+  <ul>
+    <li>DENSE-spike：基于CARLA模拟器生成的多样化场景，包括不同天气和光照条件</li>
+    <li>Outdoor-spike：真实道路场景，模拟自动驾驶视角
 数据格式：</li>
-  <li>DENSE-spike：346×260×128(128个时间戳)的脉冲流数据</li>
-  <li>Outdoor-spike：400×250@40kHz的真实脉冲流数据
+    <li>DENSE-spike：346×260×128(128个时间戳)的脉冲流数据</li>
+    <li>Outdoor-spike：400×250@40kHz的真实脉冲流数据
 数据规模：</li>
-  <li>DENSE-spike：8个序列(5训练/2验证/1测试)</li>
-  <li>Outdoor-spike：33个真实道路场景序列</li>
-</ul>
+    <li>DENSE-spike：8个序列(5训练/2验证/1测试)</li>
+    <li>Outdoor-spike：33个真实道路场景序列</li>
+  </ul>
 
-<h3 id="数据生成与采集">数据生成与采集</h3>
-<ul>
-  <li>DENSE-spike：基于CARLA模拟器生成基础场景，将视频帧率提升至3840fps，通过专业算法转换为脉冲流数据</li>
-  <li>Outdoor-spike：使用专业Vidar脉冲相机采集，包含自然噪声和实际光照变化</li>
-</ul>
+  <h3 id="section">数据生成与采集</h3>
+  <ul>
+    <li>DENSE-spike：基于CARLA模拟器生成基础场景，将视频帧率提升至3840fps，通过专业算法转换为脉冲流数据</li>
+    <li>Outdoor-spike：使用专业Vidar脉冲相机采集，包含自然噪声和实际光照变化</li>
+  </ul>
 
-<h3 id="可支持的任务">可支持的任务：</h3>
-<ul>
-  <li>单目深度估计：从单通道脉冲流中恢复深度信息</li>
-  <li>跨域迁移：从合成数据迁移到真实场景</li>
-  <li>自动驾驶环境感知：模拟真实自动驾驶视角的深度估计</li>
-</ul>
+  <h3 id="section-1">可支持的任务：</h3>
+  <ul>
+    <li>单目深度估计：从单通道脉冲流中恢复深度信息</li>
+    <li>跨域迁移：从合成数据迁移到真实场景</li>
+    <li>自动驾驶环境感知：模拟真实自动驾驶视角的深度估计</li>
+  </ul>
 
-<h3 id="关键特性">关键特性</h3>
-<ul>
-  <li>DENSE-spike：包含高精度深度标签，覆盖多样的天气和光照条件</li>
-  <li>Outdoor-spike：真实环境数据，包含自然噪声和实际光照变化</li>
-  <li>互补性：两个数据集相互补充，支持模型从合成到真实的泛化能力验证</li>
-</ul>
+  <h3 id="section-2">关键特性</h3>
+  <ul>
+    <li>DENSE-spike：包含高精度深度标签，覆盖多样的天气和光照条件</li>
+    <li>Outdoor-spike：真实环境数据，包含自然噪声和实际光照变化</li>
+    <li>互补性：两个数据集相互补充，支持模型从合成到真实的泛化能力验证</li>
+  </ul>
 
-<p>数据集链接：</p>
+  <p>数据集链接：</p>
 
-<p>DENSE-spike https://pan.baidu.com/s/1Lg2spMW4OYlsYy0iT4u_7g (password:1008).</p>
+  <p>DENSE-spike https://pan.baidu.com/s/1Lg2spMW4OYlsYy0iT4u_7g (password:1008).</p>
 
-<p>Outdoor-spike  https://pan.baidu.com/s/1hji5GnFH5Ke_nDt-1Q76rg (password:1997).</p>
+  <p>Outdoor-spike  https://pan.baidu.com/s/1hji5GnFH5Ke_nDt-1Q76rg (password:1997).</p>
 
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="DENSE-spike数据集示例">
     <img src="/images/dataset_image/dense-spike-result.png" style="width: 100%; max-height: unset;" alt="DENSE-spike数据集示例" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -428,7 +493,7 @@
   </figcaption>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="Outdoor-spike数据集示例">
     <img src="/images/dataset_image/outdoor-spike-result.png" style="width: 100%; max-height: unset;" alt="Outdoor-spike数据集示例" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -439,6 +504,7 @@
   </figcaption>
   
 </figure>
+</div>
 
   </div>
   
