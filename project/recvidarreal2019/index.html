@@ -374,99 +374,197 @@
 
   
   <div class="project-body">
-    <p>用途：专注于高速目标检测与跟踪的数据集，支持SNN算法开发与超高速视觉系统测试。
-场景类别：</p>
-<ul>
-  <li>ClassA：动态物体和旋转场景</li>
-  <li>ClassB：大场景和高速运动
-数据特性：</li>
-  <li>图像分辨率：400×250</li>
-  <li>采样频率：20,000 Hz</li>
-  <li>数据格式：二进制spike事件流</li>
-</ul>
+    <div data-lang-target="en">
+  <p>Purpose: a dataset focused on high-speed object detection and tracking, supporting SNN algorithm development and ultra-high-speed vision-system testing.
+Scene categories:</p>
+  <ul>
+    <li>Class A: dynamic objects and rotating scenes</li>
+    <li>Class B: large-scale scenes and high-speed motion
+Data characteristics:</li>
+    <li>Image resolution: 400×250</li>
+    <li>Sampling frequency: 20,000 Hz</li>
+    <li>Data format: binary spike event streams</li>
+  </ul>
 
-<h3 id="数据集结构">数据集结构</h3>
-<p>数据集采用结构化组织，便于模型训练和评估。</p>
+  <h3 id="dataset-structure">Dataset Structure</h3>
+  <p>The dataset is organized in a structured manner for convenient model training and evaluation.</p>
 
-<h3 id="可支持的任务">可支持的任务：</h3>
-<ul>
-  <li>高速运动目标跟踪</li>
-  <li>大场景三维重建</li>
-  <li>旋转物体姿态估计</li>
-  <li>交通监控系统</li>
-  <li>SNN算法开发与测试</li>
-</ul>
+  <h3 id="supported-tasks">Supported Tasks</h3>
+  <ul>
+    <li>High-speed object tracking</li>
+    <li>Large-scene 3D reconstruction</li>
+    <li>Rotating-object pose estimation</li>
+    <li>Traffic monitoring systems</li>
+    <li>SNN algorithm development and evaluation</li>
+  </ul>
 
-<h3 id="关键特性">关键特性</h3>
-<ul>
-  <li>超高速采样率：20,000Hz，捕捉高速运动细节</li>
-  <li>多样化场景：涵盖动态物体、旋转场景、大场景和高速运动</li>
-  <li>真实世界数据：基于Vidar相机采集的真实场景脉冲序列</li>
-  <li>适合SNN：二进制spike事件流格式，直接支持脉冲神经网络</li>
-</ul>
+  <h3 id="key-features">Key Features</h3>
+  <ul>
+    <li>Ultra-high sampling rate: 20,000 Hz for fine high-speed motion capture</li>
+    <li>Diverse scenes: covers dynamic objects, rotating scenes, large-scale scenes, and high-speed motion</li>
+    <li>Real-world data: real spike sequences collected with a Vidar camera</li>
+    <li>SNN-friendly format: binary spike event streams that can be used directly with spiking neural networks</li>
+  </ul>
 
-<p>数据集链接：https://openi.pcl.ac.cn/Cordium/SpikeCV/datasets?page=2</p>
+  <p>Dataset link: https://openi.pcl.ac.cn/Cordium/SpikeCV/datasets?page=2</p>
 
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/dataset_image/recvidar.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/dataset_image/ballon.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/dataset_image/car-100kmh.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/dataset_image/forest.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/dataset_image/railway.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/dataset_image/rotation1.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/dataset_image/rotation2.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/dataset_image/rotation2x.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/dataset_image/train-350kmh.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/dataset_image/viaduct-bridge.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
+</div>
+
+<div data-lang-target="zh" hidden="">
+  <p>用途：专注于高速目标检测与跟踪的数据集，支持SNN算法开发与超高速视觉系统测试。
+场景类别：</p>
+  <ul>
+    <li>ClassA：动态物体和旋转场景</li>
+    <li>ClassB：大场景和高速运动
+数据特性：</li>
+    <li>图像分辨率：400×250</li>
+    <li>采样频率：20,000 Hz</li>
+    <li>数据格式：二进制spike事件流</li>
+  </ul>
+
+  <h3 id="section">数据集结构</h3>
+  <p>数据集采用结构化组织，便于模型训练和评估。</p>
+
+  <h3 id="section-1">可支持的任务：</h3>
+  <ul>
+    <li>高速运动目标跟踪</li>
+    <li>大场景三维重建</li>
+    <li>旋转物体姿态估计</li>
+    <li>交通监控系统</li>
+    <li>SNN算法开发与测试</li>
+  </ul>
+
+  <h3 id="section-2">关键特性</h3>
+  <ul>
+    <li>超高速采样率：20,000Hz，捕捉高速运动细节</li>
+    <li>多样化场景：涵盖动态物体、旋转场景、大场景和高速运动</li>
+    <li>真实世界数据：基于Vidar相机采集的真实场景脉冲序列</li>
+    <li>适合SNN：二进制spike事件流格式，直接支持脉冲神经网络</li>
+  </ul>
+
+  <p>数据集链接：https://openi.pcl.ac.cn/Cordium/SpikeCV/datasets?page=2</p>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/recvidar.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/ballon.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/car-100kmh.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/forest.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/railway.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/rotation1.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/rotation2.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/rotation2x.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/train-350kmh.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/viaduct-bridge.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+</div>
 
   </div>
   
