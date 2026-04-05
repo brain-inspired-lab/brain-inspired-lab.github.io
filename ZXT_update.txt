@@ -1,0 +1,238 @@
+ZXT 修改记录
+生成时间：2026-04-05
+项目路径：c:\MyApps\brain-lab\brain-inspired-lab.github.io
+说明：本文件使用中文整理本轮实际修改，内容包含修改文件、当前行号、修改内容、对应功能与本地预览说明。
+
+一、文件：papers/index.md
+当前行号：34-61
+修改内容：
+1. 新增 Publication 页面筛选栏。
+2. 新增三个下拉选择按钮：
+   Year
+   Venue
+   Topic
+3. 新增 Clear 按钮。
+4. 将论文列表渲染方式从原来的普通列表切换为 `publication-list` 卡片样式。
+5. 将三个筛选按钮的默认文案改为：
+   Select Year
+   Select Venue
+   Select Topic
+对应功能：
+1. 在 Papers 页面顶部提供可视化筛选入口。
+2. 让 Publication 页面使用新的论文卡片布局，而不是旧的通用引用列表。
+
+二、文件：_includes/list.html
+当前行号：17-70
+修改内容：
+1. 新增 `publication-list` 分支。
+2. 新增按年份分组的外层容器：
+   `<section class="publication-year-group">`
+   `<h3 class="publication-year-heading">`
+   `<div class="publication-list">`
+3. 给 citation 模板传递 `placeholder_index`，用于轮换占位图。
+4. 给 citation 模板传递 `code` 字段。
+5. 给 citation 模板传递 `topic` 字段。
+6. 删除错误输出的 `{{--}}`。
+7. 将 publication 分支的 HTML 输出改为无多余缩进，避免 Markdown 把 HTML 识别成代码块。
+当前行号：85-123
+修改内容：
+1. 在非 publication 分支中也补充传递 `code` 与 `topic`，保持模板参数一致。
+对应功能：
+1. 实现论文按年份分组显示。
+2. 为论文卡片提供图片占位索引、Code 按钮、Topic 分类等数据。
+3. 修复页面中错误显示 HTML 源码的问题。
+
+三、文件：_includes/citation.html
+当前行号：11-25
+修改内容：
+1. 新增年份提取逻辑。
+2. 新增 topic 自动推断逻辑。
+3. Topic 类别统一为四类：
+   Retinal Encoding/Decoding
+   Spiking Neural Networks
+   Neuromorphic camera
+   Others
+4. Topic 优先级改为：
+   优先读取 `_data/citations.yaml` 中的 `topic`
+   若未填写，再回退到自动推断结果
+对应功能：
+1. 允许后续通过 YAML 手动控制 topic。
+2. 当前在未手工补齐数据时，仍保留临时自动分类能力。
+
+当前行号：27-100
+修改内容：
+1. 新增 venue 缩写映射逻辑。
+2. 已支持的常见缩写包括但不限于：
+   TPAMI
+   TNNLS
+   TCDS
+   TCSVT
+   TIP
+   TCYB
+   TMC
+   TIM
+   Nat. Commun.
+   Nat. Biomed. Eng.
+   Sci. Adv.
+   PLoS Comput. Biol.
+   Front. Neurosci.
+   Front. Comput. Neurosci.
+   Adv. Funct. Mater.
+   Neural Netw.
+   CVPR
+   ICCV
+   ECCV
+   NeurIPS
+   ICLR
+   ICML
+   AAAI
+   IJCAI
+   ACM MM
+对应功能：
+1. 让 Venue 下拉选项和论文卡片中的 venue 标签符合学术常用缩写规范。
+
+当前行号：102-110
+修改内容：
+1. 新增三张占位图轮换逻辑。
+2. 图片优先级改为：
+   优先读取 `_data/citations.yaml` 中的 `image`
+   其次读取 include 传入的 `image`
+   若仍为空，则使用占位图
+对应功能：
+1. 允许后续通过 YAML 手动控制论文卡片图片。
+2. 在没有图片数据时继续显示占位图。
+
+当前行号：112-207
+修改内容：
+1. 新增 publication-list 论文卡片结构。
+2. 给每张卡片增加筛选所需属性：
+   data-year
+   data-venue
+   data-topic
+3. 卡片结构包括：
+   左侧图片区
+   右侧标题区
+   作者区
+   年份与 venue 信息区
+   按钮区
+4. 新增 PDF 按钮。
+5. 新增 Code 按钮。
+6. Code 优先读取 `_data/citations.yaml` 中的 `code`。
+7. 如果 code 为空，则显示禁用态按钮。
+8. 删除了 venue 左侧的小图标，使卡片更简洁。
+对应功能：
+1. 实现 Publication 页面论文卡片化展示。
+2. 支持从 YAML 手动控制 topic、code、image。
+
+当前行号：227-228
+修改内容：
+1. 在旧的 citation 分支中统一复用 `citation_type`。
+对应功能：
+1. 保持模板变量逻辑一致，避免重复定义。
+
+四、文件：_scripts/publication-filters.js
+当前行号：1-85
+修改内容：
+1. 新增 Publication 页面前端筛选脚本。
+2. 在 DOMContentLoaded 后初始化。
+3. 自动读取所有论文卡片并填充：
+   Year 下拉
+   Venue 下拉
+   Topic 下拉
+4. 支持 Year + Venue + Topic 联合筛选。
+5. 支持 Clear 重置。
+6. 下拉默认文案改为：
+   Select Year
+   Select Venue
+   Select Topic
+7. Venue 选项保留原始显示文本，不强制二次改写大小写。
+8. Topic 下拉排序改为固定顺序，而不是按字母排序：
+   Retinal Encoding/Decoding
+   Spiking Neural Networks
+   Neuromorphic camera
+   Others
+对应功能：
+1. 让三个 select 筛选按钮在前端真正生效。
+2. 确保 Others 始终排在 Topic 下拉最后。
+
+五、文件：_styles/publication.scss
+当前行号：4-45
+修改内容：
+1. 新增筛选栏样式。
+2. 新增筛选标签、下拉框、Clear 按钮样式。
+对应功能：
+1. 提供 Publication 页面顶部筛选栏的视觉样式。
+
+当前行号：47-58
+修改内容：
+1. 新增年份分组标题和列表间距样式。
+对应功能：
+1. 提高按年份分组后的阅读清晰度。
+
+当前行号：60-215
+修改内容：
+1. 新增论文卡片整体样式。
+2. 卡片改为左图右文布局。
+3. 图片区域逐步调宽。
+4. 图片区域最终调整为接近 3:2 的横向长方形比例，更适合放论文框架图或示意图。
+5. 所有论文卡片文字统一改为左对齐。
+6. 去掉 venue 左侧的小图标。
+7. venue/topic 使用圆角标签样式。
+8. 作者区域取消省略显示，允许完整换行展开。
+9. PDF / Code 按钮增加并排样式。
+10. Code 缺失时显示禁用态样式。
+11. 增加移动端响应式适配。
+对应功能：
+1. 让 Publication 页面更接近学术论文列表展示风格。
+2. 让卡片图片区更适合未来替换为论文框架图。
+
+六、文件：_includes/styles.html
+当前行号：1
+修改内容：
+1. 给主样式文件 `main.css` 增加时间戳参数：
+   `?v={{ site.time | date: '%s' }}`
+对应功能：
+1. 解决浏览器缓存旧 CSS 的问题，强制加载最新样式。
+
+七、文件：_includes/scripts.html
+当前行号：6-9
+修改内容：
+1. 给 `_scripts/` 下自动加载的脚本增加时间戳参数：
+   `?v={{ site.time | date: '%s' }}`
+对应功能：
+1. 解决浏览器缓存旧 JS 的问题，强制加载最新脚本。
+
+八、本地环境与预览处理
+处理内容：
+1. 调用了本机 Ruby 环境：
+   `C:\Ruby32-x64\bin\ruby.exe`
+2. 安装了项目依赖到本仓库本地目录：
+   `vendor/bundle`
+3. 使用仓库内本地目录解决 Bundler/Gem 权限问题：
+   `.bundle-user`
+   `.gem`
+4. 多次执行 Jekyll build 校验页面结构和样式。
+5. 启动并使用本地预览地址：
+   `http://127.0.0.1:4000/`
+   `http://127.0.0.1:4010/`
+6. 通过重建、重启服务与缓存打散方式解决页面不刷新的问题。
+对应功能：
+1. 保证本轮修改可在本地真实预览中验证。
+
+九、目前 YAML 已支持直接控制的字段
+支持字段：
+1. topic
+2. code
+3. image
+当前规则：
+1. `topic`
+   优先读取 YAML 手动值
+   若为空，再用自动分类作为临时回退
+2. `code`
+   优先读取 YAML 手动值
+   若为空，Code 按钮显示禁用态
+3. `image`
+   优先读取 YAML 手动值
+   若为空，显示占位图
+对应功能：
+1. 后续可以直接通过 `_data/citations.yaml` 维护论文卡片信息，而不必继续改模板。

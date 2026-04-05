@@ -127,7 +127,7 @@
   <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
-  <link href="/assets/css/main.css" rel="stylesheet" />
+  <link href="/assets/css/main.css?v=1775380373" rel="stylesheet" />
 
 
   <!-- third party scripts -->
@@ -138,19 +138,21 @@
 <!-- include all js in scripts folder -->
 
 
-  <script src="/_scripts/carousel.js"></script>
+  <script src="/_scripts/carousel.js?v=1775380373"></script>
 
-  <script src="/_scripts/dark-mode.js"></script>
+  <script src="/_scripts/dark-mode.js?v=1775380373"></script>
 
-  <script src="/_scripts/particles.js"></script>
+  <script src="/_scripts/particles.js?v=1775380373"></script>
 
-  <script src="/_scripts/project-filtering.js"></script>
+  <script src="/_scripts/project-filtering.js?v=1775380373"></script>
 
-  <script src="/_scripts/search.js"></script>
+  <script src="/_scripts/publication-filters.js?v=1775380373"></script>
 
-  <script src="/_scripts/site-search.js"></script>
+  <script src="/_scripts/search.js?v=1775380373"></script>
 
-  <script src="/_scripts/table-wrap.js"></script>
+  <script src="/_scripts/site-search.js?v=1775380373"></script>
+
+  <script src="/_scripts/table-wrap.js?v=1775380373"></script>
 
 
 </head>
@@ -924,6 +926,7 @@ Section, `size=full` w/ figure
 ### List projects
 
 <!-- 
+
 
 
 
@@ -1852,6 +1855,7 @@ Section, `size=full` w/ figure
 
   
 
+
  -->
 
 ---
@@ -1873,13 +1877,32 @@ Section, `size=full` w/ figure
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="citation-container">
   <div class="citation">
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a
@@ -1900,6 +1923,28 @@ Section, `size=full` w/ figure
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div class="citation-container">
@@ -1921,8 +1966,7 @@ Section, `size=full` w/ figure
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a
@@ -1951,13 +1995,34 @@ Section, `size=full` w/ figure
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="citation-container">
   <div class="citation">
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a
@@ -2639,7 +2704,8 @@ With figure components
 <!-- 
 <div class="grid" data-style="">
   
-<h3>2026</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;2026&lt;/h3&gt;
+</code></pre></div></div>
 
 <div class="citation-container">
   <div class="citation">
@@ -2650,8 +2716,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1609/aaai.v40i3.37206" target="_blank" rel="noopener" class="citation-title">
@@ -2698,8 +2763,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openreview.net/forum?id=LjugJFmItY" target="_blank" rel="noopener" class="citation-title">
@@ -2746,8 +2810,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openreview.net/forum?id=AaZVrbElhC" target="_blank" rel="noopener" class="citation-title">
@@ -2794,8 +2857,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openreview.net/forum?id=U8preGvn5G" target="_blank" rel="noopener" class="citation-title">
@@ -2842,8 +2904,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TPAMI.2025.3610696" target="_blank" rel="noopener" class="citation-title">
@@ -2881,7 +2942,8 @@ With figure components
   </div>
 </div>
 
-<h3>2025</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;2025&lt;/h3&gt;
+</code></pre></div></div>
 
 <div class="citation-container">
   <div class="citation">
@@ -2892,8 +2954,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32207" target="_blank" rel="noopener" class="citation-title">
@@ -2940,8 +3001,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Yang_SpikeDiff_Zero-shot_High-Quality_Video_Reconstruction_from_Chromatic_Spike_Camera_and_ICCV_2025_paper.html" target="_blank" rel="noopener" class="citation-title">
@@ -2988,8 +3048,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Chen_USP-Gaussian_Unifying_Spike-based_Image_Reconstruction_Pose_Correction_and_Gaussian_Splatting_CVPR_2025_paper.html" target="_blank" rel="noopener" class="citation-title">
@@ -3036,8 +3095,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Bu_Inference-Scale_Complexity_in_ANN-SNN_Conversion_for_High-Performance_and_Low-Power_Applications_CVPR_2025_paper.pdf" target="_blank" rel="noopener" class="citation-title">
@@ -3084,8 +3142,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.mlr.press/v267/huang25i.html" target="_blank" rel="noopener" class="citation-title">
@@ -3132,8 +3189,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.mlr.press/v267/hao25c.html" target="_blank" rel="noopener" class="citation-title">
@@ -3180,8 +3236,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.mlr.press/v267/zhao25n.html" target="_blank" rel="noopener" class="citation-title">
@@ -3228,8 +3283,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Zheng_SpiLiFormer_Enhancing_Spiking_Transformers_with_Lateral_Inhibition_ICCV_2025_paper.html" target="_blank" rel="noopener" class="citation-title">
@@ -3276,8 +3330,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openreview.net/forum?id=RRBve5GwjS" target="_blank" rel="noopener" class="citation-title">
@@ -3324,8 +3377,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openreview.net/forum?id=zjOXZEXQKZ" target="_blank" rel="noopener" class="citation-title">
@@ -3372,8 +3424,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TNNLS.2024.3351120" target="_blank" rel="noopener" class="citation-title">
@@ -3420,8 +3471,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TCDS.2024.3417477" target="_blank" rel="noopener" class="citation-title">
@@ -3468,8 +3518,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TPAMI.2024.3511936" target="_blank" rel="noopener" class="citation-title">
@@ -3516,8 +3565,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1002/adfm.202417334" target="_blank" rel="noopener" class="citation-title">
@@ -3564,8 +3612,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TNNLS.2025.3547774" target="_blank" rel="noopener" class="citation-title">
@@ -3612,8 +3659,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.sciencedirect.com/science/article/pii/S0893608025007439" target="_blank" rel="noopener" class="citation-title">
@@ -3660,8 +3706,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.nature.com/articles/s41467-025-65197-x" target="_blank" rel="noopener" class="citation-title">
@@ -3708,8 +3753,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.nature.com/articles/s41467-025-66226-5" target="_blank" rel="noopener" class="citation-title">
@@ -3747,7 +3791,8 @@ With figure components
   </div>
 </div>
 
-<h3>2024</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;2024&lt;/h3&gt;
+</code></pre></div></div>
 
 <div class="citation-container">
   <div class="citation">
@@ -3758,8 +3803,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28579" target="_blank" rel="noopener" class="citation-title">
@@ -3806,8 +3850,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/27820" target="_blank" rel="noopener" class="citation-title">
@@ -3854,8 +3897,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/27804" target="_blank" rel="noopener" class="citation-title">
@@ -3902,8 +3944,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.iclr.cc/paper_files/paper/2024/hash/148865706acbd18627d3fc15cc3f3b93-Abstract-Conference.html" target="_blank" rel="noopener" class="citation-title">
@@ -3950,8 +3991,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.iclr.cc/paper_files/paper/2024/hash/f5c530d3f287c43dccfca298698e9254-Abstract-Conference.html" target="_blank" rel="noopener" class="citation-title">
@@ -3998,8 +4038,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openreview.net/forum?id=eoSeaK4QJo" target="_blank" rel="noopener" class="citation-title">
@@ -4046,8 +4085,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openreview.net/forum?id=CIj1CVbkpr" target="_blank" rel="noopener" class="citation-title">
@@ -4094,8 +4132,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.iclr.cc/paper_files/paper/2024/hash/e574db41163e700545ff4114f96b3d7a-Abstract-Conference.html" target="_blank" rel="noopener" class="citation-title">
@@ -4142,8 +4179,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Spike-guided_Motion_Deblurring_with_Unknown_Modal_Spatiotemporal_Alignment_CVPR_2024_paper.pdf" target="_blank" rel="noopener" class="citation-title">
@@ -4190,8 +4226,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Shi_SpikingResformer_Bridging_ResNet_and_Vision_Transformer_in_Spiking_Neural_Networks_CVPR_2024_paper.pdf" target="_blank" rel="noopener" class="citation-title">
@@ -4238,8 +4273,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Exploring_Efficient_Asymmetric_Blind-Spots_for_Self-Supervised_Denoising_in_Real-World_Scenarios_CVPR_2024_paper.pdf" target="_blank" rel="noopener" class="citation-title">
@@ -4286,8 +4320,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://raw.githubusercontent.com/mlresearch/v235/main/assets/liu24f/liu24f.pdf" target="_blank" rel="noopener" class="citation-title">
@@ -4334,8 +4367,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.mlr.press/v235/ding24e.html" target="_blank" rel="noopener" class="citation-title">
@@ -4382,8 +4414,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.mlr.press/v235/wang24ci.html" target="_blank" rel="noopener" class="citation-title">
@@ -4430,8 +4461,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://dl.acm.org/doi/10.1145/3664647.3680620" target="_blank" rel="noopener" class="citation-title">
@@ -4478,8 +4508,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://dl.acm.org/doi/10.1145/3664647.3680996" target="_blank" rel="noopener" class="citation-title">
@@ -4526,8 +4555,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/7280f65ed571b7b28321f2c7cf4c60c8-Abstract-Conference.html" target="_blank" rel="noopener" class="citation-title">
@@ -4574,8 +4602,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/137101016144540ed3191dc2b02f09a5-Abstract-Conference.html" target="_blank" rel="noopener" class="citation-title">
@@ -4622,8 +4649,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/4fe1859112230a032c7143a9adc3be78-Abstract-Conference.html" target="_blank" rel="noopener" class="citation-title">
@@ -4670,8 +4696,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/b8bf2c0dd0b48511889b7d3b2c5fc8f5-Abstract-Conference.html" target="_blank" rel="noopener" class="citation-title">
@@ -4718,8 +4743,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TCSVT.2023.3272375" target="_blank" rel="noopener" class="citation-title">
@@ -4766,8 +4790,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TCDS.2024.3375620" target="_blank" rel="noopener" class="citation-title">
@@ -4814,8 +4837,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.nature.com/articles/s41551-023-01137-8" target="_blank" rel="noopener" class="citation-title">
@@ -4862,8 +4884,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1012297" target="_blank" rel="noopener" class="citation-title">
@@ -4901,7 +4922,8 @@ With figure components
   </div>
 </div>
 
-<h3>2023</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;2023&lt;/h3&gt;
+</code></pre></div></div>
 
 <div class="citation-container">
   <div class="citation">
@@ -4912,8 +4934,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25071" target="_blank" rel="noopener" class="citation-title">
@@ -4960,8 +4981,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25085" target="_blank" rel="noopener" class="citation-title">
@@ -5008,8 +5028,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25108" target="_blank" rel="noopener" class="citation-title">
@@ -5056,8 +5075,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://arxiv.org/abs/2302.13019" target="_blank" rel="noopener" class="citation-title">
@@ -5104,8 +5122,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://arxiv.org/abs/2302.10685" target="_blank" rel="noopener" class="citation-title">
@@ -5152,8 +5169,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Complementary_Intrinsics_From_Neural_Radiance_Fields_and_CNNs_for_Outdoor_CVPR_2023_paper.pdf" target="_blank" rel="noopener" class="citation-title">
@@ -5200,8 +5216,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Bu_Rate_Gradient_Approximation_Attack_Threats_Deep_Spiking_Neural_Networks_CVPR_2023_paper.pdf" target="_blank" rel="noopener" class="citation-title">
@@ -5248,8 +5263,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://dl.acm.org/doi/10.1145/3581783.3612054" target="_blank" rel="noopener" class="citation-title">
@@ -5296,8 +5310,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openreview.net/forum?id=cAyLnMxiTl" target="_blank" rel="noopener" class="citation-title">
@@ -5344,8 +5357,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/cde874a797a8300da693d5e412b7fdc0-Abstract-Conference.html" target="_blank" rel="noopener" class="citation-title">
@@ -5392,8 +5404,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TPAMI.2023.3237856" target="_blank" rel="noopener" class="citation-title">
@@ -5440,8 +5451,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TMC.2023.3247579" target="_blank" rel="noopener" class="citation-title">
@@ -5488,8 +5498,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1011019" target="_blank" rel="noopener" class="citation-title">
@@ -5536,8 +5545,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://pure.bit.edu.cn/en/publications/1000-faster-camera-and-machine-vision-with-ordinary-devices/" target="_blank" rel="noopener" class="citation-title">
@@ -5584,8 +5592,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.science.org/doi/10.1126/sciadv.adi1480" target="_blank" rel="noopener" class="citation-title">
@@ -5632,8 +5639,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.sciencedirect.com/science/article/pii/S2666166723006895" target="_blank" rel="noopener" class="citation-title">
@@ -5671,7 +5677,8 @@ With figure components
   </div>
 </div>
 
-<h3>2022</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;2022&lt;/h3&gt;
+</code></pre></div></div>
 
 <div class="citation-container">
   <div class="citation">
@@ -5682,8 +5689,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/19931" target="_blank" rel="noopener" class="citation-title">
@@ -5730,8 +5736,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/19874" target="_blank" rel="noopener" class="citation-title">
@@ -5778,8 +5783,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openreview.net/forum?id=7B3IJMM1k_M" target="_blank" rel="noopener" class="citation-title">
@@ -5826,8 +5830,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.ijcai.org/proceedings/2022/396" target="_blank" rel="noopener" class="citation-title">
@@ -5874,8 +5877,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.mlr.press/v162/chen22ac.html" target="_blank" rel="noopener" class="citation-title">
@@ -5922,8 +5924,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://link.springer.com/chapter/10.1007/978-3-031-20071-7_3" target="_blank" rel="noopener" class="citation-title">
@@ -5970,8 +5971,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/de2ad3ed44ee4e675b3be42aa0b615d0-Abstract-Conference.html" target="_blank" rel="noopener" class="citation-title">
@@ -6018,8 +6018,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openreview.net/forum?id=d4JmP1T45WE" target="_blank" rel="noopener" class="citation-title">
@@ -6066,8 +6065,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/9cf904c86cc5f9ac95646c07d2cfa241-Abstract-Conference.html" target="_blank" rel="noopener" class="citation-title">
@@ -6114,8 +6112,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TCYB.2020.2972983" target="_blank" rel="noopener" class="citation-title">
@@ -6162,8 +6159,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TCYB.2020.3042513" target="_blank" rel="noopener" class="citation-title">
@@ -6210,8 +6206,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://direct.mit.edu/neco/article/34/6/1369/110649/Decoding-Pixel-Level-Image-Features-From-Two" target="_blank" rel="noopener" class="citation-title">
@@ -6258,8 +6253,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.sciencedirect.com/science/article/pii/S266638992100307X" target="_blank" rel="noopener" class="citation-title">
@@ -6306,8 +6300,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.sciencedirect.com/science/article/pii/S2666389922000435" target="_blank" rel="noopener" class="citation-title">
@@ -6354,8 +6347,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://link.springer.com/article/10.1007/s11633-022-1335-2" target="_blank" rel="noopener" class="citation-title">
@@ -6402,8 +6394,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://dblp.org/rec/journals/tip/ZhengYWH23" target="_blank" rel="noopener" class="citation-title">
@@ -6441,7 +6432,8 @@ With figure components
   </div>
 </div>
 
-<h3>2021</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;2021&lt;/h3&gt;
+</code></pre></div></div>
 
 <div class="citation-container">
   <div class="citation">
@@ -6452,8 +6444,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.ijcai.org/proceedings/2021/236" target="_blank" rel="noopener" class="citation-title">
@@ -6500,8 +6491,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.ijcai.org/proceedings/2021/321" target="_blank" rel="noopener" class="citation-title">
@@ -6548,8 +6538,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_High-Speed_Image_Reconstruction_Through_Short-Term_Plasticity_for_Spiking_Cameras_CVPR_2021_paper.html" target="_blank" rel="noopener" class="citation-title">
@@ -6596,8 +6585,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Fang_Incorporating_Learnable_Membrane_Time_Constant_To_Enhance_Learning_of_Spiking_ICCV_2021_paper.html" target="_blank" rel="noopener" class="citation-title">
@@ -6644,8 +6632,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://proceedings.neurips.cc/paper/2021/hash/afe434653a898da20044041262b3ac74-Abstract.html" target="_blank" rel="noopener" class="citation-title">
@@ -6692,8 +6679,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.sciencedirect.com/science/article/pii/S2666389921002051" target="_blank" rel="noopener" class="citation-title">
@@ -6740,8 +6726,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009640" target="_blank" rel="noopener" class="citation-title">
@@ -6779,7 +6764,8 @@ With figure components
   </div>
 </div>
 
-<h3>2020</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;2020&lt;/h3&gt;
+</code></pre></div></div>
 
 <div class="citation-container">
   <div class="citation">
@@ -6790,8 +6776,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TCYB.2018.2871144" target="_blank" rel="noopener" class="citation-title">
@@ -6838,8 +6823,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TCDS.2019.2927808" target="_blank" rel="noopener" class="citation-title">
@@ -6886,8 +6870,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.sciencedirect.com/science/article/pii/S2095809920300357" target="_blank" rel="noopener" class="citation-title">
@@ -6934,8 +6917,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2020.00026/full" target="_blank" rel="noopener" class="citation-title">
@@ -6982,8 +6964,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.sciencedirect.com/science/article/pii/S089360802030085X" target="_blank" rel="noopener" class="citation-title">
@@ -7030,8 +7011,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2020.00343/full" target="_blank" rel="noopener" class="citation-title">
@@ -7078,8 +7058,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.sciencedirect.com/science/article/pii/S0893608020300435" target="_blank" rel="noopener" class="citation-title">
@@ -7126,8 +7105,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.sciencedirect.com/science/article/pii/S0893608020300800" target="_blank" rel="noopener" class="citation-title">
@@ -7165,7 +7143,8 @@ With figure components
   </div>
 </div>
 
-<h3>2019</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;2019&lt;/h3&gt;
+</code></pre></div></div>
 
 <div class="citation-container">
   <div class="citation">
@@ -7176,8 +7155,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/ACCESS.2019.2944307" target="_blank" rel="noopener" class="citation-title">
@@ -7224,8 +7202,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TCYB.2017.2768554" target="_blank" rel="noopener" class="citation-title">
@@ -7263,7 +7240,8 @@ With figure components
   </div>
 </div>
 
-<h3>2018</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;2018&lt;/h3&gt;
+</code></pre></div></div>
 
 <div class="citation-container">
   <div class="citation">
@@ -7274,8 +7252,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1016/j.amc.2018.06.054" target="_blank" rel="noopener" class="citation-title">
@@ -7322,8 +7299,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1016/j.amc.2018.08.002" target="_blank" rel="noopener" class="citation-title">
@@ -7370,8 +7346,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TIM.2017.2779358" target="_blank" rel="noopener" class="citation-title">
@@ -7418,8 +7393,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1109/TNNLS.2018.2805813" target="_blank" rel="noopener" class="citation-title">
@@ -7457,7 +7431,8 @@ With figure components
   </div>
 </div>
 
-<h3>2017</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;2017&lt;/h3&gt;
+</code></pre></div></div>
 
 <div class="citation-container">
   <div class="citation">
@@ -7468,8 +7443,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://doi.org/10.1016/j.amc.2016.12.025" target="_blank" rel="noopener" class="citation-title">
@@ -7507,7 +7481,8 @@ With figure components
   </div>
 </div>
 
-<h3>2016</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;2016&lt;/h3&gt;
+</code></pre></div></div>
 
 <div class="citation-container">
   <div class="citation">
@@ -7518,8 +7493,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.sciencedirect.com/science/article/pii/S0925231215015040" target="_blank" rel="noopener" class="citation-title">
@@ -7557,7 +7531,8 @@ With figure components
   </div>
 </div>
 
-<h3>2015</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;2015&lt;/h3&gt;
+</code></pre></div></div>
 
 <div class="citation-container">
   <div class="citation">
@@ -7568,8 +7543,7 @@ With figure components
     
 
     <div class="citation-text">
-      
-      
+      <i class="icon fa-solid fa-scroll"></i>
 
       <div class="citation-details">
         <a href="https://www.sciencedirect.com/science/article/pii/S0888613X15000869" target="_blank" rel="noopener" class="citation-title">
