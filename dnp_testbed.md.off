@@ -127,7 +127,7 @@
   <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
-  <link href="/assets/css/main.css?v=1775385118" rel="stylesheet" />
+  <link href="/assets/css/main.css?v=1775385163" rel="stylesheet" />
 
 
   <!-- third party scripts -->
@@ -138,21 +138,21 @@
 <!-- include all js in scripts folder -->
 
 
-  <script src="/_scripts/carousel.js?v=1775385118"></script>
+  <script src="/_scripts/carousel.js?v=1775385163"></script>
 
-  <script src="/_scripts/dark-mode.js?v=1775385118"></script>
+  <script src="/_scripts/dark-mode.js?v=1775385163"></script>
 
-  <script src="/_scripts/particles.js?v=1775385118"></script>
+  <script src="/_scripts/particles.js?v=1775385163"></script>
 
-  <script src="/_scripts/project-filtering.js?v=1775385118"></script>
+  <script src="/_scripts/project-filtering.js?v=1775385163"></script>
 
-  <script src="/_scripts/publication-filters.js?v=1775385118"></script>
+  <script src="/_scripts/publication-filters.js?v=1775385163"></script>
 
-  <script src="/_scripts/search.js?v=1775385118"></script>
+  <script src="/_scripts/search.js?v=1775385163"></script>
 
-  <script src="/_scripts/site-search.js?v=1775385118"></script>
+  <script src="/_scripts/site-search.js?v=1775385163"></script>
 
-  <script src="/_scripts/table-wrap.js?v=1775385118"></script>
+  <script src="/_scripts/table-wrap.js?v=1775385163"></script>
 
 
 </head>
