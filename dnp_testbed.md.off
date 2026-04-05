@@ -127,7 +127,7 @@
   <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
-  <link href="/assets/css/main.css?v=1775380373" rel="stylesheet" />
+  <link href="/assets/css/main.css?v=1775383980" rel="stylesheet" />
 
 
   <!-- third party scripts -->
@@ -138,21 +138,21 @@
 <!-- include all js in scripts folder -->
 
 
-  <script src="/_scripts/carousel.js?v=1775380373"></script>
+  <script src="/_scripts/carousel.js?v=1775383980"></script>
 
-  <script src="/_scripts/dark-mode.js?v=1775380373"></script>
+  <script src="/_scripts/dark-mode.js?v=1775383980"></script>
 
-  <script src="/_scripts/particles.js?v=1775380373"></script>
+  <script src="/_scripts/particles.js?v=1775383980"></script>
 
-  <script src="/_scripts/project-filtering.js?v=1775380373"></script>
+  <script src="/_scripts/project-filtering.js?v=1775383980"></script>
 
-  <script src="/_scripts/publication-filters.js?v=1775380373"></script>
+  <script src="/_scripts/publication-filters.js?v=1775383980"></script>
 
-  <script src="/_scripts/search.js?v=1775380373"></script>
+  <script src="/_scripts/search.js?v=1775383980"></script>
 
-  <script src="/_scripts/site-search.js?v=1775380373"></script>
+  <script src="/_scripts/site-search.js?v=1775383980"></script>
 
-  <script src="/_scripts/table-wrap.js?v=1775380373"></script>
+  <script src="/_scripts/table-wrap.js?v=1775383980"></script>
 
 
 </head>
@@ -2711,7 +2711,7 @@ With figure components
   <div class="citation">
     
       <a href="https://doi.org/10.1609/aaai.v40i3.37206" target="_blank" rel="noopener" class="citation-image" aria-label="Generalized Threshold Optimization with Harmony Multi-Threshold Neurons for Accurate ANN-to-SNN Conversion">
-        <img src="" alt="Generalized Threshold Optimization with Harmony Multi-Threshold Neurons for Accurate ANN-to-SNN Conversion" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/C-4.png" alt="Generalized Threshold Optimization with Harmony Multi-Threshold Neurons for Accurate ANN-to-SNN Conversion" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -2758,7 +2758,7 @@ With figure components
   <div class="citation">
     
       <a href="https://openreview.net/forum?id=LjugJFmItY" target="_blank" rel="noopener" class="citation-image" aria-label="PredNext: Explicit Cross-View Temporal Prediction for Unsupervised Learning in Spiking Neural Networks">
-        <img src="" alt="PredNext: Explicit Cross-View Temporal Prediction for Unsupervised Learning in Spiking Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/C-3.png" alt="PredNext: Explicit Cross-View Temporal Prediction for Unsupervised Learning in Spiking Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -3748,7 +3748,7 @@ With figure components
   <div class="citation">
     
       <a href="https://www.nature.com/articles/s41467-025-66226-5" target="_blank" rel="noopener" class="citation-image" aria-label="Aberrant Neural Activity in the Peritumoral Cortex underlies the Progression of Tumor-associated Seizures">
-        <img src="" alt="Aberrant Neural Activity in the Peritumoral Cortex underlies the Progression of Tumor-associated Seizures" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-5.png" alt="Aberrant Neural Activity in the Peritumoral Cortex underlies the Progression of Tumor-associated Seizures" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
