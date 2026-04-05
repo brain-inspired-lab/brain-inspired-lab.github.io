@@ -376,48 +376,104 @@
 
   
   <div class="project-body">
-    <p>用途：专注于自动驾驶极端场景的脉冲相机合成数据集，支持无监督光流估计模型的训练与评估。</p>
+    <div data-lang-target="en">
+  <p>Purpose: a synthetic spike-camera dataset focused on extreme autonomous-driving scenarios, supporting the training and evaluation of unsupervised optical-flow estimation models.</p>
 
-<p>场景类别：10个模拟交通事故的极端场景，涵盖各种街道环境、天气条件（雨天、雾天）和运动目标（车辆、行人/骑行者）。</p>
+  <p>Scene categories: 10 extreme scenarios simulating traffic accidents, covering a variety of street environments, weather conditions (rain and fog), and moving targets (vehicles and pedestrians/cyclists).</p>
 
-<p>数据格式：脉冲流以40kHz生成，支持微秒级光流分析；包含脉冲流、RGB帧、光流真值、实例分割和深度信息的多模态数据。</p>
+  <p>Data format: spike streams are generated at 40 kHz for microsecond-level optical-flow analysis; the dataset includes multimodal data such as spikes, RGB frames, optical-flow ground truth, instance segmentation, and depth.</p>
 
-<p>数据规模：基于CARLA模拟器构建，每个数据序列持续0.5-1.5秒。</p>
+  <p>Dataset scale: built on the CARLA simulator, with each sequence lasting 0.5-1.5 seconds.</p>
 
-<h3 id="数据集意义">数据集意义</h3>
-<ul>
-  <li>填补空白：为脉冲相机在自动驾驶极端场景下的算法验证提供了首个合成数据集</li>
-  <li>推动无监督学习：支持无监督光流估计模型的训练与评估，减少对真实标注数据的依赖</li>
-  <li>提升鲁棒性：通过多样化极端场景设计，帮助模型适应复杂动态环境，推动安全关键应用的发展</li>
-</ul>
+  <h3 id="why-this-dataset-matters">Why This Dataset Matters</h3>
+  <ul>
+    <li>Fills an important gap: provides the first synthetic dataset for validating spike-camera algorithms in extreme autonomous-driving scenarios.</li>
+    <li>Promotes unsupervised learning: supports the training and evaluation of unsupervised optical-flow estimation models, reducing reliance on real annotated data.</li>
+    <li>Improves robustness: diverse extreme-scene design helps models adapt to complex dynamic environments and supports safety-critical applications.</li>
+  </ul>
 
-<h3 id="数据生成方法">数据生成方法</h3>
-<ol>
-  <li>基于CARLA模拟器构建多样场景</li>
-  <li>以500fps渲染RGB帧</li>
-  <li>通过光流插值将帧率提升至40kHz</li>
-  <li>模拟脉冲相机的”积分-发射”机制</li>
-  <li>提供光流、实例分割和深度信息的地面真实值</li>
-</ol>
+  <h3 id="data-generation-pipeline">Data Generation Pipeline</h3>
+  <ol>
+    <li>Build diverse scenes with the CARLA simulator.</li>
+    <li>Render RGB frames at 500 fps.</li>
+    <li>Increase the temporal rate to 40 kHz through optical-flow interpolation.</li>
+    <li>Simulate the “integrate-and-fire” mechanism of spike cameras.</li>
+    <li>Provide ground truth for optical flow, instance segmentation, and depth.</li>
+  </ol>
 
-<h3 id="数据集优势">数据集优势</h3>
-<ul>
-  <li>高动态性：车辆和行人的高速运动，模拟真实世界的紧急情况</li>
-  <li>多模态数据：包含脉冲流、RGB帧、光流地面真实值、实例分割和深度信息</li>
-  <li>极端场景覆盖：专注于高风险场景，如交通事故，填补真实数据集的空白</li>
-  <li>高时间分辨率：脉冲流以40kHz生成，支持微秒级光流分析</li>
-</ul>
+  <h3 id="dataset-advantages">Dataset Advantages</h3>
+  <ul>
+    <li>High dynamics: fast motion of vehicles and pedestrians simulates real emergency situations.</li>
+    <li>Multimodal data: includes spike streams, RGB frames, optical-flow ground truth, instance segmentation, and depth information.</li>
+    <li>Coverage of extreme scenarios: focuses on high-risk scenes such as traffic accidents, filling a gap left by existing real datasets.</li>
+    <li>High temporal resolution: spike streams generated at 40 kHz support microsecond-level optical-flow analysis.</li>
+  </ul>
 
-<h3 id="可支持的任务">可支持的任务：</h3>
-<ul>
-  <li>无监督光流估计：减少对真实标注数据的依赖</li>
-  <li>高速目标检测与跟踪：在极端场景下的目标感知</li>
-  <li>自动驾驶环境感知：提升复杂动态环境中的感知能力</li>
-</ul>
+  <h3 id="supported-tasks">Supported Tasks</h3>
+  <ul>
+    <li>Unsupervised optical-flow estimation: reduce dependence on real annotated data.</li>
+    <li>High-speed object detection and tracking: perceive targets under extreme conditions.</li>
+    <li>Autonomous-driving perception: improve perception in complex and dynamic environments.</li>
+  </ul>
 
-<p>数据集链接：未公开</p>
+  <p>Dataset link: not public.</p>
 
-<figure class="figure">
+  <figure class="figure">
+  <a class="figure-image" aria-label="Results of the proposed method in the associated paper on this dataset">
+    <img src="/images/dataset_image/sses_result.png" style="width: 100%; max-height: unset;" alt="Results of the proposed method in the associated paper on this dataset" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+  <figcaption class="figure-caption">
+    Results of the proposed method in the associated paper on this dataset
+
+  </figcaption>
+  
+</figure>
+</div>
+
+<div data-lang-target="zh" hidden="">
+  <p>用途：专注于自动驾驶极端场景的脉冲相机合成数据集，支持无监督光流估计模型的训练与评估。</p>
+
+  <p>场景类别：10个模拟交通事故的极端场景，涵盖各种街道环境、天气条件（雨天、雾天）和运动目标（车辆、行人/骑行者）。</p>
+
+  <p>数据格式：脉冲流以40kHz生成，支持微秒级光流分析；包含脉冲流、RGB帧、光流真值、实例分割和深度信息的多模态数据。</p>
+
+  <p>数据规模：基于CARLA模拟器构建，每个数据序列持续0.5-1.5秒。</p>
+
+  <h3 id="section">数据集意义</h3>
+  <ul>
+    <li>填补空白：为脉冲相机在自动驾驶极端场景下的算法验证提供了首个合成数据集</li>
+    <li>推动无监督学习：支持无监督光流估计模型的训练与评估，减少对真实标注数据的依赖</li>
+    <li>提升鲁棒性：通过多样化极端场景设计，帮助模型适应复杂动态环境，推动安全关键应用的发展</li>
+  </ul>
+
+  <h3 id="section-1">数据生成方法</h3>
+  <ol>
+    <li>基于CARLA模拟器构建多样场景</li>
+    <li>以500fps渲染RGB帧</li>
+    <li>通过光流插值将帧率提升至40kHz</li>
+    <li>模拟脉冲相机的”积分-发射”机制</li>
+    <li>提供光流、实例分割和深度信息的地面真实值</li>
+  </ol>
+
+  <h3 id="section-2">数据集优势</h3>
+  <ul>
+    <li>高动态性：车辆和行人的高速运动，模拟真实世界的紧急情况</li>
+    <li>多模态数据：包含脉冲流、RGB帧、光流地面真实值、实例分割和深度信息</li>
+    <li>极端场景覆盖：专注于高风险场景，如交通事故，填补真实数据集的空白</li>
+    <li>高时间分辨率：脉冲流以40kHz生成，支持微秒级光流分析</li>
+  </ul>
+
+  <h3 id="section-3">可支持的任务：</h3>
+  <ul>
+    <li>无监督光流估计：减少对真实标注数据的依赖</li>
+    <li>高速目标检测与跟踪：在极端场景下的目标感知</li>
+    <li>自动驾驶环境感知：提升复杂动态环境中的感知能力</li>
+  </ul>
+
+  <p>数据集链接：未公开</p>
+
+  <figure class="figure">
   <a class="figure-image" aria-label="文章所提算法在此数据集上的结果">
     <img src="/images/dataset_image/sses_result.png" style="width: 100%; max-height: unset;" alt="文章所提算法在此数据集上的结果" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -428,6 +484,7 @@
   </figcaption>
   
 </figure>
+</div>
 
   </div>
   
