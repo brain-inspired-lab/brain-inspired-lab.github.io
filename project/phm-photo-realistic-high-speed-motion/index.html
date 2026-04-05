@@ -374,19 +374,113 @@
 
   
   <div class="project-body">
-    <p>用途：作为测试集，包含逼真的高速场景。<br>
+    <div data-lang-target="en">
+  <p>Purpose: a test dataset containing photo-realistic high-speed scenes.<br>
+Scene categories: 10 categories (such as Ball, Fan, and Fly), with about 25,100 frames in total; optical-flow labels cover all pixels (100% density).<br>
+Data format: the same as SPIFT, but with more complex scenes.</p>
+
+  <h3 id="supported-tasks">Supported Tasks</h3>
+  <ul>
+    <li>Optical-flow estimation: directly train end-to-end models on spike streams, such as SCFlow.</li>
+    <li>Motion deblurring: evaluate blur suppression with FAW (Flow-guided Adaptive Window).</li>
+    <li>Cross-modal analysis: study the relationship between spike streams and reconstructed images or event streams.</li>
+  </ul>
+
+  <p>Dataset link: https://pan.baidu.com/s/1A5U9lsNyViGEQIyulSE8vg (password:5331).</p>
+
+  <h3 id="number-of-spike-frames-per-scene">Number of Spike Frames per Scene</h3>
+  <table style="width:100%; border-collapse: collapse; margin: 12px 0;">
+  <thead>
+    <tr>
+      <th style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">Scene</th>
+      <th style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">Ball</th>
+      <th style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">Cook</th>
+      <th style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">Dice</th>
+      <th style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">Doll</th>
+      <th style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">Fan</th>
+      <th style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">Fly</th>
+      <th style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">Hand</th>
+      <th style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">Jump</th>
+      <th style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">Poker</th>
+      <th style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">Top</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 5px; border-bottom: 1px solid #ccc;">Frames</td>
+      <td style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">1000</td>
+      <td style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">4000</td>
+      <td style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">4000</td>
+      <td style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">3000</td>
+      <td style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">3000</td>
+      <td style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">4500</td>
+      <td style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">2000</td>
+      <td style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">1400</td>
+      <td style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">3200</td>
+      <td style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">1000</td>
+    </tr>
+  </tbody>
+</table>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/dataset_image/phm_result_1.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+  <figure class="figure">
+  <a class="figure-image" aria-label="Random samples shown above (optical flow generated every 10 frames)">
+    <img src="/images/dataset_image/phm_result_2.gif" style="width: 100%; max-height: unset;" alt="Random samples shown above (optical flow generated every 10 frames)" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+  <figcaption class="figure-caption">
+    Random samples shown above (optical flow generated every 10 frames)
+
+  </figcaption>
+  
+</figure>
+
+  <h3 id="comparison-under-different-time-intervals-poker-as-an-example">Comparison under Different Time Intervals: Poker as an Example</h3>
+  <p>We deliberately slow the motion down for easier comparison. The optical flow with Δt=10 is visibly smoother, while Δt=20 appears slightly less smooth.</p>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="Comparison of optical-flow visualization at Δt=10 and Δt=20, together with spike-stream visualization.">
+    <img src="/images/dataset_image/poker.gif" style="width: 100%; max-height: unset;" alt="Comparison of optical-flow visualization at Δt=10 and Δt=20, together with spike-stream visualization." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+  <figcaption class="figure-caption">
+    Comparison of optical-flow visualization at Δt=10 and Δt=20, together with spike-stream visualization.
+
+  </figcaption>
+  
+</figure>
+
+  <div class="alert" style="--color: #0ea5e9">
+  
+  <i class="icon fa-solid fa-circle-info"></i>
+  <div class="alert-content">
+    
+<p><span style="font-size: 1.25em; font-weight: 700;">Important note:</span> The “Fly” scene in the PHM dataset exhibits extremely violent motion characteristics. We recommend excluding this scene in research use. We plan to update and reconstruct this scene in future work.</p>
+
+  </div>
+</div>
+
+</div>
+
+<div data-lang-target="zh" hidden="">
+  <p>用途：作为测试集，包含逼真的高速场景。<br>
 场景类别：10类（如 Ball、Fan、Fly），共约 25,100 帧数据；光流标签覆盖所有像素（100% 密度）。<br>
 数据格式：与 SPIFT 相同，但场景更复杂。</p>
-<h3 id="可支持的任务">可支持的任务：</h3>
-<ul>
-  <li>光流估计：利用脉冲流直接训练端到端模型(如 SCFlow)。</li>
-  <li>运动去模糊：通过 FAW(Flow-guided Adaptive Window) 验证运动模糊的抑制效果。</li>
-  <li>跨模态分析：研究脉冲流与重建图像/事件流的关联。</li>
-</ul>
+  <h3 id="section">可支持的任务：</h3>
+  <ul>
+    <li>光流估计：利用脉冲流直接训练端到端模型(如 SCFlow)。</li>
+    <li>运动去模糊：通过 FAW(Flow-guided Adaptive Window) 验证运动模糊的抑制效果。</li>
+    <li>跨模态分析：研究脉冲流与重建图像/事件流的关联。</li>
+  </ul>
 
-<p>数据集链接：https://pan.baidu.com/s/1A5U9lsNyViGEQIyulSE8vg (password:5331).</p>
-<h3 id="每个场景脉冲数">每个场景脉冲数</h3>
-<table style="width:100%; border-collapse: collapse; margin: 12px 0;">
+  <p>数据集链接：https://pan.baidu.com/s/1A5U9lsNyViGEQIyulSE8vg (password:5331).</p>
+  <h3 id="section-1">每个场景脉冲数</h3>
+  <table style="width:100%; border-collapse: collapse; margin: 12px 0;">
   <thead>
     <tr>
       <th style="padding: 5px; border-bottom: 1px solid #ccc; text-align:center;">场景</th>
@@ -419,13 +513,13 @@
   </tbody>
 </table>
 
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/images/dataset_image/phm_result_1.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="随机抽取示例如上（每隔10帧生成光流）">
     <img src="/images/dataset_image/phm_result_2.gif" style="width: 100%; max-height: unset;" alt="随机抽取示例如上（每隔10帧生成光流）" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -437,10 +531,10 @@
   
 </figure>
 
-<h3 id="对于不同的时间间隔而言以poker为例">对于不同的时间间隔而言，以Poker为例：</h3>
-<p>我们故意放缓速度便于对比，可以看出Δt=10光流效果更加丝滑，而Δt=20略有卡顿。</p>
+  <h3 id="poker">对于不同的时间间隔而言，以Poker为例：</h3>
+  <p>我们故意放缓速度便于对比，可以看出Δt=10光流效果更加丝滑，而Δt=20略有卡顿。</p>
 
-<figure class="figure">
+  <figure class="figure">
   <a class="figure-image" aria-label="Δt=10光流和Δt=20光流可视化与脉冲流可视化对比。">
     <img src="/images/dataset_image/poker.gif" style="width: 100%; max-height: unset;" alt="Δt=10光流和Δt=20光流可视化与脉冲流可视化对比。" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -452,7 +546,7 @@
   
 </figure>
 
-<div class="alert" style="--color: #0ea5e9">
+  <div class="alert" style="--color: #0ea5e9">
   
   <i class="icon fa-solid fa-circle-info"></i>
   <div class="alert-content">
@@ -462,6 +556,7 @@
   </div>
 </div>
 
+</div>
 
   </div>
   
