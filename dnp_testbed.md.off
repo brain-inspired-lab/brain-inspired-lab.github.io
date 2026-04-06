@@ -127,7 +127,7 @@
   <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
-  <link href="/assets/css/main.css?v=1775480304" rel="stylesheet" />
+  <link href="/assets/css/main.css?v=1775480336" rel="stylesheet" />
 
 
   <!-- third party scripts -->
@@ -138,21 +138,21 @@
 <!-- include all js in scripts folder -->
 
 
-  <script src="/_scripts/carousel.js?v=1775480304"></script>
+  <script src="/_scripts/carousel.js?v=1775480336"></script>
 
-  <script src="/_scripts/dark-mode.js?v=1775480304"></script>
+  <script src="/_scripts/dark-mode.js?v=1775480336"></script>
 
-  <script src="/_scripts/particles.js?v=1775480304"></script>
+  <script src="/_scripts/particles.js?v=1775480336"></script>
 
-  <script src="/_scripts/project-filtering.js?v=1775480304"></script>
+  <script src="/_scripts/project-filtering.js?v=1775480336"></script>
 
-  <script src="/_scripts/publication-filters.js?v=1775480304"></script>
+  <script src="/_scripts/publication-filters.js?v=1775480336"></script>
 
-  <script src="/_scripts/search.js?v=1775480304"></script>
+  <script src="/_scripts/search.js?v=1775480336"></script>
 
-  <script src="/_scripts/site-search.js?v=1775480304"></script>
+  <script src="/_scripts/site-search.js?v=1775480336"></script>
 
-  <script src="/_scripts/table-wrap.js?v=1775480304"></script>
+  <script src="/_scripts/table-wrap.js?v=1775480336"></script>
 
 
 </head>
@@ -1000,25 +1000,34 @@ Section, `size=full` w/ figure
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: high-speed&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;high-speed&quot;"
       >
-        high-speed
+        
+          high-speed
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: real&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;real&quot;"
       >
-        real
+        
+          real
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: dataset&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;dataset&quot;"
       >
-        dataset
+        
+          dataset
+        
       </a>
     
   </div>
@@ -1087,33 +1096,45 @@ Section, `size=full` w/ figure
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: multi-object tracking&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;multi-object tracking&quot;"
       >
-        multi-object tracking
+        
+          multi-object tracking
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: high-speed&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;high-speed&quot;"
       >
-        high-speed
+        
+          high-speed
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: real&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;real&quot;"
       >
-        real
+        
+          real
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: dataset&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;dataset&quot;"
       >
-        dataset
+        
+          dataset
+        
       </a>
     
   </div>
@@ -1182,25 +1203,34 @@ Section, `size=full` w/ figure
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: high-speed&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;high-speed&quot;"
       >
-        high-speed
+        
+          high-speed
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: real&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;real&quot;"
       >
-        real
+        
+          real
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: dataset&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;dataset&quot;"
       >
-        dataset
+        
+          dataset
+        
       </a>
     
   </div>
@@ -1274,25 +1304,34 @@ Section, `size=full` w/ figure
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: multi-modal&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;multi-modal&quot;"
       >
-        multi-modal
+        
+          multi-modal
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: high-speed&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;high-speed&quot;"
       >
-        high-speed
+        
+          high-speed
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: dataset&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;dataset&quot;"
       >
-        dataset
+        
+          dataset
+        
       </a>
     
   </div>
@@ -1376,25 +1415,34 @@ Section, `size=full` w/ figure
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: stereo vision&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;stereo vision&quot;"
       >
-        stereo vision
+        
+          stereo vision
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: autonomous driving&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;autonomous driving&quot;"
       >
-        autonomous driving
+        
+          autonomous driving
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: dataset&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;dataset&quot;"
       >
-        dataset
+        
+          dataset
+        
       </a>
     
   </div>
@@ -1478,25 +1526,34 @@ Section, `size=full` w/ figure
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: depth estimation&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;depth estimation&quot;"
       >
-        depth estimation
+        
+          depth estimation
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: real&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;real&quot;"
       >
-        real
+        
+          real
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: dataset&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;dataset&quot;"
       >
-        dataset
+        
+          dataset
+        
       </a>
     
   </div>
@@ -1565,25 +1622,34 @@ Section, `size=full` w/ figure
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: optical flow&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;optical flow&quot;"
       >
-        optical flow
+        
+          optical flow
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: simulate&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;simulate&quot;"
       >
-        simulate
+        
+          simulate
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: dataset&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;dataset&quot;"
       >
-        dataset
+        
+          dataset
+        
       </a>
     
   </div>
@@ -1652,25 +1718,34 @@ Section, `size=full` w/ figure
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: optical flow&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;optical flow&quot;"
       >
-        optical flow
+        
+          optical flow
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: simulate&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;simulate&quot;"
       >
-        simulate
+        
+          simulate
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: dataset&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;dataset&quot;"
       >
-        dataset
+        
+          dataset
+        
       </a>
     
   </div>
@@ -1738,25 +1813,34 @@ Section, `size=full` w/ figure
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: optical flow&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;optical flow&quot;"
       >
-        optical flow
+        
+          optical flow
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: simulate&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;simulate&quot;"
       >
-        simulate
+        
+          simulate
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: dataset&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;dataset&quot;"
       >
-        dataset
+        
+          dataset
+        
       </a>
     
   </div>
@@ -1825,25 +1909,34 @@ Section, `size=full` w/ figure
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: optical flow&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;optical flow&quot;"
       >
-        optical flow
+        
+          optical flow
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: simulate&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;simulate&quot;"
       >
-        simulate
+        
+          simulate
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: dataset&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;dataset&quot;"
       >
-        dataset
+        
+          dataset
+        
       </a>
     
   </div>
@@ -2130,9 +2223,12 @@ Section, `size=full` w/ figure
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: manual tag&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;manual tag&quot;"
       >
-        manual tag
+        
+          manual tag
+        
       </a>
     
   </div>
@@ -2199,9 +2295,12 @@ Section, `size=full` w/ figure
       <a
         href="https://hcypkumain.github.io/?search=&quot;tag: manual tag&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;manual tag&quot;"
       >
-        manual tag
+        
+          manual tag
+        
       </a>
     
   </div>
@@ -2526,25 +2625,34 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
       <a
         href="https://hcypkumain.github.io/blog?search=&quot;tag: ovarian cancer&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;ovarian cancer&quot;"
       >
-        ovarian cancer
+        
+          ovarian cancer
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/blog?search=&quot;tag: dataset&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;dataset&quot;"
       >
-        dataset
+        
+          dataset
+        
       </a>
     
       <a
         href="https://hcypkumain.github.io/blog?search=&quot;tag: gene expression&quot;"
         class="tag"
+        
         data-tooltip="Show items with the tag &quot;gene expression&quot;"
       >
-        gene expression
+        
+          gene expression
+        
       </a>
     
   </div>
