@@ -51,7 +51,7 @@
         e.preventDefault();
         
         // get the tag text content (the tag name)
-        const tagName = this.textContent.trim().toLowerCase();
+        const tagName = (this.dataset.tagValue || this.textContent).trim().toLowerCase();
         
         // clear all other active tags first
         projectTags.forEach(t => {
@@ -92,7 +92,7 @@
       projectCards.forEach(card => {
         // get all tags in this project card
         const cardTags = Array.from(card.querySelectorAll('.project-tag'))
-          .map(span => span.textContent.trim().toLowerCase());
+          .map(span => (span.dataset.tagValue || span.textContent).trim().toLowerCase());
         
         // check if any active tag is in the card's tags
         const shouldShow = Array.from(activeTags).some(tag => 
