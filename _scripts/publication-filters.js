@@ -1,4 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
+  const topicOrder = [
+    "Retinal Encoding/Decoding",
+    "Spiking Neural Networks",
+    "Neuromorphic camera",
+    "Others",
+  ];
   const container = document.querySelector("[data-publication-filters]");
   if (!container) {
     return;
@@ -26,12 +32,6 @@ document.addEventListener("DOMContentLoaded", () => {
           return Number(right) - Number(left);
         }
         if (key === "topic") {
-          const topicOrder = [
-            "Retinal Encoding/Decoding",
-            "Spiking Neural Networks",
-            "Neuromorphic camera",
-            "Others",
-          ];
           return topicOrder.indexOf(left) - topicOrder.indexOf(right);
         }
         return left.localeCompare(right);
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   appendOptions(yearSelect, readValues("year"), "Select Year");
   appendOptions(venueSelect, readValues("venue"), "Select Venue");
-  appendOptions(topicSelect, readValues("topic"), "Select Topic");
+  appendOptions(topicSelect, topicOrder, "Select Topic");
 
   const applyFilters = () => {
     const yearValue = yearSelect.value.trim().toLowerCase();
@@ -65,12 +65,15 @@ document.addEventListener("DOMContentLoaded", () => {
       const matchYear = !yearValue || (card.dataset.year || "").trim().toLowerCase() === yearValue;
       const matchVenue = !venueValue || (card.dataset.venue || "").trim().toLowerCase() === venueValue;
       const matchTopic = !topicValue || (card.dataset.topic || "").trim().toLowerCase() === topicValue;
-      card.hidden = !(matchYear && matchVenue && matchTopic);
+      const isVisible = matchYear && matchVenue && matchTopic;
+      card.style.display = isVisible ? "" : "none";
     });
 
     groups.forEach((group) => {
-      const visibleCards = group.querySelectorAll("[data-publication-card]:not([hidden])");
-      group.hidden = visibleCards.length === 0;
+      const visibleCards = Array.from(group.querySelectorAll("[data-publication-card]")).filter(
+        (card) => card.style.display !== "none"
+      );
+      group.style.display = visibleCards.length > 0 ? "" : "none";
     });
   };
 
