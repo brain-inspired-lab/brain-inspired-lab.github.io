@@ -127,7 +127,7 @@
   <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
-  <link href="/assets/css/main.css?v=1775466957" rel="stylesheet" />
+  <link href="/assets/css/main.css?v=1775467105" rel="stylesheet" />
 
 
   <!-- third party scripts -->
@@ -138,21 +138,21 @@
 <!-- include all js in scripts folder -->
 
 
-  <script src="/_scripts/carousel.js?v=1775466957"></script>
+  <script src="/_scripts/carousel.js?v=1775467105"></script>
 
-  <script src="/_scripts/dark-mode.js?v=1775466957"></script>
+  <script src="/_scripts/dark-mode.js?v=1775467105"></script>
 
-  <script src="/_scripts/particles.js?v=1775466957"></script>
+  <script src="/_scripts/particles.js?v=1775467105"></script>
 
-  <script src="/_scripts/project-filtering.js?v=1775466957"></script>
+  <script src="/_scripts/project-filtering.js?v=1775467105"></script>
 
-  <script src="/_scripts/publication-filters.js?v=1775466957"></script>
+  <script src="/_scripts/publication-filters.js?v=1775467105"></script>
 
-  <script src="/_scripts/search.js?v=1775466957"></script>
+  <script src="/_scripts/search.js?v=1775467105"></script>
 
-  <script src="/_scripts/site-search.js?v=1775466957"></script>
+  <script src="/_scripts/site-search.js?v=1775467105"></script>
 
-  <script src="/_scripts/table-wrap.js?v=1775466957"></script>
+  <script src="/_scripts/table-wrap.js?v=1775467105"></script>
 
 
 </head>
@@ -5540,7 +5540,7 @@ With figure components
   <div class="citation">
     
       <a href="https://pure.bit.edu.cn/en/publications/1000-faster-camera-and-machine-vision-with-ordinary-devices/" target="_blank" rel="noopener" class="citation-image" aria-label="1000× Faster Camera and Machine Vision with Ordinary Devices">
-        <img src="" alt="1000× Faster Camera and Machine Vision with Ordinary Devices" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-33.jpg" alt="1000× Faster Camera and Machine Vision with Ordinary Devices" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5587,7 +5587,7 @@ With figure components
   <div class="citation">
     
       <a href="https://www.science.org/doi/10.1126/sciadv.adi1480" target="_blank" rel="noopener" class="citation-image" aria-label="SpikingJelly: An Open-Source Machine Learning Infrastructure Platform for Spike-based Intelligence">
-        <img src="" alt="SpikingJelly: An Open-Source Machine Learning Infrastructure Platform for Spike-based Intelligence" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-31%202023-SpikingJelly.png" alt="SpikingJelly: An Open-Source Machine Learning Infrastructure Platform for Spike-based Intelligence" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
