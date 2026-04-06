@@ -122,7 +122,7 @@
   <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
-  <link href="/assets/css/main.css?v=1775482860" rel="stylesheet">
+  <link href="/assets/css/main.css?v=1775484441" rel="stylesheet">
 
 
   <!-- third party scripts -->
@@ -133,21 +133,21 @@
 <!-- include all js in scripts folder -->
 
 
-  <script src="/_scripts/carousel.js?v=1775482860"></script>
+  <script src="/_scripts/carousel.js?v=1775484441"></script>
 
-  <script src="/_scripts/dark-mode.js?v=1775482860"></script>
+  <script src="/_scripts/dark-mode.js?v=1775484441"></script>
 
-  <script src="/_scripts/particles.js?v=1775482860"></script>
+  <script src="/_scripts/particles.js?v=1775484441"></script>
 
-  <script src="/_scripts/project-filtering.js?v=1775482860"></script>
+  <script src="/_scripts/project-filtering.js?v=1775484441"></script>
 
-  <script src="/_scripts/publication-filters.js?v=1775482860"></script>
+  <script src="/_scripts/publication-filters.js?v=1775484441"></script>
 
-  <script src="/_scripts/search.js?v=1775482860"></script>
+  <script src="/_scripts/search.js?v=1775484441"></script>
 
-  <script src="/_scripts/site-search.js?v=1775482860"></script>
+  <script src="/_scripts/site-search.js?v=1775484441"></script>
 
-  <script src="/_scripts/table-wrap.js?v=1775482860"></script>
+  <script src="/_scripts/table-wrap.js?v=1775484441"></script>
 
 
 </head>
@@ -328,9 +328,15 @@
       
     </div>
 
-    <div id="lang-switcher" class="lang-switcher" aria-label="Language switcher">
-      <img id="flag-zh" class="lang-flag" src="https://flagcdn.com/w80/cn.png" title="中文" alt="中文" loading="lazy">
-      <img id="flag-en" class="lang-flag" src="https://flagcdn.com/w80/gb.png" title="English" alt="English" loading="lazy">
+    <div class="header-tools">
+      <label class="theme-switch" title="Toggle light and dark mode">
+        <input class="dark-toggle" type="checkbox" aria-label="Toggle light and dark mode" onchange="onDarkToggleChange(event)">
+      </label>
+
+      <div id="lang-switcher" class="lang-switcher" aria-label="Language switcher">
+        <img id="flag-zh" class="lang-flag" src="https://flagcdn.com/w80/cn.png" title="中文" alt="中文" loading="lazy">
+        <img id="flag-en" class="lang-flag" src="https://flagcdn.com/w80/gb.png" title="English" alt="English" loading="lazy">
+      </div>
     </div>
   </nav>
 </header>
