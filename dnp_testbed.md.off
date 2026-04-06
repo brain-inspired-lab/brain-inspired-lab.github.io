@@ -127,7 +127,7 @@
   <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
-  <link href="/assets/css/main.css?v=1775466222" rel="stylesheet" />
+  <link href="/assets/css/main.css?v=1775466244" rel="stylesheet" />
 
 
   <!-- third party scripts -->
@@ -138,21 +138,21 @@
 <!-- include all js in scripts folder -->
 
 
-  <script src="/_scripts/carousel.js?v=1775466222"></script>
+  <script src="/_scripts/carousel.js?v=1775466244"></script>
 
-  <script src="/_scripts/dark-mode.js?v=1775466222"></script>
+  <script src="/_scripts/dark-mode.js?v=1775466244"></script>
 
-  <script src="/_scripts/particles.js?v=1775466222"></script>
+  <script src="/_scripts/particles.js?v=1775466244"></script>
 
-  <script src="/_scripts/project-filtering.js?v=1775466222"></script>
+  <script src="/_scripts/project-filtering.js?v=1775466244"></script>
 
-  <script src="/_scripts/publication-filters.js?v=1775466222"></script>
+  <script src="/_scripts/publication-filters.js?v=1775466244"></script>
 
-  <script src="/_scripts/search.js?v=1775466222"></script>
+  <script src="/_scripts/search.js?v=1775466244"></script>
 
-  <script src="/_scripts/site-search.js?v=1775466222"></script>
+  <script src="/_scripts/site-search.js?v=1775466244"></script>
 
-  <script src="/_scripts/table-wrap.js?v=1775466222"></script>
+  <script src="/_scripts/table-wrap.js?v=1775466244"></script>
 
 
 </head>
@@ -3419,7 +3419,7 @@ With figure components
   <div class="citation">
     
       <a href="https://doi.org/10.1109/TNNLS.2024.3351120" target="_blank" rel="noopener" class="citation-image" aria-label="Robust Decoding of Rich Dynamical Visual Scenes with Retinal Spikes">
-        <img src="" alt="Robust Decoding of Rich Dynamical Visual Scenes with Retinal Spikes" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-23%20Rich%20Dynamical%20Visual.png" alt="Robust Decoding of Rich Dynamical Visual Scenes with Retinal Spikes" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -3466,7 +3466,7 @@ With figure components
   <div class="citation">
     
       <a href="https://doi.org/10.1109/TCDS.2024.3417477" target="_blank" rel="noopener" class="citation-image" aria-label="Regulating Temporal Neural Coding via Fast and Slow Synaptic Dynamics">
-        <img src="" alt="Regulating Temporal Neural Coding via Fast and Slow Synaptic Dynamics" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-22%20Regulating%20Temporal%20Neural%20Coding.png" alt="Regulating Temporal Neural Coding via Fast and Slow Synaptic Dynamics" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -3513,7 +3513,7 @@ With figure components
   <div class="citation">
     
       <a href="https://doi.org/10.1109/TPAMI.2024.3511936" target="_blank" rel="noopener" class="citation-image" aria-label="Spiking Variational Policy Gradient for Brain Inspired Reinforcement Learning">
-        <img src="" alt="Spiking Variational Policy Gradient for Brain Inspired Reinforcement Learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-14%20Spiking%20Variational%20Policy%20Gradient.png" alt="Spiking Variational Policy Gradient for Brain Inspired Reinforcement Learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -3560,7 +3560,7 @@ With figure components
   <div class="citation">
     
       <a href="https://doi.org/10.1002/adfm.202417334" target="_blank" rel="noopener" class="citation-image" aria-label="Ultrafast Probabilistic Neuron in an Artificial Spin Ice for Robust Deep Neural Networks">
-        <img src="" alt="Ultrafast Probabilistic Neuron in an Artificial Spin Ice for Robust Deep Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-13%20Ultrafast%20Probabilistic%20Neuron.png" alt="Ultrafast Probabilistic Neuron in an Artificial Spin Ice for Robust Deep Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -3607,7 +3607,7 @@ With figure components
   <div class="citation">
     
       <a href="https://doi.org/10.1109/TNNLS.2025.3547774" target="_blank" rel="noopener" class="citation-image" aria-label="Assisting Training of Deep Spiking Neural Networks with Parameter Initialization">
-        <img src="" alt="Assisting Training of Deep Spiking Neural Networks with Parameter Initialization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-11%20assisting%20training.png" alt="Assisting Training of Deep Spiking Neural Networks with Parameter Initialization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -3654,7 +3654,7 @@ With figure components
   <div class="citation">
     
       <a href="https://www.sciencedirect.com/science/article/pii/S0893608025007439" target="_blank" rel="noopener" class="citation-image" aria-label="Decoding Natural Visual Scenes via Learnable Representations of Neural Spiking Sequences">
-        <img src="" alt="Decoding Natural Visual Scenes via Learnable Representations of Neural Spiking Sequences" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-9%20Decoding%20natural%20visual%20scenes%20NN.png" alt="Decoding Natural Visual Scenes via Learnable Representations of Neural Spiking Sequences" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -3701,7 +3701,7 @@ With figure components
   <div class="citation">
     
       <a href="https://www.nature.com/articles/s41467-025-65197-x" target="_blank" rel="noopener" class="citation-image" aria-label="Neuromorphic Computing Paradigms Enhance Robustness through Spiking Neural Networks">
-        <img src="" alt="Neuromorphic Computing Paradigms Enhance Robustness through Spiking Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-6%20robust%20snn.png" alt="Neuromorphic Computing Paradigms Enhance Robustness through Spiking Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -3748,7 +3748,7 @@ With figure components
   <div class="citation">
     
       <a href="https://www.nature.com/articles/s41467-025-66226-5" target="_blank" rel="noopener" class="citation-image" aria-label="Aberrant Neural Activity in the Peritumoral Cortex underlies the Progression of Tumor-associated Seizures">
-        <img src="/images/papers/J-5.png" alt="Aberrant Neural Activity in the Peritumoral Cortex underlies the Progression of Tumor-associated Seizures" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/Aberrant%20neural%20activity%20in%20the%20peritumoral%20cortex%20underlies%20the%20progression%20of%20tumor-associated%20seizures.png" alt="Aberrant Neural Activity in the Peritumoral Cortex underlies the Progression of Tumor-associated Seizures" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -4738,7 +4738,7 @@ With figure components
   <div class="citation">
     
       <a href="https://doi.org/10.1109/TCSVT.2023.3272375" target="_blank" rel="noopener" class="citation-image" aria-label="SpiReco: Fast and Efficient Recognition of High-Speed Moving Objects with Spike Camera">
-        <img src="" alt="SpiReco: Fast and Efficient Recognition of High-Speed Moving Objects with Spike Camera" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-27%20SpiReco.png" alt="SpiReco: Fast and Efficient Recognition of High-Speed Moving Objects with Spike Camera" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -4785,7 +4785,7 @@ With figure components
   <div class="citation">
     
       <a href="https://doi.org/10.1109/TCDS.2024.3375620" target="_blank" rel="noopener" class="citation-image" aria-label="Converting Artificial Neural Networks to Ultra-Low-Latency Spiking Neural Networks for Action Recognition">
-        <img src="" alt="Converting Artificial Neural Networks to Ultra-Low-Latency Spiking Neural Networks for Action Recognition" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-26%20Converting%20Artificial%20Neural%20Networks%20to.png" alt="Converting Artificial Neural Networks to Ultra-Low-Latency Spiking Neural Networks for Action Recognition" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -4832,7 +4832,7 @@ With figure components
   <div class="citation">
     
       <a href="https://www.nature.com/articles/s41551-023-01137-8" target="_blank" rel="noopener" class="citation-image" aria-label="Assessment of Visual Function in Blind Mice and Monkeys with Subretinally Implanted Nanowire Arrays as Artificial Photoreceptors">
-        <img src="" alt="Assessment of Visual Function in Blind Mice and Monkeys with Subretinally Implanted Nanowire Arrays as Artificial Photoreceptors" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-21%20Assessment%20of%20visual%20function%20in%20blind%20mice.png" alt="Assessment of Visual Function in Blind Mice and Monkeys with Subretinally Implanted Nanowire Arrays as Artificial Photoreceptors" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -4879,7 +4879,7 @@ With figure components
   <div class="citation">
     
       <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1012297" target="_blank" rel="noopener" class="citation-image" aria-label="Decoding Dynamic Visual Scenes across the Brain Hierarchy">
-        <img src="" alt="Decoding Dynamic Visual Scenes across the Brain Hierarchy" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-19%20Decoding%20dynamic%20visual%20scenes%20across%20the%20brain%20hierarchy.PNG" alt="Decoding Dynamic Visual Scenes across the Brain Hierarchy" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5634,7 +5634,7 @@ With figure components
   <div class="citation">
     
       <a href="https://www.sciencedirect.com/science/article/pii/S2666166723006895" target="_blank" rel="noopener" class="citation-image" aria-label="Protocol for Dissecting Cascade Computational Components in Neural Networks of a Visual System">
-        <img src="" alt="Protocol for Dissecting Cascade Computational Components in Neural Networks of a Visual System" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-29%202021-Dissecting%20cascade%20computational.png" alt="Protocol for Dissecting Cascade Computational Components in Neural Networks of a Visual System" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
