@@ -127,7 +127,7 @@
   <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
-  <link href="/assets/css/main.css?v=1775475679" rel="stylesheet" />
+  <link href="/assets/css/main.css?v=1775475877" rel="stylesheet" />
 
 
   <!-- third party scripts -->
@@ -138,21 +138,21 @@
 <!-- include all js in scripts folder -->
 
 
-  <script src="/_scripts/carousel.js?v=1775475679"></script>
+  <script src="/_scripts/carousel.js?v=1775475877"></script>
 
-  <script src="/_scripts/dark-mode.js?v=1775475679"></script>
+  <script src="/_scripts/dark-mode.js?v=1775475877"></script>
 
-  <script src="/_scripts/particles.js?v=1775475679"></script>
+  <script src="/_scripts/particles.js?v=1775475877"></script>
 
-  <script src="/_scripts/project-filtering.js?v=1775475679"></script>
+  <script src="/_scripts/project-filtering.js?v=1775475877"></script>
 
-  <script src="/_scripts/publication-filters.js?v=1775475679"></script>
+  <script src="/_scripts/publication-filters.js?v=1775475877"></script>
 
-  <script src="/_scripts/search.js?v=1775475679"></script>
+  <script src="/_scripts/search.js?v=1775475877"></script>
 
-  <script src="/_scripts/site-search.js?v=1775475679"></script>
+  <script src="/_scripts/site-search.js?v=1775475877"></script>
 
-  <script src="/_scripts/table-wrap.js?v=1775475679"></script>
+  <script src="/_scripts/table-wrap.js?v=1775475877"></script>
 
 
 </head>
@@ -4879,7 +4879,7 @@ With figure components
   <div class="citation">
     
       <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1012297" target="_blank" rel="noopener" class="citation-image" aria-label="Decoding Dynamic Visual Scenes across the Brain Hierarchy">
-        <img src="/images/papers/J-19%20Decoding%20dynamic%20visual%20scenes%20across%20the%20brain%20hierarchy.PNG" alt="Decoding Dynamic Visual Scenes across the Brain Hierarchy" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/J-19%20Decoding%20dynamic%20visual%20scenes%20across%20the%20brain%20hierarchy.png" alt="Decoding Dynamic Visual Scenes across the Brain Hierarchy" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
