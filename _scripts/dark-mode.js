@@ -1,28 +1,38 @@
 {
-  // immediately load saved (or default) mode before page renders
-  document.documentElement.dataset.dark =
-    window.localStorage.getItem("dark-mode") ?? "false";
+  const storageKey = "dark-mode";
+  const root = document.documentElement;
 
-  const onLoad = () => {
-
-    const onLoad = () => {
-      // Find the toggle button
-      const darkToggle = document.querySelector(".dark-toggle");
-      
-      // Only update if the element exists
-      if (darkToggle) {
-        darkToggle.checked = document.documentElement.dataset.dark === "true";
-      }
-    };
+  const getPreferredMode = () => {
+    const saved = window.localStorage.getItem(storageKey);
+    if (saved === "true" || saved === "false") {
+      return saved;
+    }
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "true" : "false";
   };
 
-  // after page loads
-  window.addEventListener("load", onLoad);
+  const applyMode = (value) => {
+    const normalized = value === "true" ? "true" : "false";
+    root.dataset.dark = normalized;
 
-  // when user toggles mode button
+    document.querySelectorAll("header.background, footer.background").forEach((el) => {
+      el.dataset.dark = normalized;
+    });
+
+    const darkToggle = document.querySelector(".dark-toggle");
+    if (darkToggle) {
+      darkToggle.checked = normalized === "true";
+    }
+  };
+
+  applyMode(getPreferredMode());
+
+  document.addEventListener("DOMContentLoaded", () => {
+    applyMode(getPreferredMode());
+  });
+
   window.onDarkToggleChange = (event) => {
-    const value = event.target.checked;
-    document.documentElement.dataset.dark = value;
-    window.localStorage.setItem("dark-mode", value);
+    const value = String(event.target.checked);
+    window.localStorage.setItem(storageKey, value);
+    applyMode(value);
   };
 }
