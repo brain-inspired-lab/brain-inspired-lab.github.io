@@ -39,7 +39,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title id="page-title" data-i18n-title="education_title">Teaching</title>
+<title id="page-title" data-i18n-title="care-bn: precise moving statistics for stabilizing spiking neural networks in reinforcement learning">CaRe-BN: Precise Moving Statistics for Stabilizing Spiking Neural Networks in Reinforcement Learning</title>
 
 <link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg">
 <link rel="alternate icon" href="/images/favicon/favicon.ico">
@@ -58,14 +58,14 @@
 <meta name="keywords" content="brain-inspired, neuromorphic computing, artificial intelligence, neural networks, Peking University">
 <meta name="author" content="Brain-inspired Lab">
 
-<meta property="og:title" content="Teaching">
+<meta property="og:title" content="CaRe-BN: Precise Moving Statistics for Stabilizing Spiking Neural Networks in Reinforcement Learning">
 <meta property="og:site_title" content="Brain-inspired Lab, Peking University">
 <meta property="og:description" content="Peking University. The Brain-inspired Lab at Peking undertakes research in brain-inspired computing and neuromorphic computing.">
 <meta property="og:url" content="https://hcypkumain.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Teaching">
+<meta property="twitter:title" content="CaRe-BN: Precise Moving Statistics for Stabilizing Spiking Neural Networks in Reinforcement Learning">
 <meta property="twitter:description" content="Peking University. The Brain-inspired Lab at Peking undertakes research in brain-inspired computing and neuromorphic computing.">
 <meta property="twitter:url" content="https://hcypkumain.github.io">
 <meta property="twitter:card" content="summary_large_image">
@@ -96,9 +96,9 @@
         "url": "https://www.imperial.ac.uk"
       },
     
-    "name": "Teaching",
+    "name": "CaRe-BN: Precise Moving Statistics for Stabilizing Spiking Neural Networks in Reinforcement Learning",
     "description": "Peking University. The Brain-inspired Lab at Peking undertakes research in brain-inspired computing and neuromorphic computing.",
-    "headline": "Teaching",
+    "headline": "CaRe-BN: Precise Moving Statistics for Stabilizing Spiking Neural Networks in Reinforcement Learning",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "" }
@@ -309,7 +309,7 @@
       
       
       
-      <a href="/education/" class="active" aria-current="page">
+      <a href="/education/">
         <span data-i18n="education_title">Teaching</span>
       </a>
       
@@ -343,221 +343,183 @@
 
 
 <section class="background" data-size="page">
-  <h1 id="-education">
-<i class="icon fa-solid fa-chalkboard-user"></i> <span data-i18n="education_title">Education</span>
-</h1>
+  <nav aria-label="breadcrumb" class="breadcrumb">
+  <ol class="breadcrumb px-0">
+    
+    
+    
+    <li class="breadcrumb-item">
+      <a href="/recent-work/">
+        <span data-i18n="recent_work_title">Recent work</span>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">CaRe-BN: Precise Moving Statistics for Stabilizing Spiking Neural Networks in Reinforcement Learning</li>
+  </ol>
+  </nav>
 
-<h2 id="numerical-analysis"><span data-i18n="edu_num_anal_title">Numerical Analysis</span></h2>
+<div class="project-detail">
+  <h1>CaRe-BN: Precise Moving Statistics for Stabilizing Spiking Neural Networks in Reinforcement Learning</h1>
 
-<p><em><span data-i18n="edu_num_anal_term">Course overview</span></em></p>
+  
+  
 
-<div class="feature">
-  <a href="/team" class="feature-image" aria-label="feature link">
-    <img src="/images/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90.jpg" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  
+
+  
+  <p class="project-tags" style="text-align: center;">
+    
+      <span class="project-tag" data-tag-value="spiking neural networks" style="background-color: hsl(132, 65%, 90%)">
+
+
+
+  <span data-i18n="tag_spiking_neural_networks">spiking neural networks</span>
+
+</span>
+    
+      <span class="project-tag" data-tag-value="reinforcement learning" style="background-color: hsl(48, 65%, 90%)">
+
+
+
+  reinforcement learning
+
+</span>
+    
+      <span class="project-tag" data-tag-value="batch normalization" style="background-color: hsl(158, 65%, 90%)">
+
+
+
+  batch normalization
+
+</span>
+    
+  </p>
+  
+
+  
+  <div class="project-body">
+    <p><em>Zijie Xu, Xinyu Shi, Yiting Dong, Zihan Huang, Zhaofei Yu</em>. CaRe-BN: Precise Moving Statistics for Stabilizing Spiking Neural Networks in Reinforcement Learning. The Fourteenth International Conference on Learning Representations (ICLR), 2026.*</p>
+
+<div data-lang-target="en">
+  <p><a href="https://openreview.net/forum?id=AaZVrbElhC">Read the paper</a></p>
+
+  <h2 id="research-background-and-problem">Research Background and Problem</h2>
+
+  <h3 id="background">Background</h3>
+
+  <p>Spiking Neural Networks (SNNs) provide highly energy-efficient and low-latency decision-making capabilities by mimicking the event-driven dynamics of biological neurons, making them ideal for neuromorphic hardware.</p>
+
+  <h3 id="limitation-of-existing-methods">Limitation of Existing Methods</h3>
+
+  <p>However, traditional Batch Normalization (BN) suffers a severe breakdown in online Reinforcement Learning (RL) because moving statistics cannot be accurately estimated under continually shifting data distributions, leading to unstable training and suboptimal policies.</p>
+
+  <h3 id="our-perspective">Our Perspective</h3>
+
+  <p>To overcome these challenges, we propose Confidence-adaptive and Re-calibration Batch Normalization (CaRe-BN), a novel normalization strategy tailored specifically to provide precise statistics and stabilize SNN-based RL without disrupting the training process.</p>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/recent-work/care-bn-stabilizing-snn-rl/background-problem.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
-  <div class="feature-text">
-    
-    
-<p><span data-i18n="edu_num_anal_desc"></span></p>
+  
+</figure>
+
+  <h2 id="contributions">Contributions</h2>
+
+  <ul>
+    <li>Introduces Ca-BN (Confidence-adaptive update), a confidence-weighted moving estimator that dynamically adjusts statistics estimation based on the reliability of the current approximation to ensure unbiasedness and reduce variance.</li>
+    <li>Introduces Re-BN (Re-calibration), a periodic correction scheme that leverages replay buffer resampling to refine inference statistics and correct accumulated estimation errors.</li>
+    <li>Maintains the inherent energy efficiency of SNNs; the CaRe-BN layer is seamlessly fused into synaptic weights after training, introducing zero additional inference overhead during deployment.</li>
+    <li>Achieves state-of-the-art results, improving SNN performance by up to 22.6% across different spiking neuron models and RL algorithms, and remarkably outperforming Artificial Neural Network (ANN) counterparts by 5.9%.</li>
+  </ul>
+
+  <h2 id="core-method">Core Method</h2>
+
+  <p>The CaRe-BN framework integrates two complementary mechanisms to enable precise, low-variance estimation of BN statistics under the nonstationary dynamics of RL. First, the Ca-BN module is applied at every update step, acting as a confidence-guided mechanism that adaptively reweights estimators to minimize the mean-squared error of BN statistics when distribution shifts occur. Second, because online estimates may still drift due to stochastic mini-batch noise, the Re-BN module is executed periodically. It draws aggregated calibration batches from the replay buffer to compute exact statistics, effectively correcting accumulated bias without requiring millions of forward passes.</p>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/recent-work/care-bn-stabilizing-snn-rl/core-method.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+  <h2 id="representative-results">Representative Results</h2>
+
+  <p>Extensive evaluations across discrete action spaces (Atari benchmarks) and continuous control tasks (MuJoCo suite) demonstrate that CaRe-BN significantly resolves the issue of imprecise moving statistics. SNN-based agents equipped with CaRe-BN consistently achieved higher exploration returns, converged faster, and exhibited significantly lower variance compared to standard SNNs. Notably, when paired with the TD3 algorithm, CaRe-BN allowed simple SNNs to surpass the performance of traditional ANN-based RL agents by an average of 5.9%, establishing a new state-of-the-art normalization strategy that bridges the gap between neuromorphic efficiency and high-performance RL.</p>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/recent-work/care-bn-stabilizing-snn-rl/representative-results.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+</div>
+
+<div data-lang-target="zh" hidden="">
+  <p><a href="https://openreview.net/forum?id=AaZVrbElhC">查看原文</a></p>
+
+  <h2 id="section">研究背景与问题</h2>
+
+  <h3 id="section-1">背景</h3>
+
+  <p>脉冲神经网络（SNN）通过模拟生物神经元的事件驱动动态，具备高能效、低时延的决策能力，因此非常适合部署在神经形态硬件上。</p>
+
+  <h3 id="section-2">现有方法的局限</h3>
+
+  <p>然而，传统批归一化（BN）在在线强化学习（RL）场景中会出现明显失效，因为面对持续变化的数据分布，移动统计量难以被准确估计，进而导致训练不稳定以及策略性能不理想。</p>
+
+  <h3 id="section-3">我们的思路</h3>
+
+  <p>为解决这些问题，我们提出了 Confidence-adaptive and Re-calibration Batch Normalization（CaRe-BN），这是一种专门面向 SNN 强化学习场景设计的新型归一化策略，能够在不打断训练流程的前提下提供更精确的统计量并稳定训练过程。</p>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/recent-work/care-bn-stabilizing-snn-rl/background-problem.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+  <h2 id="section-4">创新点</h2>
+
+  <ul>
+    <li>提出 Ca-BN（置信度自适应更新）机制，通过置信度加权的移动估计器，根据当前近似结果的可靠性动态调整统计量估计，从而保证无偏性并降低方差。</li>
+    <li>提出 Re-BN（重校准）机制，利用经验回放缓冲区的重采样周期性修正推理统计量，并纠正累积的估计误差。</li>
+    <li>保持了 SNN 原有的高能效特性；CaRe-BN 层在训练完成后可以无缝融合进突触权重，部署时不会带来额外推理开销。</li>
+    <li>在不同脉冲神经元模型和强化学习算法上取得当前最优结果，SNN 性能最高提升 22.6%，并显著超过 ANN 强化学习基线 5.9%。</li>
+  </ul>
+
+  <h2 id="section-5">核心方法</h2>
+
+  <p>CaRe-BN 框架通过两个互补机制，在强化学习的非平稳动态环境下实现对 BN 统计量的精确、低方差估计。首先，Ca-BN 模块在每次更新时都会执行，作为一种基于置信度引导的机制，在分布发生漂移时自适应地重加权估计器，以最小化 BN 统计量的均方误差。其次，考虑到在线估计仍可能因随机小批量噪声而发生漂移，Re-BN 模块会周期性执行。它从经验回放缓冲区中抽取聚合后的校准批次来计算更精确的统计量，从而在不需要数百万次前向传播的前提下有效修正累积偏差。</p>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/recent-work/care-bn-stabilizing-snn-rl/core-method.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+  <h2 id="section-6">代表性结果</h2>
+
+  <p>在离散动作空间（Atari 基准）和连续控制任务（MuJoCo 套件）上的广泛实验表明，CaRe-BN 能够显著缓解移动统计量不精确的问题。配备 CaRe-BN 的 SNN 智能体在探索回报、收敛速度和方差表现上均优于标准 SNN。尤其是在与 TD3 算法结合时，CaRe-BN 使简单 SNN 的平均性能超过传统基于 ANN 的强化学习智能体 5.9%，建立了一种连接神经形态高能效与高性能强化学习的新型归一化策略。</p>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/recent-work/care-bn-stabilizing-snn-rl/representative-results.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+</div>
 
   </div>
-</div>
+  
 
-<div class="education-table-wrap">
-  <table class="education-table">
-    <colgroup>
-      <col>
-      <col>
-    </colgroup>
-    <thead>
-      <tr>
-        <th><span data-i18n="edu_table_col_item">Item</span></th>
-        <th><span data-i18n="edu_table_col_details">Details</span></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span data-i18n="edu_table_row_period">Period</span></td>
-        <td><span data-i18n="edu_num_anal_period">2022-Present</span></td>
-      </tr>
-      <tr>
-        <td><span data-i18n="edu_table_row_type">Course Type</span></td>
-        <td><span data-i18n="edu_num_anal_type">Undergraduate Courses</span></td>
-      </tr>
-      <tr>
-        <td><span data-i18n="edu_table_row_hours">Class Hours</span></td>
-        <td><span data-i18n="edu_num_anal_hours">48 class hours</span></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-</section>
+  
 
+  
 
+  
 
-
-<section class="background" data-size="page">
-  <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="neuroai-from-brain-science-to-brain-inspired-intelligence"><span data-i18n="edu_comp_neuro_title">NeuroAI: From Brain Science to Brain-Inspired Intelligence</span></h2>
-
-<p><em><span data-i18n="edu_comp_neuro_term">Course overview</span></em></p>
-
-<div class="feature">
-  <a href="/team" class="feature-image" aria-label="feature link">
-    <img src="/images/NeuroAI.png" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-    
-<p><span data-i18n="edu_comp_neuro_desc"></span></p>
-
-  </div>
-</div>
-
-<div class="education-table-wrap">
-  <table class="education-table">
-    <colgroup>
-      <col>
-      <col>
-    </colgroup>
-    <thead>
-      <tr>
-        <th><span data-i18n="edu_table_col_item">Item</span></th>
-        <th><span data-i18n="edu_table_col_details">Details</span></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span data-i18n="edu_table_row_period">Period</span></td>
-        <td><span data-i18n="edu_comp_neuro_period">2025-Present</span></td>
-      </tr>
-      <tr>
-        <td><span data-i18n="edu_table_row_type">Course Type</span></td>
-        <td><span data-i18n="edu_comp_neuro_type">Undergraduate Courses</span></td>
-      </tr>
-      <tr>
-        <td><span data-i18n="edu_table_row_hours">Class Hours</span></td>
-        <td><span data-i18n="edu_comp_neuro_hours">36 class hours</span></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-</section>
-
-
-
-
-<section class="background" data-size="page">
-  <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="brain-cognition-and-computing"><span data-i18n="edu_bcc_title">Brain, Cognition, and Computing</span></h2>
-
-<p><em><span data-i18n="edu_bcc_term">Course overview</span></em></p>
-
-<div class="feature">
-  <a href="/team" class="feature-image" aria-label="feature link">
-    <img src="/images/%E8%84%91%E8%AE%A4%E7%9F%A5%E4%B8%8E%E8%AE%A1%E7%AE%97.jpg" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-    
-<p><span data-i18n="edu_bcc_desc"></span></p>
-
-  </div>
-</div>
-
-<div class="education-table-wrap">
-  <table class="education-table">
-    <colgroup>
-      <col>
-      <col>
-    </colgroup>
-    <thead>
-      <tr>
-        <th><span data-i18n="edu_table_col_item">Item</span></th>
-        <th><span data-i18n="edu_table_col_details">Details</span></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span data-i18n="edu_table_row_period">Period</span></td>
-        <td><span data-i18n="edu_bcc_period">2021-2024</span></td>
-      </tr>
-      <tr>
-        <td><span data-i18n="edu_table_row_type">Course Type</span></td>
-        <td><span data-i18n="edu_bcc_type">Graduate Courses</span></td>
-      </tr>
-      <tr>
-        <td><span data-i18n="edu_table_row_hours">Class Hours</span></td>
-        <td><span data-i18n="edu_bcc_hours">48 class hours</span></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-</section>
-
-
-
-
-<section class="background" data-size="page">
-  <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<h2 id="principles-of-machine-learning"><span data-i18n="edu_ml_title">Principles of Machine Learning</span></h2>
-
-<p><em><span data-i18n="edu_ml_term">Course overview</span></em></p>
-
-<div class="feature">
-  <a href="/team" class="feature-image" aria-label="feature link">
-    <img src="/images/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.jpeg" loading="lazy" alt="feature image" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-    
-<p><span data-i18n="edu_ml_desc"></span></p>
-
-  </div>
-</div>
-
-<div class="education-table-wrap">
-  <table class="education-table">
-    <colgroup>
-      <col>
-      <col>
-    </colgroup>
-    <thead>
-      <tr>
-        <th><span data-i18n="edu_table_col_item">Item</span></th>
-        <th><span data-i18n="edu_table_col_details">Details</span></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span data-i18n="edu_table_row_period">Period</span></td>
-        <td><span data-i18n="edu_ml_period">2024-Present</span></td>
-      </tr>
-      <tr>
-        <td><span data-i18n="edu_table_row_type">Course Type</span></td>
-        <td><span data-i18n="edu_ml_type">Graduate Courses</span></td>
-      </tr>
-      <tr>
-        <td><span data-i18n="edu_table_row_hours">Class Hours</span></td>
-        <td><span data-i18n="edu_ml_hours">48 class hours (Responsible for 24 class hours)</span></td>
-      </tr>
-    </tbody>
-  </table>
 </div>
 </section>
 
