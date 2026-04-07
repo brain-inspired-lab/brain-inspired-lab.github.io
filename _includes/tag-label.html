@@ -13,6 +13,12 @@
     {% assign tag_key = "tag_adversarial_robustness" %}
   {% when "Nature Communications" %}
     {% assign tag_key = "tag_nature_communications" %}
+  {% when "spike camera" %}
+    {% assign tag_key = "tag_spike_camera" %}
+  {% when "3D reconstruction" %}
+    {% assign tag_key = "tag_3d_reconstruction" %}
+  {% when "gaussian splatting" %}
+    {% assign tag_key = "tag_gaussian_splatting" %}
 {% endcase %}
 {% if tag_key %}
   <span data-i18n="{{ tag_key }}">{{ tag }}</span>
