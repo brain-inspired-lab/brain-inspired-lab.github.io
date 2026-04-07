@@ -58,7 +58,7 @@ redirect_from:
   </button>
 </div>
 
-{% include list.html data="citations" component="citation" style="publication-list" %}
+{% include list.html data="citations" component="citation" style="publication-list" filters="date: ^202[1-9]-|^20[3-9][0-9]-" %}
 
 <div class="publication-image-modal" id="publication-image-modal" hidden aria-hidden="true">
   <div class="publication-image-modal-backdrop" data-publication-image-close></div>
