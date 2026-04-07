@@ -19,3 +19,14 @@
     - spiking neural networks
     - reinforcement learning
     - batch normalization
+- title: "USP-Gaussian: Unifying Spike-based Image Reconstruction, Pose Correction and Gaussian Splatting"
+  url: /recent-work/usp-gaussian-unifying-spike-based-image-reconstruction-pose-correction-and-gaussian-splatting/
+  image: images/recent-work/usp-gaussian/core-method.png
+  description: |
+    在合成数据集和真实数据集上的大量实验表明，USP-Gaussian 持续优于此前的基于脉冲的重建方法。在合成基准上，论文报告的平均性能达到 27.903 PSNR / 0.843 SSIM / 0.217 LPIPS，优于主要基线 SpikeGS 的 27.196 / 0.832 / 0.244。尤其是在 Outdoorpool 场景中，USP-Gaussian 取得了 30.142 dB 的 PSNR，为表中最优结果。这些结果验证了统一优化能够显著缓解级联流程中的误差累积问题。
+  description_en: |
+    Extensive experiments on both synthetic and real-world datasets show that USP-Gaussian consistently outperforms prior spike-based reconstruction methods. On the synthetic benchmark, the paper reports an average performance of 27.903 PSNR / 0.843 SSIM / 0.217 LPIPS, surpassing the main baseline SpikeGS, which achieves 27.196 / 0.832 / 0.244. In particular, on the Outdoorpool scene, USP-Gaussian reaches 30.142 dB PSNR, which is the best result in the table. These results verify that unified optimization substantially alleviates the error accumulation problem in cascaded pipelines.
+  tags:
+    - spike camera
+    - 3D reconstruction
+    - gaussian splatting
