@@ -1070,6 +1070,7 @@
   image: /images/papers/C-43 Recognizing Ultra-High-Speed Moving Objects.png
   topic: Neuromorphic camera
   
+  
 - id: C-45
   title: Exploring Loss Functions for Time-based Training Strategy in Spiking Neural Networks
   authors:
@@ -1081,6 +1082,8 @@
   publisher: The Thirty-Seventh Annual Conference on Neural Information Processing Systems (NeurIPS), 2023. (Spotlight)
   date: '2023-01-01'
   link: https://proceedings.neurips.cc/paper_files/paper/2023/hash/cde874a797a8300da693d5e412b7fdc0-Abstract-Conference.html
+  image: /images/papers/C-45 2023-Exploring Loss Functions.png
+  topic: Spiking Neural Networks
 - id: C-48
   title: Enhancing Motion Deblurring in High-Speed Scenes with Spike Streams
   authors:
@@ -1092,6 +1095,8 @@
   publisher: The Thirty-Seventh Annual Conference on Neural Information Processing Systems (NeurIPS), 2023.
   date: '2023-01-01'
   link: https://openreview.net/forum?id=cAyLnMxiTl
+  image: /images/papers/C-48 2023-Enhancing Motion Deblurring.png
+  topic: Neuromorphic camera
 - id: C-49
   title: Recognizing High-Speed Moving Objects with Spike Camera
   authors:
@@ -1103,6 +1108,8 @@
   publisher: Proceedings of the 31nd ACM International Conference on Multimedia (ACM MM), 2023.
   date: '2023-01-01'
   link: https://dl.acm.org/doi/10.1145/3581783.3612054
+  topic: Neuromorphic camera
+  image: /images/papers/C-49 2023-Recognizing High-Speed.png
 - id: C-50
   title: Rate Gradient Approximation Attack Threats Deep Spiking Neural Networks
   authors:
@@ -1113,6 +1120,8 @@
   publisher: Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2023.
   date: '2023-01-01'
   link: https://openaccess.thecvf.com/content/CVPR2023/papers/Bu_Rate_Gradient_Approximation_Attack_Threats_Deep_Spiking_Neural_Networks_CVPR_2023_paper.pdf
+  topic: Spiking Neural Networks
+  image: /images/papers/C-50 2023-Rate Gradient Approximation.png
 - id: C-51
   title: Complementary Intrinsics from Neural Radiance Fields and CNNs for Outdoor Scene Relighting
   authors:
@@ -1126,6 +1135,8 @@
   publisher: Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2023.
   date: '2023-01-01'
   link: https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Complementary_Intrinsics_From_Neural_Radiance_Fields_and_CNNs_for_Outdoor_CVPR_2023_paper.pdf
+  image: /images/papers/C-51 2023-Complementary Intrinsics.png
+  topic: Others
 - id: C-52
   title: Bridging the Gap between ANNs and SNNs by Calibrating Offset Spikes
   authors:
@@ -1137,6 +1148,9 @@
   publisher: The Eleventh International Conference on Learning Representations (ICLR), 2023.
   date: '2023-01-01'
   link: https://arxiv.org/abs/2302.10685
+  topic: Spiking Neural Networks
+  image: /images/papers/C-52 2023-BRIDGING THE GAP.png
+  
 - id: C-53
   title: A Unified Framework for Soft Threshold Pruning
   authors:
@@ -1149,6 +1163,8 @@
   publisher: The Eleventh International Conference on Learning Representations (ICLR), 2023.
   date: '2023-01-01'
   link: https://arxiv.org/abs/2302.13019
+  image: /images/papers/C-53 2023-A UNIFIED FRAMEWORK.png
+  topic: Spiking Neural Networks
 - id: C-54
   title: Self-Supervised Joint Dynamic Scene Reconstruction and Optical Flow Estimation for Spiking Camera
   authors:
@@ -1158,6 +1174,8 @@
   publisher: The Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI), 2023.
   date: '2023-01-01'
   link: https://ojs.aaai.org/index.php/AAAI/article/view/25108
+  image: /images/papers/C-54 2023-Self-Supervised Joint Dynamic.png
+  topic: Neuromorphic camera
 - id: C-55
   title: Learning Temporal-ordered Representation for Spike Streams Based on Discrete Wavelet Transforms
   authors:
@@ -1168,6 +1186,9 @@
   publisher: The Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI), 2023.
   date: '2023-01-01'
   link: 'https://ojs.aaai.org/index.php/AAAI/article/view/25085'
+  image: /images/papers/C-55 2023-Learning Temporal-Ordered Representation.png
+  topic: Neuromorphic camera
+  
 - id: C-56
   title: Reducing ANN-SNN Conversion Error through Residual Membrane Potential
   authors:
@@ -1179,10 +1200,12 @@
   publisher: The Thirty-Seventh AAAI Conference on Artificial Intelligence, 2023. (oral)
   date: '2023-01-01'
   link: https://ojs.aaai.org/index.php/AAAI/article/view/25071
+  image: /images/papers/C-56 2023-Reducing ANN-SNN Conversion.png
+  topic: Neuromorphic camera
 - id: C-57
   title: 'SNN-RAT: Robustness-enhanced Spiking Neural Network through Regularized Adversarial'
   authors:
-  - Jianhao
+  - Jianhao Ding
   - Tong Bu
   - Zhaofei Yu*
   - Jian K. Liu
@@ -1190,6 +1213,7 @@
   publisher: Thirty-Sixth Conference on Neural Information Processing Systems (NeurIPS), 2022.
   date: '2022-01-01'
   link: https://proceedings.neurips.cc/paper_files/paper/2022/hash/9cf904c86cc5f9ac95646c07d2cfa241-Abstract-Conference.html
+  
 - id: C-58
   title: Training Spiking Neural Networks with Event-driven Backpropagation
   authors:
