@@ -39,7 +39,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title id="page-title" data-i18n-title="pku-spike-stereo and spike-kitti">PKU-Spike-Stereo and Spike-KITTI</title>
+<title id="page-title" data-i18n-title="usp-gaussian: unifying spike-based image reconstruction, pose correction and gaussian splatting">USP-Gaussian: Unifying Spike-based Image Reconstruction, Pose Correction and Gaussian Splatting</title>
 
 <link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg">
 <link rel="alternate icon" href="/images/favicon/favicon.ico">
@@ -58,14 +58,14 @@
 <meta name="keywords" content="brain-inspired, neuromorphic computing, artificial intelligence, neural networks, Peking University">
 <meta name="author" content="Brain-inspired Lab">
 
-<meta property="og:title" content="PKU-Spike-Stereo and Spike-KITTI">
+<meta property="og:title" content="USP-Gaussian: Unifying Spike-based Image Reconstruction, Pose Correction and Gaussian Splatting">
 <meta property="og:site_title" content="Brain-inspired Lab, Peking University">
 <meta property="og:description" content="Peking University. The Brain-inspired Lab at Peking undertakes research in brain-inspired computing and neuromorphic computing.">
 <meta property="og:url" content="https://hcypkumain.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="PKU-Spike-Stereo and Spike-KITTI">
+<meta property="twitter:title" content="USP-Gaussian: Unifying Spike-based Image Reconstruction, Pose Correction and Gaussian Splatting">
 <meta property="twitter:description" content="Peking University. The Brain-inspired Lab at Peking undertakes research in brain-inspired computing and neuromorphic computing.">
 <meta property="twitter:url" content="https://hcypkumain.github.io">
 <meta property="twitter:card" content="summary_large_image">
@@ -96,9 +96,9 @@
         "url": "https://www.imperial.ac.uk"
       },
     
-    "name": "PKU-Spike-Stereo and Spike-KITTI",
+    "name": "USP-Gaussian: Unifying Spike-based Image Reconstruction, Pose Correction and Gaussian Splatting",
     "description": "Peking University. The Brain-inspired Lab at Peking undertakes research in brain-inspired computing and neuromorphic computing.",
-    "headline": "PKU-Spike-Stereo and Spike-KITTI",
+    "headline": "USP-Gaussian: Unifying Spike-based Image Reconstruction, Pose Correction and Gaussian Splatting",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "" }
@@ -355,44 +355,24 @@
     
     
     <li class="breadcrumb-item">
-      <a href="/projects/">
-        <span data-i18n="projects_title">Projects</span>
+      <a href="/recent-work/">
+        <span data-i18n="recent_work_title">Recent work</span>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page">PKU-Spike-Stereo and Spike-KITTI</li>
+    <li class="breadcrumb-item active" aria-current="page">USP-Gaussian: Unifying Spike-based Image Reconstruction, Pose Correction and Gaussian Splatting</li>
   </ol>
   </nav>
 
 <div class="project-detail">
-  <h1>PKU-Spike-Stereo and Spike-KITTI</h1>
+  <h1>USP-Gaussian: Unifying Spike-based Image Reconstruction, Pose Correction and Gaussian Splatting</h1>
 
   
   
 
-  
-  <p>
-    <img src="/images/dataset_image/pku-spike-stereo-result.png" alt="PKU-Spike-Stereo and Spike-KITTI" style="width: 100%; height: auto;" loading="lazy">
-  </p>
   
 
   
   <p class="project-tags" style="text-align: center;">
-    
-      <span class="project-tag" data-tag-value="depth estimation" style="background-color: hsl(141, 65%, 90%)">
-
-
-
-  depth estimation
-
-</span>
-    
-      <span class="project-tag" data-tag-value="stereo" style="background-color: hsl(117, 65%, 90%)">
-
-
-
-  stereo
-
-</span>
     
       <span class="project-tag" data-tag-value="spike camera" style="background-color: hsl(48, 65%, 90%)">
 
@@ -402,11 +382,19 @@
 
 </span>
     
-      <span class="project-tag" data-tag-value="dataset" style="background-color: hsl(323, 65%, 90%)">
+      <span class="project-tag" data-tag-value="3d reconstruction" style="background-color: hsl(50, 65%, 90%)">
 
 
 
-  dataset
+  3D reconstruction
+
+</span>
+    
+      <span class="project-tag" data-tag-value="gaussian splatting" style="background-color: hsl(158, 65%, 90%)">
+
+
+
+  gaussian splatting
 
 </span>
     
@@ -415,216 +403,130 @@
 
   
   <div class="project-body">
-    <div data-lang-target="en">
-  <p>Purpose: stereo depth-estimation datasets for spike cameras, covering both real scenes and simulated environments.</p>
+    <p><em>Kang Chen, Jiyuan Zhang, Zecheng Hao, Yajing Zheng, Tiejun Huang, Zhaofei Yu</em>. USP-Gaussian: Unifying Spike-based Image Reconstruction, Pose Correction and Gaussian Splatting. Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2025. (Highlight).*</p>
 
-  <p>Scene categories: PKU-Spike-Stereo contains indoor and outdoor scenes; Spike-KITTI is converted from the KITTI dataset and preserves road-scene characteristics.</p>
+<div data-lang-target="en">
+  <p><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Chen_USP-Gaussian_Unifying_Spike-based_Image_Reconstruction_Pose_Correction_and_Gaussian_Splatting_CVPR_2025_paper.html">Read the paper</a></p>
 
-  <p>Data format:</p>
-  <ul>
-    <li>PKU-Spike-Stereo: a dual-spike-camera system (400×250 resolution, 20 kHz sampling rate) synchronized with a ZED depth camera (1280×720@30 fps)</li>
-    <li>Spike-KITTI: converts classic KITTI videos into spike-stream format</li>
-  </ul>
+  <h2 id="research-background-and-problem">Research Background and Problem</h2>
 
-  <p>Dataset scale:</p>
-  <ul>
-    <li>PKU-Spike-Stereo: 10,750 pairs of spike-stream samples and 877 sets of high-quality synchronized depth labels</li>
-    <li>Spike-KITTI: 200 stereo pairs (160 for training / 40 for testing)</li>
-  </ul>
+  <h3 id="background">Background</h3>
 
-  <h3 id="dataset-structure">Dataset Structure</h3>
-  <p>The PKU-Spike-Stereo dataset provides precise spatiotemporal alignment. Through dedicated image registration, the spike streams and depth maps are tightly synchronized, making the dataset particularly suitable for depth estimation of high-speed moving objects.</p>
+  <p>Spike cameras are neuromorphic sensors that record scenes as high-temporal-resolution binary streams, making them highly suitable for 3D reconstruction and novel view synthesis in high-speed dynamic scenarios.</p>
 
-  <h3 id="supported-tasks">Supported Tasks</h3>
-  <ul>
-    <li>Stereo depth estimation: compute depth with a dual-spike-camera system</li>
-    <li>Cross-modal fusion: combine spike streams with conventional camera data to improve depth-estimation accuracy</li>
-    <li>High-speed motion depth estimation: overcome motion blur from conventional cameras in fast scenes</li>
-  </ul>
+  <h3 id="limitation-of-existing-methods">Limitation of Existing Methods</h3>
 
-  <h3 id="key-features">Key Features</h3>
-  <ul>
-    <li>Precise spatiotemporal alignment: high-accuracy synchronization between spike streams and depth maps</li>
-    <li>Rich scene diversity: covers multiple indoor and outdoor scenes</li>
-    <li>Large sample size: provides sufficient data for training and evaluation</li>
-    <li>Optimized for high-speed motion: particularly suitable for depth estimation of fast-moving objects</li>
-  </ul>
+  <p>Existing spike-based 3D reconstruction methods usually adopt a cascaded three-stage pipeline – spike-to-image reconstruction, pose estimation, and 3D reconstruction – which suffers from severe error accumulation because inaccuracies in early reconstruction directly degrade downstream pose estimation and rendering quality.</p>
 
-  <p>Dataset link: not yet public. Related paper: https://www.jdl.link/doc/2011/20221228_Learning_Stereo_Depth_Estimation_with_Bio-Inspired_Spike_Cameras.pdf</p>
+  <h3 id="our-perspective">Our Perspective</h3>
 
-  <figure class="figure">
-  <a class="figure-image" aria-label="Structure of the PKU-Spike-Stereo dataset">
-    <img src="/images/dataset_image/pku-spike-stereo.png" style="width: 100%; max-height: unset;" alt="Structure of the PKU-Spike-Stereo dataset" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-  <figcaption class="figure-caption">
-    Structure of the PKU-Spike-Stereo dataset
+  <p>To address this issue, USP-Gaussian proposes a unified framework that jointly optimizes spike-based image reconstruction, pose correction, and Gaussian splatting in an end-to-end manner. By allowing these components to mutually supervise and refine each other during training, the method effectively reduces the error propagation inherent in conventional cascaded pipelines.</p>
 
-  </figcaption>
-  
-</figure>
-  <figure class="figure">
-  <a class="figure-image" aria-label="Evaluation results on the Spike-KITTI dataset">
-    <img src="/images/dataset_image/kitti-result.png" style="width: 100%; max-height: unset;" alt="Evaluation results on the Spike-KITTI dataset" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-  <figcaption class="figure-caption">
-    Evaluation results on the Spike-KITTI dataset
-
-  </figcaption>
-  
-</figure>
   <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/dataset_image/in1.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/recent-work/usp-gaussian/background-problem.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-  <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/dataset_image/in2.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-</figure>
-  <figure class="figure">
-  <a class="figure-image" aria-label="Sample indoor cases">
-    <img src="/images/dataset_image/in3.gif" style="width: 100%; max-height: unset;" alt="Sample indoor cases" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-  <figcaption class="figure-caption">
-    Sample indoor cases
 
-  </figcaption>
-  
-</figure>
-  <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/dataset_image/out1.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-</figure>
-  <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/dataset_image/out2.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-</figure>
-  <figure class="figure">
-  <a class="figure-image" aria-label="Sample outdoor cases">
-    <img src="/images/dataset_image/out3.gif" style="width: 100%; max-height: unset;" alt="Sample outdoor cases" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-  <figcaption class="figure-caption">
-    Sample outdoor cases
+  <h2 id="contributions">Contributions</h2>
 
-  </figcaption>
+  <ul>
+    <li>Proposes USP-Gaussian, a unified framework that jointly integrates spike-based image reconstruction, camera pose correction, and 3D Gaussian Splatting, instead of treating them as independent sequential stages.</li>
+    <li>Introduces a joint optimization strategy that aligns the reconstructed image sequence from Recon-Net with the rendered sequence from 3DGS, enabling reconstruction and 3D representation learning to provide complementary supervision to each other.</li>
+    <li>Establishes a new self-supervised spike reconstruction paradigm by using multi-view consistency from 3DGS as an additional supervisory signal, rather than relying only on isolated spike-to-image reconstruction objectives.</li>
+    <li>Designs complementary long-short spike inputs and a multi-reblur loss, which improve reconstruction robustness under low spike firing rates, suppress noise, and prevent the model from collapsing to a trivial long-exposure prediction.</li>
+  </ul>
+
+  <h2 id="core-method">Core Method</h2>
+
+  <p>The core idea of USP-Gaussian is to jointly train two tightly coupled branches. The first branch is Recon-Net, which takes spike streams as input and reconstructs a sequence of sharp images. Instead of using only a short spike window, the method feeds long spikes, short spikes, and a time index into the network so that both global and local temporal information can be exploited, especially under low-texture or low-firing-rate conditions. The second branch is 3D Gaussian Splatting, which uses the current Gaussian primitives and camera poses to render a sharp image sequence over the exposure interval. These two branches are optimized both individually and jointly, so that they can progressively improve each other during training.</p>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/recent-work/usp-gaussian/core-method.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+  <h2 id="representative-results">Representative Results</h2>
+
+  <p>Extensive experiments on both synthetic and real-world datasets show that USP-Gaussian consistently outperforms prior spike-based reconstruction methods. On the synthetic benchmark, the paper reports an average performance of 27.903 PSNR / 0.843 SSIM / 0.217 LPIPS, surpassing the main baseline SpikeGS, which achieves 27.196 / 0.832 / 0.244. In particular, on the Outdoorpool scene, USP-Gaussian reaches 30.142 dB PSNR, which is the best result in the table. These results verify that unified optimization substantially alleviates the error accumulation problem in cascaded pipelines.</p>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/recent-work/usp-gaussian/representative-results-1.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/recent-work/usp-gaussian/representative-results-2.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
   
 </figure>
 </div>
 
 <div data-lang-target="zh" hidden="">
-  <p>用途：为脉冲相机提供立体深度估计数据集，涵盖真实场景和模拟环境。</p>
+  <p><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Chen_USP-Gaussian_Unifying_Spike-based_Image_Reconstruction_Pose_Correction_and_Gaussian_Splatting_CVPR_2025_paper.html">查看原文</a></p>
 
-  <p>场景类别：PKU-Spike-Stereo包含室内和室外场景；Spike-KITTI基于KITTI数据集转换，保留道路场景特征。</p>
+  <h2 id="section">研究背景与问题</h2>
 
-  <p>数据格式：</p>
-  <ul>
-    <li>PKU-Spike-Stereo：双脉冲相机系统(400×250分辨率，20kHz采样率)，与ZED深度相机(1280×720@30fps)同步</li>
-    <li>Spike-KITTI：将经典KITTI数据集视频转换为脉冲流格式</li>
-  </ul>
+  <h3 id="section-1">背景</h3>
 
-  <p>数据规模：</p>
-  <ul>
-    <li>PKU-Spike-Stereo：10,750对脉冲流数据，877组高质量同步深度标签</li>
-    <li>Spike-KITTI：200对立体图像(160训练/40测试)</li>
-  </ul>
+  <p>脉冲相机是一类神经形态传感器，能够以高时间分辨率的二值流形式记录场景，因此非常适合用于高速动态场景下的三维重建与新视角合成。</p>
 
-  <h3 id="section">数据集结构</h3>
-  <p>PKU-Spike-Stereo数据集提供精确的时空对齐，通过专业图像配准实现脉冲流与深度图的精确同步，特别适合高速运动物体的深度估计。</p>
+  <h3 id="section-2">现有方法的局限</h3>
 
-  <h3 id="section-1">可支持的任务：</h3>
-  <ul>
-    <li>立体深度估计：利用双脉冲相机系统进行深度计算</li>
-    <li>跨模态融合：结合脉冲流与传统相机数据提高深度估计精度</li>
-    <li>高速运动深度估计：克服传统相机在高速场景下的运动模糊问题</li>
-  </ul>
+  <p>现有基于脉冲的三维重建方法通常采用“脉冲到图像重建、位姿估计、三维重建”三级级联流程。由于前期重建中的误差会直接削弱后续位姿估计与渲染质量，这类方法往往面临严重的误差累积问题。</p>
 
-  <h3 id="section-2">关键特性</h3>
-  <ul>
-    <li>精确的时空对齐：脉冲流与深度图的高精度同步</li>
-    <li>丰富的场景类型：室内/室外多种场景覆盖</li>
-    <li>大样本量：提供充足的训练和测试数据</li>
-    <li>高速运动优化：特别适合快速移动物体的深度估计</li>
-  </ul>
+  <h3 id="section-3">我们的思路</h3>
 
-  <p>数据集链接：尚未公开，文章链接为 https://www.jdl.link/doc/2011/20221228_Learning_Stereo_Depth_Estimation_with_Bio-Inspired_Spike_Cameras.pdf</p>
+  <p>为了解决这一问题，USP-Gaussian 提出一个统一框架，以端到端方式联合优化基于脉冲的图像重建、位姿校正与 Gaussian Splatting。通过在训练过程中让这些模块相互监督、相互修正，该方法能够有效缓解传统级联流程中固有的误差传播问题。</p>
 
-  <figure class="figure">
-  <a class="figure-image" aria-label="PKU-Spike-Stereo数据集结构">
-    <img src="/images/dataset_image/pku-spike-stereo.png" style="width: 100%; max-height: unset;" alt="PKU-Spike-Stereo数据集结构" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-  <figcaption class="figure-caption">
-    PKU-Spike-Stereo数据集结构
-
-  </figcaption>
-  
-</figure>
-  <figure class="figure">
-  <a class="figure-image" aria-label="Spike-KITTI数据集测试结果">
-    <img src="/images/dataset_image/kitti-result.png" style="width: 100%; max-height: unset;" alt="Spike-KITTI数据集测试结果" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-  <figcaption class="figure-caption">
-    Spike-KITTI数据集测试结果
-
-  </figcaption>
-  
-</figure>
   <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/dataset_image/in1.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/recent-work/usp-gaussian/background-problem.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
-  <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/dataset_image/in2.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-</figure>
-  <figure class="figure">
-  <a class="figure-image" aria-label="室内抽样案例">
-    <img src="/images/dataset_image/in3.gif" style="width: 100%; max-height: unset;" alt="室内抽样案例" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-  <figcaption class="figure-caption">
-    室内抽样案例
 
-  </figcaption>
-  
-</figure>
-  <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/dataset_image/out1.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-</figure>
-  <figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/dataset_image/out2.gif" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-</figure>
-  <figure class="figure">
-  <a class="figure-image" aria-label="室外抽样案例">
-    <img src="/images/dataset_image/out3.gif" style="width: 100%; max-height: unset;" alt="室外抽样案例" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-  <figcaption class="figure-caption">
-    室外抽样案例
+  <h2 id="section-4">创新点</h2>
 
-  </figcaption>
+  <ul>
+    <li>提出 USP-Gaussian 统一框架，将基于脉冲的图像重建、相机位姿校正与 3D Gaussian Splatting 联合建模，而不再将其视为彼此独立的串行阶段。</li>
+    <li>引入联合优化策略，对齐 Recon-Net 重建得到的图像序列与 3DGS 渲染序列，使图像重建与三维表示学习能够为彼此提供互补监督。</li>
+    <li>利用 3DGS 的多视角一致性作为额外监督信号，建立新的自监督脉冲重建范式，而不再仅依赖孤立的 spike-to-image 重建目标。</li>
+    <li>设计长短时互补的脉冲输入以及 multi-reblur loss，在低脉冲发放率条件下提升重建鲁棒性、抑制噪声，并避免模型退化为简单的长曝光预测。</li>
+  </ul>
+
+  <h2 id="section-5">核心方法</h2>
+
+  <p>USP-Gaussian 的核心思想是联合训练两个紧密耦合的分支。第一个分支是 Recon-Net，它以脉冲流为输入并重建清晰图像序列。与仅使用短时间窗脉冲不同，该方法同时输入长时脉冲、短时脉冲以及时间索引，从而能够同时利用全局与局部时间信息，尤其适用于低纹理或低发放率场景。第二个分支是 3D Gaussian Splatting，它基于当前的高斯元与相机位姿，在曝光时间内渲染清晰图像序列。这两个分支既分别优化，也联合优化，从而在训练过程中逐步相互促进、共同提升。</p>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/recent-work/usp-gaussian/core-method.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+  <h2 id="section-6">代表性结果</h2>
+
+  <p>在合成数据集和真实数据集上的大量实验表明，USP-Gaussian 持续优于此前的基于脉冲的重建方法。在合成基准上，论文报告的平均性能达到 27.903 PSNR / 0.843 SSIM / 0.217 LPIPS，优于主要基线 SpikeGS 的 27.196 / 0.832 / 0.244。尤其是在 Outdoorpool 场景中，USP-Gaussian 取得了 30.142 dB 的 PSNR，为表中最优结果。这些结果验证了统一优化能够显著缓解级联流程中的误差累积问题。</p>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/recent-work/usp-gaussian/representative-results-1.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+  <figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/recent-work/usp-gaussian/representative-results-2.png" style="width: 100%; max-height: unset;" alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
   
 </figure>
 </div>
@@ -634,10 +536,6 @@
 
   
 
-  
-  <div class="collaborator-icons">
-    
-  </div>
   
 
   
