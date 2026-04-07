@@ -1213,6 +1213,8 @@
   publisher: Thirty-Sixth Conference on Neural Information Processing Systems (NeurIPS), 2022.
   date: '2022-01-01'
   link: https://proceedings.neurips.cc/paper_files/paper/2022/hash/9cf904c86cc5f9ac95646c07d2cfa241-Abstract-Conference.html
+  image: /images/papers/C-57 2022-SNN-RAT.png
+  topic: Spiking Neural Networks
   
 - id: C-58
   title: Training Spiking Neural Networks with Event-driven Backpropagation
@@ -1226,6 +1228,8 @@
   publisher: Thirty-Sixth Conference on Neural Information Processing Systems (NeurIPS), 2022. (Spotlight)
   date: '2022-01-01'
   link: 'https://openreview.net/forum?id=d4JmP1T45WE'
+  image: /images/papers/C-58 2022-Training Spiking Neural Networks.png
+  topic: Spiking Neural Networks
 - id: C-59
   title: Temporal Effective Batch Normalization in Spiking Neural Networks
   authors:
@@ -1237,6 +1241,8 @@
   publisher: Thirty-Sixth Conference on Neural Information Processing Systems (NeurIPS), 2022.
   date: '2022-01-01'
   link: 'https://proceedings.neurips.cc/paper_files/paper/2022/hash/de2ad3ed44ee4e675b3be42aa0b615d0-Abstract-Conference.html'
+  image: /images/papers/C-59 2022-Temporal Effective Batch Normalization.png
+  topic: Spiking Neural Networks
 - id: C-61
   title: 'Spike Transformer: Monocular Depth Estimation for Spiking Camera'
   authors:
@@ -1248,6 +1254,8 @@
   publisher: European Conference on Computer Vision (ECCV), 2022
   date: '2022-01-01'
   link: https://link.springer.com/chapter/10.1007/978-3-031-20071-7_3
+  image: /images/papers/C-61 2022-Spike Transformer.png
+  topic: Neuromorphic camera
 - id: C-62
   title: State Transition of Dendritic Spines Improves Learning of Sparse Spiking Neural Networks
   authors:
@@ -1260,6 +1268,8 @@
   publisher: Thirty-ninth International Conference on Machine Learning (ICML), 2022
   date: '2022-01-01'
   link: 'https://proceedings.mlr.press/v162/chen22ac.html'
+  image: /images/papers/C-62 2022-State Transition of Dendritic Spines.png
+  topic: Spiking Neural Networks
 - id: C-63
   title: Self-Supervised Mutual Learning for Dynamic Scene Reconstruction of Spiking Camera
   authors:
@@ -1271,6 +1281,9 @@
   publisher: Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI), 2022
   date: '2022-01-01'
   link: 'https://www.ijcai.org/proceedings/2022/396'
+  topic: Neuromorphic camera
+  image: /images/papers/c-63 2022-Self-Supervised Mutual Learning.png
+  
 - id: C-64
   title: Optimal ANN-SNN Conversion for High-accuracy and Ultra-low-latency Spiking Neural Networks
   authors:
@@ -1283,6 +1296,9 @@
   publisher: Tenth International Conference on Learning Representations (ICLR), 2022.
   date: '2022-01-01'
   link: 'https://openreview.net/forum?id=7B3IJMM1k_M'
+  image: /images/papers/C-64 2022-OPTIMAL ANN-SNN CONVERSION.png
+  topic: Spiking Neural Networks
+  
 - id: C-67
   title: Optimized Potential Initialization for Low-latency Spiking Neural Networks
   authors:
@@ -1293,6 +1309,9 @@
   publisher: The Thirty-sixth AAAI Conference on Artificial Intelligence (AAAI), 2022.
   date: '2022-01-01'
   link: 'https://ojs.aaai.org/index.php/AAAI/article/view/19874'
+  image: /images/papers/C-67 2022-Optimized Potential Initialization.png
+  topic: Spiking Neural Networks
+  
 - id: C-68
   title: Spatio-Temporal Recurrent Networks for Event-Based Optical Flow Estimation
   authors:
@@ -1306,6 +1325,8 @@
   publisher: The Thirty-sixth AAAI Conference on Artificial Intelligence (AAAI), 2022.
   date: '2022-01-01'
   link: 'https://ojs.aaai.org/index.php/AAAI/article/view/19931'
+  topic: Neuromorphic camera
+  image: /images/papers/C-68 2022-Spatio-Temporal Recurrent Networks.png
 - id: C-69
   title: Deep Residual Learning in Spiking Neural Networks
   authors:
@@ -1318,6 +1339,8 @@
   publisher: Thirty-Fifth Conference on Neural Information Processing Systems (NeurIPS), 2021.
   date: '2021-01-01'
   link: 'https://proceedings.neurips.cc/paper/2021/hash/afe434653a898da20044041262b3ac74-Abstract.html'
+  image: /images/papers/C-69 2021-Deep Residual Learning.png
+  topic: Spiking Neural Networks
 - id: C-70
   title: Incorporating Learnable Membrane Time Constant to Enhance Learning of Spiking Neural Networks
   authors:
@@ -1330,6 +1353,8 @@
   publisher: 'Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2021: 2661-2671.'
   date: '2021-01-01'
   link: 'https://openaccess.thecvf.com/content/ICCV2021/html/Fang_Incorporating_Learnable_Membrane_Time_Constant_To_Enhance_Learning_of_Spiking_ICCV_2021_paper.html'
+  image: /images/papers/C-70 2021-Incorporating Learnable Membrane Time.png
+  topic: Spiking Neural Networks 
 - id: C-71
   title: High-Speed Image Reconstruction Through Short-Term Plasticity for Spiking Cameras
   authors:
@@ -1342,6 +1367,9 @@
   publisher: 'Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021: 6358-6367.'
   date: '2021-01-01'
   link: 'https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_High-Speed_Image_Reconstruction_Through_Short-Term_Plasticity_for_Spiking_Cameras_CVPR_2021_paper.html'
+  image: /images/papers/C-71 2021-High-speed Image Reconstruction.png
+  topic: Neuromorphic camera
+  
 - id: C-72
   title: Optimal ANN-SNN Conversion for Fast and Accurate Inference in Deep Spiking Neural Networks
   authors:
@@ -1352,6 +1380,8 @@
   publisher: 'Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI), 2021: 2328-2336.'
   date: '2021-01-01'
   link: 'https://www.ijcai.org/proceedings/2021/321'
+  image: /images/papers/C-72 2021-Optimal ANN-SNN Conversion.png
+  topic: Spiking Neural Networks 
 - id: C-73
   title: Pruning of Deep Spiking Neural Networks through Gradient Rewiring
   authors:
@@ -1363,3 +1393,5 @@
   publisher: 'Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI), 2021: 1713-1721.'
   date: '2021-01-01'
   link: 'https://www.ijcai.org/proceedings/2021/236'
+  topic: Spiking Neural Networks 
+  image: /images/papers/C-73 2021-Pruning of Deep Spiking Neural.png
