@@ -127,7 +127,7 @@
   <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
-  <link href="/assets/css/main.css?v=1775544974" rel="stylesheet" />
+  <link href="/assets/css/main.css?v=1775545379" rel="stylesheet" />
 
 
   <!-- third party scripts -->
@@ -138,21 +138,21 @@
 <!-- include all js in scripts folder -->
 
 
-  <script src="/_scripts/carousel.js?v=1775544974"></script>
+  <script src="/_scripts/carousel.js?v=1775545379"></script>
 
-  <script src="/_scripts/dark-mode.js?v=1775544974"></script>
+  <script src="/_scripts/dark-mode.js?v=1775545379"></script>
 
-  <script src="/_scripts/particles.js?v=1775544974"></script>
+  <script src="/_scripts/particles.js?v=1775545379"></script>
 
-  <script src="/_scripts/project-filtering.js?v=1775544974"></script>
+  <script src="/_scripts/project-filtering.js?v=1775545379"></script>
 
-  <script src="/_scripts/publication-filters.js?v=1775544974"></script>
+  <script src="/_scripts/publication-filters.js?v=1775545379"></script>
 
-  <script src="/_scripts/search.js?v=1775544974"></script>
+  <script src="/_scripts/search.js?v=1775545379"></script>
 
-  <script src="/_scripts/site-search.js?v=1775544974"></script>
+  <script src="/_scripts/site-search.js?v=1775545379"></script>
 
-  <script src="/_scripts/table-wrap.js?v=1775544974"></script>
+  <script src="/_scripts/table-wrap.js?v=1775545379"></script>
 
 
 </head>
@@ -5046,7 +5046,7 @@ With figure components
   <div class="citation">
     
       <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25071" target="_blank" rel="noopener" class="citation-image" aria-label="Reducing ANN-SNN Conversion Error through Residual Membrane Potential">
-        <img src="" alt="Reducing ANN-SNN Conversion Error through Residual Membrane Potential" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/C-56%202023-Reducing%20ANN-SNN%20Conversion.png" alt="Reducing ANN-SNN Conversion Error through Residual Membrane Potential" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5093,7 +5093,7 @@ With figure components
   <div class="citation">
     
       <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25085" target="_blank" rel="noopener" class="citation-image" aria-label="Learning Temporal-ordered Representation for Spike Streams Based on Discrete Wavelet Transforms">
-        <img src="" alt="Learning Temporal-ordered Representation for Spike Streams Based on Discrete Wavelet Transforms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/C-55%202023-Learning%20Temporal-Ordered%20Representation.png" alt="Learning Temporal-ordered Representation for Spike Streams Based on Discrete Wavelet Transforms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5140,7 +5140,7 @@ With figure components
   <div class="citation">
     
       <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25108" target="_blank" rel="noopener" class="citation-image" aria-label="Self-Supervised Joint Dynamic Scene Reconstruction and Optical Flow Estimation for Spiking Camera">
-        <img src="" alt="Self-Supervised Joint Dynamic Scene Reconstruction and Optical Flow Estimation for Spiking Camera" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/C-54%202023-Self-Supervised%20Joint%20Dynamic.png" alt="Self-Supervised Joint Dynamic Scene Reconstruction and Optical Flow Estimation for Spiking Camera" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5187,7 +5187,7 @@ With figure components
   <div class="citation">
     
       <a href="https://arxiv.org/abs/2302.13019" target="_blank" rel="noopener" class="citation-image" aria-label="A Unified Framework for Soft Threshold Pruning">
-        <img src="" alt="A Unified Framework for Soft Threshold Pruning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/C-53%202023-A%20UNIFIED%20FRAMEWORK.png" alt="A Unified Framework for Soft Threshold Pruning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5234,7 +5234,7 @@ With figure components
   <div class="citation">
     
       <a href="https://arxiv.org/abs/2302.10685" target="_blank" rel="noopener" class="citation-image" aria-label="Bridging the Gap between ANNs and SNNs by Calibrating Offset Spikes">
-        <img src="" alt="Bridging the Gap between ANNs and SNNs by Calibrating Offset Spikes" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/C-52%202023-BRIDGING%20THE%20GAP.png" alt="Bridging the Gap between ANNs and SNNs by Calibrating Offset Spikes" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5281,7 +5281,7 @@ With figure components
   <div class="citation">
     
       <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Complementary_Intrinsics_From_Neural_Radiance_Fields_and_CNNs_for_Outdoor_CVPR_2023_paper.pdf" target="_blank" rel="noopener" class="citation-image" aria-label="Complementary Intrinsics from Neural Radiance Fields and CNNs for Outdoor Scene Relighting">
-        <img src="" alt="Complementary Intrinsics from Neural Radiance Fields and CNNs for Outdoor Scene Relighting" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/C-51%202023-Complementary%20Intrinsics.png" alt="Complementary Intrinsics from Neural Radiance Fields and CNNs for Outdoor Scene Relighting" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5328,7 +5328,7 @@ With figure components
   <div class="citation">
     
       <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Bu_Rate_Gradient_Approximation_Attack_Threats_Deep_Spiking_Neural_Networks_CVPR_2023_paper.pdf" target="_blank" rel="noopener" class="citation-image" aria-label="Rate Gradient Approximation Attack Threats Deep Spiking Neural Networks">
-        <img src="" alt="Rate Gradient Approximation Attack Threats Deep Spiking Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/C-50%202023-Rate%20Gradient%20Approximation.png" alt="Rate Gradient Approximation Attack Threats Deep Spiking Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5375,7 +5375,7 @@ With figure components
   <div class="citation">
     
       <a href="https://dl.acm.org/doi/10.1145/3581783.3612054" target="_blank" rel="noopener" class="citation-image" aria-label="Recognizing High-Speed Moving Objects with Spike Camera">
-        <img src="" alt="Recognizing High-Speed Moving Objects with Spike Camera" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/C-49%202023-Recognizing%20High-Speed.png" alt="Recognizing High-Speed Moving Objects with Spike Camera" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5422,7 +5422,7 @@ With figure components
   <div class="citation">
     
       <a href="https://openreview.net/forum?id=cAyLnMxiTl" target="_blank" rel="noopener" class="citation-image" aria-label="Enhancing Motion Deblurring in High-Speed Scenes with Spike Streams">
-        <img src="" alt="Enhancing Motion Deblurring in High-Speed Scenes with Spike Streams" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/C-48%202023-Enhancing%20Motion%20Deblurring.png" alt="Enhancing Motion Deblurring in High-Speed Scenes with Spike Streams" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -5469,7 +5469,7 @@ With figure components
   <div class="citation">
     
       <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/cde874a797a8300da693d5e412b7fdc0-Abstract-Conference.html" target="_blank" rel="noopener" class="citation-image" aria-label="Exploring Loss Functions for Time-based Training Strategy in Spiking Neural Networks">
-        <img src="" alt="Exploring Loss Functions for Time-based Training Strategy in Spiking Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+        <img src="/images/papers/C-45%202023-Exploring%20Loss%20Functions.png" alt="Exploring Loss Functions for Time-based Training Strategy in Spiking Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
       </a>
     
 
@@ -6195,8 +6195,8 @@ With figure components
 
         
           &nbsp;·&nbsp;
-          <span class="citation-authors" data-tooltip="Jianhao, Tong Bu, Zhaofei Yu*, Jian K. Liu, Tiejun Huang " tabindex="0">
-            Jianhao, Tong Bu, …, Jian K. Liu, Tiejun Huang
+          <span class="citation-authors" data-tooltip="Jianhao Ding, Tong Bu, Zhaofei Yu*, Jian K. Liu, Tiejun Huang " tabindex="0">
+            Jianhao Ding, Tong Bu, …, Jian K. Liu, Tiejun Huang
 
           </span>
         
