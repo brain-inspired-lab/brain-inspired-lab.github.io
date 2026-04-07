@@ -80,7 +80,7 @@
         "Chunyu He brief-desc": "PhD Student",
         "Chunyu He education 1": "University of Science and Technology of China: Bachelor of Computer Science and Technology (2021-2025)",
         "Chunyu He_1": "Chunyu has been a PhD student at the Spike Lab since September 2025. His research primarily focuses on developing more efficient algorithms to reconstruct sharp images from spike data.",
-        "Peng Ma name":"Peng Ma",
+        "Peng Ma name": "Peng Ma",
         "Peng Ma position": "PhD Student",
         "Peng Ma interests": "CV Downstream Tasks by Neuromorphic Cameras",
         "Peng Ma brief-desc": "PhD Student",
@@ -284,7 +284,10 @@
         "edu_bcc_hours": "48 class hours",
         "edu_ml_period": "2024-Present",
         "edu_ml_type": "Graduate Courses",
-        "edu_ml_hours": "48 class hours (Responsible for 24 class hours)"
+        "edu_ml_hours": "48 class hours (Responsible for 24 class hours)",
+        "tag_spike_camera": "spike camera",
+        "tag_3d_reconstruction": "3D reconstruction",
+        "tag_gaussian_splatting": "gaussian splatting"
     },
     "zh": {
         "brain_inspired_lab_title": "脑启发实验室",
@@ -367,13 +370,13 @@
         "Chunyu He brief-desc": "博士生",
         "Chunyu He education 1": "中国科学技术大学：计算机科学与技术学士（2021-2025）",
         "Chunyu He_1": "何纯宇于2025年9月加入脉冲实验室。他的研究主要集中在开发更高效的算法，从脉冲数据中重建清晰图像。",
-        "Peng Ma name":"马鹏",
+        "Peng Ma name": "马鹏",
         "Peng Ma position": "博士生",
         "Peng Ma interests": "基于神经形态相机的视觉下游任务",
         "Peng Ma brief-desc": "博士生",
         "Peng Ma education 1": "中南大学：自动化学士（2021-2025）",
         "Peng Ma_1": "马鹏于2025年9月加入脉冲实验室，在熊瑞勤教授的指导下进行博士研究。他的研究主要集中在从事件数据中完成目标检测。",
-        "Kang Chen name":"陈康",
+        "Kang Chen name": "陈康",
         "Kang Chen position": "博士生",
         "Kang Chen interests": "神经形态视觉、3D视觉、视觉-语言-动作模型的强化学习",
         "Kang Chen brief-desc": "博士生",
@@ -571,6 +574,9 @@
         "edu_bcc_hours": "48学时",
         "edu_ml_period": "2024-至今",
         "edu_ml_type": "研究生课程",
-        "edu_ml_hours": "48学时（负责24学时）"
+        "edu_ml_hours": "48学时（负责24学时）",
+        "tag_spike_camera": "脉冲相机",
+        "tag_3d_reconstruction": "三维重建",
+        "tag_gaussian_splatting": "高斯泼溅"
     }
 }
