@@ -1,6 +1,6 @@
 {
     "en": {
-        "brain_inspired_lab_title": "Brain-inspired Lab",
+        "brain_inspired_lab_title": "Brain-inspired Perception and Computing",
         "brain_inspired_lab_subtitle": "Peking University",
         "apply_title": "Apply",
         "Team": "Team",
@@ -29,7 +29,7 @@
         "tag_adversarial_robustness": "adversarial robustness",
         "tag_nature_communications": "Nature Communications",
         "Assistant Professor": "Assistant Professor",
-        "Zhaofei Yu summary": "Zhaofei Yu is the supervisor of the lab. His research interests include SNN and brain-inspired intelligence.",
+        "Zhaofei Yu summary": "Zhaofei Yu is the supervisor of the lab. His research interests include visual neural encoding and decoding, spiking neural network models and algorithms, and neuromorphic perception and computing.",
         "Zhaofei Yu name": "Zhaofei Yu",
         "Zhaofei Yu position": "Tenure-track Assistant Professor",
         "Zhaofei Yu affiliations title": "Present Position",
