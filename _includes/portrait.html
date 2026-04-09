@@ -21,44 +21,12 @@
     {% if member.name or member.role or member.description %}
     <span class="portrait-text">
       {% if member.name %}
+        {% assign member_name_key = member.name_key %}
+        {% if member_name_key == nil or member_name_key == "" %}
+          {% assign member_name_key = member.name | append: " name" %}
+        {% endif %}
         <span class="portrait-name">
-          {% if member.name_key %}
-          <span data-i18n="{{ member.name_key }}">{{ member.name }}</span>
-          {% elsif member.name contains "Chunyu He" %}
-          <span data-i18n="Chunyu He name">Chunyu He</span>
-          {% elsif member.name contains "Peng Ma" %}
-          <span data-i18n="Peng Ma name">Peng Ma</span>
-          {% elsif member.name contains "Kang Chen" %}
-          <span data-i18n="Kang Chen name">Kang Chen</span>
-          {% elsif member.name contains "Jianhao Ding" %}
-          <span data-i18n="Jianhao Ding name">Jianhao Ding</span>
-          {% elsif member.name contains "Baoyue Zhang" %}
-          <span data-i18n="Baoyue Zhang name">Baoyue Zhang</span>
-          {% elsif member.name contains "Zijie Xu" %}
-          <span data-i18n="Zijie Xu name">Zijie Xu</span>
-          {% elsif member.name contains "Xinyu Shi" %}
-          <span data-i18n="Xinyu Shi name">Xinyu Shi</span>
-          {% elsif member.name contains "Zhiyu Pan" %}
-          <span data-i18n="Zhiyu Pan name">Zhiyu Pan</span>
-          {% elsif member.name contains "Yi Lu" %}
-          <span data-i18n="Yi Lu name">Yi Lu</span>
-          {% elsif member.name contains "Changqing Su" %}
-          <span data-i18n="Changqing Su name">Changqing Su</span>
-          {% elsif member.name contains "Yiting Dong" %}
-        <span data-i18n="Yiting Dong name">Yiting Dong</span>
-        {% elsif member.name contains "Zecheng Hao" %}
-         <span data-i18n="Zecheng Hao name">Zecheng Hao</span>
-        {% elsif member.name contains "Zirui Chen" %}
-         <span data-i18n="Zirui Chen name">Zirui Chen</span>
-        {% elsif member.name contains "Ye Chen" %}
-          <span data-i18n="Ye Chen name">Ye Chen</span>
-        {% elsif member.name contains "Qichao Ma" %}
-          <span data-i18n="Qichao Ma name">Qichao Ma</span>
-        {% elsif member.name contains "Zihan Huang" %}
-          <span data-i18n="Zihan Huang name">Zihan Huang</span>
-          {% else %}
-          {{ member.name }}
-          {% endif %}
+          <span data-i18n="{{ member_name_key }}">{{ member.name }}</span>
         </span>
         {% endif %}
 
