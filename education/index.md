@@ -22,6 +22,7 @@ _<span data-i18n="edu_num_anal_term">Course overview</span>_
   image="images/数值分析.jpg"
   link="team"
   style="bare"
+  class="education-feature"
   text=text_num_anal
 %}
 
@@ -69,6 +70,7 @@ _<span data-i18n="edu_comp_neuro_term">Course overview</span>_
   image="images/NeuroAI.png"
   link="team"
   style="bare"
+  class="education-feature"
   text=text_comp_neuro
 %}
 
@@ -116,6 +118,7 @@ _<span data-i18n="edu_bcc_term">Course overview</span>_
   image="images/脑认知与计算.jpg"
   link="team"
   style="bare"
+  class="education-feature"
   text=text_bcc
 %}
 
@@ -163,6 +166,7 @@ _<span data-i18n="edu_ml_term">Course overview</span>_
   image="images/机器学习.jpeg"
   link="team"
   style="bare"
+  class="education-feature"
   text=text_ml
 %}
 
