@@ -59,9 +59,13 @@ html[lang="en"] .education-feature .feature-text {
 }
 
 html[lang="en"] .education-feature .feature-text p:not(.feature-title) {
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
   text-wrap: pretty;
   hyphens: auto;
   overflow-wrap: break-word;
+  line-height: 1.85;
 }
 
 .feature[data-flip] {
