@@ -2,7 +2,7 @@
 name: Jiyuan Zhang
 name_key: Jiyuan Zhang name
 position: <span data-i18n="Jiyuan Zhang position">Senior Algorithm Engineer</span>
-image: images/icon.png
+image: images/team/jiyuan-zhang.jpg
 role: alumni
 education:
   - '<span data-i18n="Jiyuan Zhang education 1">Peking University: Ph.D. in School of Computer Science</span>'
