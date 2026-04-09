@@ -1,13 +1,13 @@
 ---
 name: Shanshan Jia
 name_key: Shanshan Jia name
-position: <span data-i18n="Shanshan Jia position">Engineer</span>
+position: <span data-i18n="Shanshan Jia position">Postdoctoral in PolyU</span>
 image: images/team/shanshan-jia.jpg
 role: alumni
 education:
   - '<span data-i18n="Shanshan Jia education 1">"Peking University: Ph.D. in Computer Application Technology (2021-2025)"</span>'
 brief-position: <span data-i18n="Shanshan Jia interests">Computational Neuroscience</span>
-brief-desc: <span data-i18n="Shanshan Jia brief-desc">Engineer</span>
+brief-desc: <span data-i18n="Shanshan Jia brief-desc">Postdoctoral in PolyU</span>
 links:
   github: jiashsh
   email: jiashsh@pku.edu.cn
