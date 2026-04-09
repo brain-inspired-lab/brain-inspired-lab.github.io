@@ -1,12 +1,12 @@
 ---
 name: Wenxuan Liu
-position: <span data-i18n="Wenxuan Liu position">Engineer</span>
+position: <span data-i18n="Wenxuan Liu position">Postdoctoral Researcher</span>
 image: images/team/wenxuan-liu.jpg
-role: alumni
+role: postdoc
 education:
   - '<span data-i18n="Wenxuan Liu education 1">"Peking University: Postdoctoral Researcher (2024-Present)"</span>'
 brief-position: <span data-i18n="Wenxuan Liu interests">Neuromorphic Vision</span>
-brief-desc: <span data-i18n="Wenxuan Liu brief-desc">Engineer</span>
+brief-desc: <span data-i18n="Wenxuan Liu brief-desc">Postdoctoral Researcher</span>
 links:
   github: lwxfight
   email: liuwx66@pku.edu.cn
