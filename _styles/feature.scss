@@ -49,6 +49,21 @@ $wrap: 700px;
   color: var(--dark-gray);
 }
 
+.education-feature .feature-text {
+  max-width: 100%;
+}
+
+html[lang="en"] .education-feature .feature-text {
+  max-width: 62ch;
+  margin-right: auto;
+}
+
+html[lang="en"] .education-feature .feature-text p:not(.feature-title) {
+  text-wrap: pretty;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
 .feature[data-flip] {
   flex-direction: row-reverse;
 }
