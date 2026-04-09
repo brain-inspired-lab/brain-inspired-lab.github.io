@@ -10,15 +10,16 @@ layout: default
 </p>
 -->
 
+{% assign page_name_key = page.name_key %}
+{% if page_name_key == nil or page_name_key == "" %}
+  {% assign page_name_key = page.name | append: " name" %}
+{% endif %}
+
 <nav aria-label="breadcrumb" class="breadcrumb">
   <ol class="breadcrumb px-0">
     <li class="breadcrumb-item"><a href="/team">Team</a></li>
     <li class="breadcrumb-item active" aria-current="page">
-      {% if page.name_key %}
-      <span data-i18n="{{ page.name_key }}">{{ page.name }}</span>
-      {% else %}
-      {{ page.name }}
-      {% endif %}
+      <span data-i18n="{{ page_name_key }}">{{ page.name }}</span>
     </li>
   </ol>
 </nav>
@@ -29,11 +30,7 @@ layout: default
 
   <!-- Name & Role -->
   <h1>
-    {% if page.name_key %}
-    <span data-i18n="{{ page.name_key }}">{{ page.name }}</span>
-    {% else %}
-    {{ page.name }}
-    {% endif %}
+    <span data-i18n="{{ page_name_key }}">{{ page.name }}</span>
   </h1>
   <div class="text-center mt-5">{{ page.position }}</div> <br>
 
