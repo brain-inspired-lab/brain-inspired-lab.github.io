@@ -22,7 +22,9 @@
     <span class="portrait-text">
       {% if member.name %}
         <span class="portrait-name">
-          {% if member.name contains "Chunyu He" %}
+          {% if member.name_key %}
+          <span data-i18n="{{ member.name_key }}">{{ member.name }}</span>
+          {% elsif member.name contains "Chunyu He" %}
           <span data-i18n="Chunyu He name">Chunyu He</span>
           {% elsif member.name contains "Peng Ma" %}
           <span data-i18n="Peng Ma name">Peng Ma</span>
