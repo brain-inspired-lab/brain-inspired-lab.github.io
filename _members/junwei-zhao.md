@@ -3,7 +3,7 @@ name: Junwei Zhao
 name_key: Junwei Zhao name
 position: <span data-i18n="Junwei Zhao position">Researcher</span>
 image: images/team/junwei-zhao.jpg
-role: phd
+role: alumni
 education:
   - '<span data-i18n="Junwei Zhao education 1">"University of Science and Technology Beijing: Bachelor of Engineering (2013-2017)"</span>'
   - '<span data-i18n="Junwei Zhao education 2">"Peking University: Master of Science (2017-2020)"</span>'
