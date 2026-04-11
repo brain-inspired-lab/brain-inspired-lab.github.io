@@ -3,7 +3,7 @@ name: Shiyan Chen
 name_key: Shiyan Chen name
 position: <span data-i18n="Shiyan Chen position">PhD</span>
 image: images/team/shiyan-chen.jpg
-role: phd
+role: alumni
 education:
   - '<span data-i18n="Shiyan Chen education 1">"Nankai University: Bachelor of Computer Science (2016-2020)"</span>'
 brief-position: <span data-i18n="Shiyan Chen interests">Neuromorphic Vision / Foundation Models / Multimodal Models</span>
